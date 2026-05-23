@@ -2,4 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/weinnova/public_html/
-    - /usr/bin/rsync -av --exclude='.git' --exclude='.gitignore' --exclude='.cpanel.yml' ./ "$DEPLOYPATH"
+    # rsync is not installed on this server; use tar. --no-overwrite-dir preserves
+    # public_html's existing permissions (a plain extract reset it to 700 and broke serving).
+    - /usr/bin/tar --exclude='.git' --exclude='.gitignore' --exclude='.cpanel.yml' -cf - . | ( cd "$DEPLOYPATH" && /usr/bin/tar --no-overwrite-dir -xf - )
+    # safety net: ensure the docroot stays group-readable for the web server (group: nobody)
+    - /bin/chmod 750 "$DEPLOYPATH"
