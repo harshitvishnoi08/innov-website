@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="Sangam Pooja Wellness Resort — Luxury Riverfront Wellness Resort in Prayagraj, Uttar Pradesh. Royal-inspired architecture along the sacred Ganga banks. Designed by Innov Interiors & Architects.">
+<title>Sangam Pooja Wellness Resort, Prayagraj | Innov Interiors & Architects</title>
+<link rel="icon" type="image/svg+xml" href="images/logo.png">
+<link rel="canonical" href="https://weinnovarch.com/sangam-pooja-wellness-resort-prayagraj.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preload" as="image" href="images/prayagraj/sangam_2.jpg" fetchpriority="high" media="(min-width:768px)">
+<link rel="preload" as="image" href="images/sangam-portrait.webp" fetchpriority="high" media="(max-width:767px)">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous" referrerpolicy="no-referrer"
+      media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous"></noscript>
+
+<style>
+/* ── Variables (same as main site) ─────────────────────── */
+:root{
+  --bg:#0a0a0a;--bg-card:#111111;--bg-raised:#181818;
+  --gold:#c9a96e;--gold-dim:rgba(201,169,110,.18);--gold-border:rgba(201,169,110,.25);
+  --white:#f5f0e8;--text-muted:#9a9a8a;--text-dim:#5a5a4a;
+  --border:rgba(255,255,255,.07);
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'Inter',system-ui,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--white);font-family:var(--sans);font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased;}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+
+/* ── Header ─────────────────────────────────────────────── */
+.site-header{
+  position:fixed;top:0;left:0;right:0;z-index:900;
+  padding:20px 0;
+  background:linear-gradient(to bottom,rgba(10,10,10,.75) 0%,transparent 100%);
+  transition:background .4s ease,padding .3s ease;
+}
+.site-header.scrolled{background:#0a0a0a;border-bottom:1px solid var(--border);padding:14px 0;}
+.header-inner{
+  max-width:1280px;margin:0 auto;padding:0 40px;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.header-logo img{height:44px;width:auto;}
+.header-back{
+  display:flex;align-items:center;gap:8px;
+  font-size:12px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;
+  color:var(--text-muted);transition:color .2s;
+}
+.header-back:hover{color:var(--gold);}
+.header-back i{font-size:11px;}
+
+/* ── Hero ────────────────────────────────────────────────── */
+.hero{position:relative;height:100vh;min-height:600px;display:flex;align-items:flex-end;overflow:hidden;}
+.hero-bg{
+  position:absolute;inset:0;
+  background:url('images/prayagraj/sangam_2.jpg') center 20%/cover no-repeat;
+  transform:scale(1.04);
+  transition:transform 8s ease;
+}
+.hero-bg.loaded{transform:scale(1);}
+.hero-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to bottom,rgba(10,10,10,.2) 0%,rgba(10,10,10,.1) 40%,rgba(10,10,10,.8) 75%,rgba(10,10,10,.97) 100%);
+}
+.hero-content{
+  position:relative;z-index:2;
+  width:100%;max-width:1280px;margin:0 auto;padding:0 40px 80px;
+}
+.hero-eyebrow{
+  display:flex;align-items:center;gap:14px;margin-bottom:20px;
+}
+.hero-line{width:36px;height:1px;background:var(--gold);}
+.hero-eyebrow-text{font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--gold);}
+.hero-h1{
+  font-family:var(--serif);font-size:clamp(32px,5vw,64px);font-weight:400;
+  line-height:1.1;color:var(--white);max-width:820px;margin-bottom:16px;
+}
+.hero-h1 em{font-style:italic;color:var(--gold);}
+.hero-sub{font-size:16px;color:rgba(245,240,232,.7);max-width:520px;line-height:1.7;}
+.hero-meta-row{
+  display:flex;align-items:center;gap:28px;
+  margin-top:32px;flex-wrap:wrap;
+}
+.hero-meta-item{
+  display:flex;align-items:center;gap:8px;
+  font-size:12px;font-weight:500;letter-spacing:1px;text-transform:uppercase;
+  color:var(--text-muted);
+}
+.hero-meta-item i{color:var(--gold);font-size:12px;}
+.hero-scroll{
+  position:absolute;bottom:36px;right:40px;z-index:2;
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+  font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--text-dim);
+}
+.hero-scroll-line{width:1px;height:40px;background:var(--gold-border);animation:scrollPulse 2s ease infinite;}
+@keyframes scrollPulse{0%,100%{opacity:.3}50%{opacity:1}}
+
+/* ── Section base ───────────────────────────────────────── */
+.section{padding:100px 0;}
+.container{max-width:1280px;margin:0 auto;padding:0 40px;}
+.section-label{
+  font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;
+  color:var(--gold);display:block;margin-bottom:16px;
+}
+.section-title{
+  font-family:var(--serif);font-size:clamp(28px,3.5vw,48px);
+  font-weight:400;color:var(--white);line-height:1.2;margin-bottom:0;
+}
+.gold-italic{font-style:italic;color:var(--gold);}
+
+/* ── Project Brief ──────────────────────────────────────── */
+.brief-section{padding:100px 0;border-bottom:1px solid var(--border);}
+.brief-inner{
+  max-width:1280px;margin:0 auto;padding:0 40px;
+  display:grid;grid-template-columns:1fr 380px;gap:100px;align-items:start;
+}
+.brief-body p{
+  font-size:16px;color:var(--text-muted);line-height:1.9;margin-bottom:24px;
+}
+.brief-body p:last-child{margin-bottom:0;}
+.brief-body p strong{color:var(--white);font-weight:500;}
+.spec-card{
+  background:var(--bg-card);border:1px solid var(--border);
+  border-top:2px solid var(--gold);padding:36px 32px;
+  position:sticky;top:100px;
+}
+.spec-title{
+  font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;
+  color:var(--gold);margin-bottom:28px;
+}
+.spec-item{
+  padding:16px 0;border-bottom:1px solid var(--border);
+  display:grid;grid-template-columns:1fr 1fr;gap:8px;
+}
+.spec-item:last-child{border-bottom:none;padding-bottom:0;}
+.spec-key{font-size:11px;font-weight:500;letter-spacing:1px;text-transform:uppercase;color:var(--text-dim);}
+.spec-val{font-size:13px;color:var(--white);font-weight:500;text-align:right;line-height:1.5;}
+
+/* ── Gallery ────────────────────────────────────────────── */
+.gallery-section{padding:100px 0;background:var(--bg);}
+.gallery-header{max-width:1280px;margin:0 auto;padding:0 40px;margin-bottom:60px;}
+.gallery-grid{
+  max-width:1280px;margin:0 auto;padding:0 40px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:auto;
+  gap:4px;
+}
+.gallery-item{overflow:hidden;position:relative;cursor:zoom-in;}
+.gallery-item img{
+  width:100%;height:100%;object-fit:cover;
+  transition:transform .7s cubic-bezier(.22,1,.36,1);
+  display:block;
+}
+.gallery-item:hover img{transform:scale(1.05);}
+
+/* Grid layout
+   Row 1: sangam_2 (wide hero) | gate (tall portrait)
+   Row 2: ps14 | 8.jpg | 5.jpg  (three equal)
+   Row 3: 7.jpg (wide promenade) | ps13
+   Row 4: sangam_4 (wide masterplan) | ps15
+*/
+/* aspect-ratio: 3/2 on wide items = same height as 4/3 portrait at half the width
+   Math: portrait (4/3) at W/3 → height 4W/9; wide (3/2) at 2W/3 → height 4W/9 ✓ */
+.gi-1{grid-column:span 2;aspect-ratio:3/2;} /* sangam_2  — matches gate (3/4)  */
+.gi-2{aspect-ratio:3/4;}                    /* gate      — portrait tall        */
+.gi-3{aspect-ratio:4/3;}                    /* ps14                             */
+.gi-4{aspect-ratio:4/3;}                    /* 8.jpg                            */
+.gi-5{aspect-ratio:4/3;}                    /* 5.jpg     — matches row 2        */
+.gi-6{grid-column:span 2;aspect-ratio:3/2;} /* 7.jpg     — matches ps13 (4/3)  */
+.gi-7{aspect-ratio:4/3;}                    /* ps13                             */
+.gi-8{grid-column:span 2;aspect-ratio:3/2;} /* sangam_4  — matches ps15 (4/3)  */
+.gi-9{aspect-ratio:4/3;}                    /* ps15                             */
+
+/* ── Video Section ──────────────────────────────────────── */
+.video-section{padding:100px 0;background:var(--bg-card);border-top:1px solid var(--border);}
+.video-header{max-width:1280px;margin:0 auto;padding:0 40px;margin-bottom:60px;}
+
+/* ── Design Narrative ───────────────────────────────────── */
+.narrative-section{
+  padding:120px 0;
+  background:var(--bg);
+  border-top:1px solid var(--border);
+}
+.narrative-inner{
+  max-width:860px;margin:0 auto;padding:0 40px;text-align:center;
+}
+.narrative-inner .section-label{text-align:center;display:block;}
+.narrative-inner .section-title{margin-bottom:40px;}
+.narrative-pull{
+  font-family:var(--serif);font-size:clamp(20px,2.5vw,28px);
+  font-weight:400;font-style:italic;
+  color:rgba(245,240,232,.75);line-height:1.65;
+  border-left:2px solid var(--gold);
+  padding:24px 0 24px 36px;
+  text-align:left;margin-bottom:48px;
+}
+.narrative-body{
+  font-size:16px;color:var(--text-muted);line-height:1.9;
+  text-align:left;
+}
+.narrative-body p{margin-bottom:24px;}
+.narrative-body p:last-child{margin-bottom:0;}
+
+/* ── CTA ────────────────────────────────────────────────── */
+.cta-section{
+  padding:120px 0;
+  background:var(--bg-card);
+  border-top:1px solid var(--border);
+  text-align:center;
+}
+.cta-inner{max-width:680px;margin:0 auto;padding:0 40px;}
+.cta-inner .section-title{margin-bottom:16px;}
+.cta-sub{font-size:15px;color:var(--text-muted);margin-bottom:40px;line-height:1.7;}
+.btn-gold{
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--gold);color:#0a0a0a;
+  font-family:var(--sans);font-size:12px;font-weight:600;
+  letter-spacing:1.5px;text-transform:uppercase;
+  padding:16px 32px;border:none;cursor:pointer;
+  transition:opacity .2s;
+}
+.btn-gold:hover{opacity:.88;}
+.btn-outline{
+  display:inline-flex;align-items:center;gap:10px;
+  border:1px solid var(--gold-border);color:var(--text-muted);
+  font-family:var(--sans);font-size:12px;font-weight:500;
+  letter-spacing:1.5px;text-transform:uppercase;
+  padding:16px 32px;
+  transition:border-color .2s,color .2s;
+}
+.btn-outline:hover{border-color:var(--gold);color:var(--white);}
+.cta-btns{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;}
+
+/* ── Footer ─────────────────────────────────────────────── */
+.site-footer{
+  padding:32px 0;
+  border-top:1px solid var(--border);
+}
+.footer-inner{
+  max-width:1280px;margin:0 auto;padding:0 40px;
+  display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:16px;
+}
+.footer-logo img{height:36px;width:auto;opacity:.7;}
+.footer-copy{font-size:12px;color:var(--text-dim);}
+.footer-back{
+  font-size:12px;color:var(--text-muted);
+  display:flex;align-items:center;gap:6px;
+  transition:color .2s;
+}
+.footer-back:hover{color:var(--gold);}
+
+/* ── Lightbox ────────────────────────────────────────────── */
+.lightbox{
+  display:none;position:fixed;inset:0;z-index:9900;
+  background:rgba(5,5,5,.96);
+  align-items:center;justify-content:center;
+  padding:20px;
+}
+.lightbox.active{display:flex;}
+.lightbox img{max-width:92vw;max-height:90vh;object-fit:contain;}
+.lb-close{
+  position:fixed;top:20px;right:24px;
+  background:none;border:none;color:var(--text-muted);
+  font-size:28px;cursor:pointer;z-index:10000;
+  transition:color .2s;
+}
+.lb-close:hover{color:var(--white);}
+.lb-prev,.lb-next{
+  position:fixed;top:50%;transform:translateY(-50%);
+  background:none;border:1px solid var(--border);
+  color:var(--text-muted);font-size:18px;
+  width:48px;height:48px;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:border-color .2s,color .2s;
+}
+.lb-prev{left:20px;}
+.lb-next{right:20px;}
+.lb-prev:hover,.lb-next:hover{border-color:var(--gold);color:var(--gold);}
+
+/* ── Scroll animations ───────────────────────────────────── */
+.fade-up{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;}
+.fade-up.visible{opacity:1;transform:none;}
+.d1{transition-delay:.1s;} .d2{transition-delay:.2s;} .d3{transition-delay:.3s;}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media(max-width:991px){
+  .brief-inner{grid-template-columns:1fr;gap:60px;}
+  .spec-card{position:static;}
+  .gallery-grid{grid-template-columns:repeat(2,1fr);padding:0 20px;}
+  .gi-1,.gi-6,.gi-8{grid-column:span 2;}
+  .gi-2,.gi-3,.gi-4,.gi-5,.gi-7,.gi-9{grid-column:span 1;}
+  .header-inner{padding:0 20px;}
+}
+@media(max-width:767px){
+  /* ── Stacked hero: portrait image top, text block below ── */
+  .hero{
+    height:auto;min-height:0;
+    display:block;
+    overflow:visible;
+  }
+  .hero-bg{
+    background-image:url('images/sangam-portrait.webp');
+    background-position:center top;
+    position:relative;inset:auto;
+    height:58vh;
+    transform:none;transition:none;
+  }
+  .hero-overlay{display:none;}
+  .hero-content{
+    position:static;z-index:auto;
+    background:var(--bg);
+    padding:28px 20px 52px;
+    max-width:100%;
+    border-top:2px solid var(--gold-border);
+  }
+  .hero-h1{font-size:clamp(26px,7vw,36px);}
+  .hero-sub{font-size:14px;}
+  .hero-meta-row{margin-top:20px;gap:14px;}
+  .hero-scroll{display:none;}
+
+  /* ── Other sections ─────────────────────────────────── */
+  .brief-section,.gallery-section,.video-section,.narrative-section,.cta-section{padding:70px 0;}
+  .container,.brief-inner,.gallery-header,.video-header,.narrative-inner,.cta-inner,.footer-inner{padding-left:20px;padding-right:20px;}
+  /* Video: full-width, no side padding */
+  .video-section .container{padding:0;max-width:100%;}
+  .gallery-grid{grid-template-columns:1fr;padding:0;}
+  .gi-1,.gi-2,.gi-3,.gi-4,.gi-5,.gi-6,.gi-7,.gi-8,.gi-9{grid-column:span 1;aspect-ratio:4/3;}
+  .site-footer{padding:24px 0;}
+  .cta-btns{flex-direction:column;}
+  .btn-gold,.btn-outline{width:100%;justify-content:center;}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══════════════════════════════════════════ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="index.php" class="header-logo">
+      <img src="images/logo.png" alt="Innov Interiors & Architects">
+    </a>
+    <a href="resorts-architects.html" class="header-back">
+      <i class="fas fa-arrow-left"></i> Back to Portfolio
+    </a>
+  </div>
+</header>
+
+<!-- ═══ HERO ══════════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <div class="hero-line"></div>
+      <span class="hero-eyebrow-text">Innov Arch — Project</span>
+    </div>
+    <h1 class="hero-h1">
+      Luxury Riverfront Wellness<br>Resort in <em>Prayagraj</em>
+    </h1>
+    <p class="hero-sub">Sangam Pooja Wellness Resort — Royal-Inspired Wellness &amp; Banquet Destination in Uttar Pradesh</p>
+    <div class="hero-meta-row">
+      <div class="hero-meta-item">
+        <i class="fas fa-map-marker-alt"></i>
+        Prayagraj, Uttar Pradesh
+      </div>
+      <div class="hero-meta-item">
+        <i class="fas fa-expand-arrows-alt"></i>
+        2.5 Acres — Ganga Riverfront
+      </div>
+      <div class="hero-meta-item">
+        <i class="fas fa-hotel"></i>
+        Wellness Resort
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ═══ PROJECT BRIEF ════════════════════════════════════ -->
+<section class="brief-section">
+  <div class="brief-inner">
+
+    <!-- Left: Description -->
+    <div>
+      <span class="section-label fade-up">Project Overview</span>
+      <h2 class="section-title fade-up d1">A Landmark Riverfront Resort &amp; Banquet Architecture in <span class="gold-italic">Prayagraj</span></h2>
+      <div style="height:36px;"></div>
+      <div class="brief-body fade-up d2">
+        <p>Sangam Pooja Wellness Resort is a luxury riverfront wellness resort in Prayagraj, envisioned as a destination where <strong>spirituality, celebration, and refined hospitality converge.</strong> Set along the sacred banks of the Ganga, the 2.5-acre master plan is carefully oriented to maximise uninterrupted river views while preserving openness and serenity.</p>
+        <p>Designed with a <strong>royal Indian architectural influence reinterpreted through a contemporary lens,</strong> the project blends majestic character with modern functionality. More than a hospitality development, it is conceived as a landmark riverfront estate where banquet spaces, resort villas, landscaped lawns, and wellness environments integrate seamlessly into a harmonious architectural experience.</p>
+        <p>Expansive river-facing banquet spaces and landscaped lawns create an elegant setting for weddings and large-scale celebrations. Integrated resort villas, wellness zones, and leisure landscapes offer a harmonious retreat where <strong>spirituality and luxury coexist.</strong></p>
+      </div>
+    </div>
+
+    <!-- Right: Specs -->
+    <div class="fade-up d2">
+      <div class="spec-card">
+        <div class="spec-title">Project Specifications</div>
+        <div class="spec-item">
+          <span class="spec-key">Location</span>
+          <span class="spec-val">Prayagraj, Uttar Pradesh</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">Typology</span>
+          <span class="spec-val">Wellness Resort · Riverfront Banquet</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">Site Area</span>
+          <span class="spec-val">2.5 Acres — Ganga Riverfront</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">Development</span>
+          <span class="spec-val">Resort Villas · Banquet Spaces · Lawns · Wellness &amp; Leisure</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">Architecture</span>
+          <span class="spec-val">Royal Indian — Contemporary Reinterpretation</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">Studio</span>
+          <span class="spec-val">Innov Interiors &amp; Architects</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ VIDEO SECTION ════════════════════════════════════ -->
+<section class="video-section">
+  <div class="video-header">
+    <span class="section-label fade-up">Walkthrough</span>
+    <h2 class="section-title fade-up d1">Experience the <span class="gold-italic">Vision</span></h2>
+  </div>
+  <div class="container fade-up d1">
+    <video src="images/prayagraj/tmpkyz5bbub.mp4" autoplay muted loop playsinline style="width:100%;display:block;"></video>
+  </div>
+</section>
+
+<!-- ═══ IMAGE GALLERY ════════════════════════════════════ -->
+<section class="gallery-section">
+  <div class="gallery-header">
+    <span class="section-label fade-up">Visual Documentation</span>
+    <h2 class="section-title fade-up d1">The Architecture in <span class="gold-italic">Detail</span></h2>
+  </div>
+  <div class="gallery-grid">
+
+    <!-- Row 1: Hero wide + tall portrait -->
+    <!-- gi-1: sangam_2 — most cinematic, palace from the ghats, leads the gallery -->
+    <div class="gallery-item gi-1 fade-up" data-src="images/prayagraj/sangam_2.jpg">
+      <img src="images/prayagraj/sangam_2.jpg" alt="Palace facade from the Ganga ghats — Sangam Pooja Wellness Resort" loading="lazy" style="object-position:center 30%;">
+    </div>
+    <!-- gi-2: gate — vertical portrait, pairs perfectly with the wide -->
+    <div class="gallery-item gi-2 fade-up d1" data-src="images/prayagraj/gate.png">
+      <img src="images/prayagraj/gate.png" alt="Grand entrance gate — Sangam Pooja Wellness Resort" loading="lazy">
+    </div>
+
+    <!-- Row 2: Three equal views of different zones -->
+    <!-- gi-3: ghat ground level — human scale -->
+    <div class="gallery-item gi-3 fade-up" data-src="images/prayagraj/ps14.jpg">
+      <img src="images/prayagraj/ps14.jpg" alt="Ghat promenade and main palace — Sangam Pooja Wellness Resort" loading="lazy">
+    </div>
+    <!-- gi-4: pool + wellness aerial -->
+    <div class="gallery-item gi-4 fade-up d1" data-src="images/prayagraj/8.jpg">
+      <img src="images/prayagraj/8.jpg" alt="Poolside wellness area and riverfront promenade" loading="lazy">
+    </div>
+    <!-- gi-5: overhead garden — square composition fits perfectly -->
+    <div class="gallery-item gi-5 fade-up d2" data-src="images/prayagraj/5.jpg">
+      <img src="images/prayagraj/5.jpg" alt="Aerial view of pool and landscaped gardens" loading="lazy" style="object-position:center 30%;">
+    </div>
+
+    <!-- Row 3: Wide promenade panoramic + aerial resort -->
+    <!-- gi-6: 7.jpg — beautiful wide river promenade, needs full width to breathe -->
+    <div class="gallery-item gi-6 fade-up" data-src="images/prayagraj/7.jpg">
+      <img src="images/prayagraj/7.jpg" alt="River promenade, fountains and gardens — Sangam Pooja Wellness Resort" loading="lazy">
+    </div>
+    <!-- gi-7: ps13 — aerial resort complex, complements the ground-level promenade -->
+    <div class="gallery-item gi-7 fade-up d1" data-src="images/prayagraj/ps13.jpg">
+      <img src="images/prayagraj/ps13.jpg" alt="Aerial view of resort complex with Ganga ghats" loading="lazy">
+    </div>
+
+    <!-- Row 4: Concluding masterplan wide + full aerial -->
+    <!-- gi-8: sangam_4 — bird's-eye masterplan, best as final wide establishing shot -->
+    <div class="gallery-item gi-8 fade-up" data-src="images/prayagraj/sangam_4.jpg">
+      <img src="images/prayagraj/sangam_4.jpg" alt="Aerial masterplan view — Sangam Pooja Wellness Resort, Prayagraj" loading="lazy">
+    </div>
+    <!-- gi-9: ps15 — full aerial from river, closes the sequence -->
+    <div class="gallery-item gi-9 fade-up d1" data-src="images/prayagraj/ps15.jpg">
+      <img src="images/prayagraj/ps15.jpg" alt="Full aerial site view from the Ganga — Sangam Pooja Wellness Resort" loading="lazy">
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ DESIGN NARRATIVE ═════════════════════════════════ -->
+<section class="narrative-section">
+  <div class="narrative-inner">
+    <span class="section-label fade-up">Design Intent</span>
+    <h2 class="section-title fade-up d1">Where Spirituality &amp; Luxury <span class="gold-italic">Coexist</span></h2>
+    <div style="height:48px;"></div>
+    <blockquote class="narrative-pull fade-up d2">
+      Blending royal-inspired architecture with contemporary hospitality design, the master plan maximises uninterrupted river views while preserving the sacred character of the Ganga banks.
+    </blockquote>
+    <div class="narrative-body fade-up d3">
+      <p>The 2.5-acre site is organised as a layered riverfront estate — the main palace anchoring the arrival sequence, with resort villas stepping down toward the water's edge. The public ghats, designed in sandstone with carved chhatris, extend the resort's presence to the Ganga, creating a ceremonial connection between the built form and the river.</p>
+      <p>Expansive banquet spaces open onto manicured lawns oriented toward the river, making them an exceptional setting for weddings and large-scale celebrations. The landscape strategy weaves together formal gardens, flowering borders, palm avenues, and water features — creating a sense of depth and layered beauty across the estate.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA ═══════════════════════════════════════════════ -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <span class="section-label fade-up" style="text-align:center;display:block;">Discuss Your Project</span>
+    <h2 class="section-title fade-up d1">Build Something <span class="gold-italic">Extraordinary</span></h2>
+    <p class="cta-sub fade-up d2">
+      Interested in a similar project? Schedule a private consultation with our principal architect.
+      We work exclusively on projects above &#8377;5 Crore.
+    </p>
+    <div class="cta-btns fade-up d3">
+      <a href="resorts-architects.html#contact" class="btn-gold">
+        <i class="fas fa-paper-plane"></i> Schedule a Consultation
+      </a>
+      <a href="resorts-architects.html#portfolio" class="btn-outline">
+        <i class="fas fa-images"></i> View All Projects
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══════════════════════════════════════════ -->
+<footer class="site-footer">
+    <nav class="footer-areas" aria-label="Our service areas" style="max-width:1280px;margin:0 auto 22px;padding:0 40px 22px;border-bottom:1px solid rgba(255,255,255,.08);text-align:center;line-height:2.4;">
+    <span style="display:block;color:#c9a96e;letter-spacing:2px;text-transform:uppercase;font-size:11px;margin-bottom:10px;">Architecture &amp; Interior Design Across India</span>
+    <a href="noida/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Architects in Noida</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="greater-noida/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Greater Noida</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="delhi/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Delhi NCR</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="ghaziabad/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Ghaziabad</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="uttarakhand/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Resorts in Uttarakhand</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="resorts-architects.html" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Resort &amp; Hotel Architects</a>
+  </nav>
+<div class="footer-inner">
+    <a href="index.php" class="footer-logo">
+      <img src="images/logo.png" alt="Innov Interiors & Architects">
+    </a>
+    <span class="footer-copy">&copy; 2026 Innov Interiors &amp; Architects. All rights reserved.</span>
+    <a href="resorts-architects.html" class="footer-back">
+      <i class="fas fa-arrow-left"></i> Back to Portfolio
+    </a>
+  </div>
+</footer>
+
+<!-- ═══ LIGHTBOX ══════════════════════════════════════════ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+  <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+  <button class="lb-prev" id="lbPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+  <img src="" alt="" id="lbImg">
+  <button class="lb-next" id="lbNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+</div>
+
+<script>
+/* ── Header scroll ──────────────────────────── */
+const header = document.getElementById('siteHeader');
+window.addEventListener('scroll', () => {
+  header.classList.toggle('scrolled', window.scrollY > 60);
+}, {passive:true});
+
+/* ── Hero image subtle zoom on load ─────────── */
+window.addEventListener('load', () => {
+  document.getElementById('heroBg').classList.add('loaded');
+});
+
+/* ── Scroll animations ───────────────────────── */
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+}, {threshold:0.1});
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+/* ── Lightbox ────────────────────────────────── */
+const items  = [...document.querySelectorAll('.gallery-item[data-src]')];
+const lb     = document.getElementById('lightbox');
+const lbImg  = document.getElementById('lbImg');
+const lbClose= document.getElementById('lbClose');
+const lbPrev = document.getElementById('lbPrev');
+const lbNext = document.getElementById('lbNext');
+let current  = 0;
+
+function openLb(idx){
+  current = idx;
+  lbImg.src = items[idx].dataset.src;
+  lbImg.alt = items[idx].querySelector('img').alt;
+  lb.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+function closeLb(){
+  lb.classList.remove('active');
+  document.body.style.overflow = '';
+}
+function showLb(dir){
+  current = (current + dir + items.length) % items.length;
+  lbImg.src = items[current].dataset.src;
+}
+
+items.forEach((el, i) => el.addEventListener('click', () => openLb(i)));
+lbClose.addEventListener('click', closeLb);
+lb.addEventListener('click', e => { if(e.target === lb) closeLb(); });
+lbPrev.addEventListener('click', () => showLb(-1));
+lbNext.addEventListener('click', () => showLb(1));
+document.addEventListener('keydown', e => {
+  if(!lb.classList.contains('active')) return;
+  if(e.key === 'Escape') closeLb();
+  if(e.key === 'ArrowLeft') showLb(-1);
+  if(e.key === 'ArrowRight') showLb(1);
+});
+</script>
+</body>
+</html>

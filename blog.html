@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N3DFG47HWK"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N3DFG47HWK',{'send_page_view':false});window.addEventListener('load',function(){gtag('event','page_view',{'send_to':'G-N3DFG47HWK'});});</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="Architecture and interior design insights from Innov Interiors & Architects — expert guides on luxury homes, resort design, neo-classical architecture, and more.">
+<meta name="keywords" content="architecture blog India, interior design tips, luxury home design, resort architecture, neo classical architecture blog, Innov Architects">
+<meta name="author" content="Innov Interiors & Architects">
+<meta property="og:title" content="Blog | Innov Interiors & Architects — Architecture & Design Insights">
+<meta property="og:description" content="Expert architecture and interior design articles from Innov Interiors & Architects.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/logo.png">
+<title>Blog | Architecture & Interior Design Insights — Innov Interiors & Architects</title>
+<link rel="icon" type="image/png" href="images/circle-logo.png">
+<link rel="apple-touch-icon" href="images/circle-logo.png">
+<link rel="canonical" href="https://weinnovarch.com/blog.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous" referrerpolicy="no-referrer"
+      media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous"></noscript>
+
+<style>
+:root{
+  --bg:#0a0a0a;--bg-card:#111111;--bg-raised:#181818;
+  --gold:#c9a96e;--gold-dim:rgba(201,169,110,.18);--gold-border:rgba(201,169,110,.25);
+  --white:#f5f0e8;--muted:#6b6b5a;--text-muted:#9a9a8a;--text-dim:#5a5a4a;
+  --border:rgba(255,255,255,.07);
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'Inter',system-ui,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--white);font-family:var(--sans);font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased;}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+
+/* ── Header ─────────────────────────────────────────────── */
+.site-header{position:fixed;top:0;left:0;right:0;z-index:900;padding:20px 0;background:rgba(10,10,10,.92);border-bottom:1px solid var(--border);transition:padding .3s ease;}
+.site-header.scrolled{padding:14px 0;}
+.header-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:flex;align-items:center;justify-content:space-between;gap:32px;}
+.header-logo img{height:44px;width:auto;}
+.header-nav{display:flex;align-items:center;gap:4px;}
+.header-nav a{font-size:12px;font-weight:500;letter-spacing:1.2px;text-transform:uppercase;color:var(--text-muted);padding:8px 14px;transition:color .2s;}
+.header-nav a:hover,.header-nav a.nav-active{color:var(--white);}
+.header-cta{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#0a0a0a;background:var(--gold);border:none;padding:11px 22px;cursor:pointer;transition:opacity .2s;white-space:nowrap;}
+.header-cta:hover{opacity:.88;}
+.nav-toggle{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px;}
+.nav-toggle span{display:block;width:22px;height:1.5px;background:var(--white);transition:transform .3s,opacity .3s;}
+
+/* ── Page Hero ───────────────────────────────────────────── */
+.page-hero{padding:140px 0 80px;border-bottom:1px solid var(--border);}
+.page-hero-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;}
+.page-hero-label{font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:16px;}
+.page-hero-title{font-family:var(--serif);font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.1;color:var(--white);}
+.page-hero-title em{font-style:italic;color:var(--gold);}
+.page-hero-sub{font-size:16px;color:var(--text-muted);line-height:1.9;max-width:480px;}
+
+/* ── Blog Grid ───────────────────────────────────────────── */
+.blog-section{padding:80px 0 120px;}
+.blog-inner{max-width:1280px;margin:0 auto;padding:0 40px;}
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;}
+
+/* Featured post — spans full width */
+.blog-card-featured{grid-column:span 3;display:grid;grid-template-columns:1fr 1fr;background:var(--bg-card);border:1px solid var(--border);margin-bottom:2px;}
+.blog-card-featured .blog-thumb{overflow:hidden;aspect-ratio:16/9;}
+.blog-card-featured .blog-thumb img{width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.22,1,.36,1);}
+.blog-card-featured:hover .blog-thumb img{transform:scale(1.04);}
+.blog-card-featured .blog-body{padding:52px 48px;display:flex;flex-direction:column;justify-content:center;}
+
+/* Regular cards */
+.blog-card{background:var(--bg-card);border:1px solid var(--border);display:flex;flex-direction:column;transition:border-color .3s;}
+.blog-card:hover{border-color:var(--gold-border);}
+.blog-thumb{overflow:hidden;aspect-ratio:16/10;}
+.blog-thumb img{width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.22,1,.36,1);}
+.blog-card:hover .blog-thumb img{transform:scale(1.04);}
+.blog-body{padding:28px 28px 32px;display:flex;flex-direction:column;flex:1;}
+
+/* Card content */
+.blog-tag{display:inline-block;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:14px;}
+.blog-title{font-family:var(--serif);font-size:clamp(18px,1.6vw,22px);font-weight:400;color:var(--white);line-height:1.3;margin-bottom:14px;}
+.blog-card-featured .blog-title{font-size:clamp(24px,2.4vw,34px);margin-bottom:18px;}
+.blog-excerpt{font-size:14px;color:var(--text-muted);line-height:1.8;flex:1;margin-bottom:24px;}
+.blog-meta{display:flex;align-items:center;gap:16px;font-size:11px;font-weight:500;letter-spacing:.5px;color:var(--text-dim);text-transform:uppercase;border-top:1px solid var(--border);padding-top:18px;margin-top:auto;}
+.blog-meta-author{display:flex;align-items:center;gap:6px;color:var(--text-muted);}
+.blog-meta-author i{color:var(--gold);font-size:10px;}
+.blog-meta-dot{width:3px;height:3px;border-radius:50%;background:var(--text-dim);}
+.blog-read-more{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);margin-top:24px;transition:gap .2s;}
+.blog-card:hover .blog-read-more,.blog-card-featured:hover .blog-read-more{gap:12px;}
+
+/* ── CTA ─────────────────────────────────────────────────── */
+.cta-section{padding:100px 0;background:var(--bg-card);border-top:1px solid var(--border);text-align:center;}
+.cta-inner{max-width:620px;margin:0 auto;padding:0 40px;}
+.section-label{font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:16px;}
+.section-title{font-family:var(--serif);font-size:clamp(26px,3vw,40px);font-weight:400;color:var(--white);line-height:1.2;}
+.gold-italic{font-style:italic;color:var(--gold);}
+.cta-sub{font-size:15px;color:var(--text-muted);margin:16px 0 36px;line-height:1.7;}
+.btn-gold{display:inline-flex;align-items:center;gap:10px;background:var(--gold);color:#0a0a0a;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:16px 32px;border:none;cursor:pointer;transition:opacity .2s;}
+.btn-gold:hover{opacity:.88;}
+
+/* ── Footer ─────────────────────────────────────────────── */
+.site-footer{padding:32px 0;border-top:1px solid var(--border);}
+.footer-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;}
+.footer-social{display:flex;align-items:center;gap:20px;}
+.footer-social a{color:var(--text-dim);font-size:14px;transition:color .2s;}
+.footer-social a:hover{color:var(--gold);}
+.footer-copy{font-size:12px;color:var(--text-dim);}
+
+/* ── WhatsApp float ──────────────────────────────────────── */
+.wa-float{position:fixed;bottom:28px;right:28px;z-index:800;width:52px;height:52px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;font-size:22px;color:#fff;box-shadow:0 4px 20px rgba(37,211,102,.35);transition:transform .2s;}
+.wa-float:hover{transform:scale(1.08);}
+
+/* ── Scroll animations ───────────────────────────────────── */
+.fade-up{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;}
+.fade-up.visible{opacity:1;transform:none;}
+.d1{transition-delay:.1s;} .d2{transition-delay:.2s;} .d3{transition-delay:.3s;}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media(max-width:1024px){
+  .blog-grid{grid-template-columns:repeat(2,1fr);}
+  .blog-card-featured{grid-template-columns:1fr;grid-column:span 2;}
+  .blog-card-featured .blog-body{padding:36px 32px;}
+}
+@media(max-width:767px){
+  .header-inner{padding:0 20px;}
+  .header-nav{display:none;position:fixed;inset:0;background:rgba(10,10,10,.98);flex-direction:column;align-items:center;justify-content:center;gap:24px;z-index:800;}
+  .header-nav.open{display:flex;}
+  .header-nav a{font-size:16px;letter-spacing:2px;}
+  .header-cta{display:none;}
+  .nav-toggle{display:flex;}
+  .page-hero{padding:110px 0 60px;}
+  .page-hero-inner{grid-template-columns:1fr;gap:20px;padding:0 20px;}
+  .blog-section{padding:60px 0 80px;}
+  .blog-inner{padding:0 20px;}
+  .blog-grid{grid-template-columns:1fr;gap:2px;}
+  .blog-card-featured{grid-column:span 1;}
+  .blog-card-featured .blog-body{padding:28px 20px;}
+  .cta-inner,.footer-inner{padding-left:20px;padding-right:20px;}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══════════════════════════════════════════ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="index.php" class="header-logo">
+      <img src="images/logo.png" alt="Innov Interiors & Architects Logo" loading="eager">
+    </a>
+    <nav class="header-nav" id="headerNav">
+      <a href="index.php">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html" class="nav-active">Blog</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <button class="header-cta" onclick="window.location.href='contact.html'">Get In Touch</button>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ═══ PAGE HERO ════════════════════════════════════════ -->
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div>
+      <div class="page-hero-label">Insights & Ideas</div>
+      <h1 class="page-hero-title">Architecture & Design<br><em>Journal</em></h1>
+    </div>
+    <div>
+      <p class="page-hero-sub">Expert perspectives on luxury architecture, interior design, resort planning, and the art of building spaces that endure — from the studio of Innov Interiors & Architects.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ BLOG GRID ════════════════════════════════════════ -->
+<section class="blog-section">
+  <div class="blog-inner">
+    <div class="blog-grid">
+
+      <!-- ── FEATURED POST ── -->
+      <a href="small-apartment-interior-design-noida.html" class="blog-card-featured fade-up">
+        <div class="blog-thumb">
+          <img src="images/interiors/lotus-panache/LIVING 2.webp" alt="Small Apartment Interior Design in Noida — Ideas, Cost & Smart Solutions" loading="eager">
+        </div>
+        <div class="blog-body">
+          <span class="blog-tag">Interior Design</span>
+          <h2 class="blog-title">Small Apartment Interior Design in Noida — Ideas, Cost &amp; Smart Solutions</h2>
+          <p class="blog-excerpt">Noida has more 2 BHK and 3 BHK apartments than almost any city in India. The builder finishes are generic. Here's what actually works — room by room, with real costs in ₹.</p>
+          <div class="blog-meta">
+            <span class="blog-meta-author"><i class="fas fa-user"></i> Ar. Udit Vishnoi</span>
+            <span class="blog-meta-dot"></span>
+            <span>May 2026</span>
+            <span class="blog-meta-dot"></span>
+            <span>11 min read</span>
+          </div>
+          <span class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <!-- ── POST 2 ── -->
+      <a href="why-hire-architect-new-home-noida.html" class="blog-card fade-up d1">
+        <div class="blog-thumb">
+          <img src="images/greater-noida-neoclassical/front-view.webp" alt="Why Choose Custom Architectural Services for Your New Build — Innov Interiors & Architects" loading="lazy">
+        </div>
+        <div class="blog-body">
+          <span class="blog-tag">Architecture</span>
+          <h2 class="blog-title">Why Choose Custom Architectural Services for Your New Build</h2>
+          <p class="blog-excerpt">You have a plot. You have a budget. The question no one prepares you for: do you hand the brief to a builder with a standard plan — or do you engage a custom architect and go through a proper design process?</p>
+          <div class="blog-meta">
+            <span class="blog-meta-author"><i class="fas fa-user"></i> Ar. Udit Vishnoi</span>
+            <span class="blog-meta-dot"></span>
+            <span>April 2026</span>
+            <span class="blog-meta-dot"></span>
+            <span>9 min read</span>
+          </div>
+          <span class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <!-- ── POST 3 ── -->
+      <a href="top-sustainable-architecture-firms-india.html" class="blog-card fade-up d2">
+        <div class="blog-thumb">
+          <img src="images/foaid-2025/Ar_conceptual - 01.webp" alt="Top Sustainable Architecture Firms in India" loading="lazy">
+        </div>
+        <div class="blog-body">
+          <span class="blog-tag">Sustainable Architecture</span>
+          <h2 class="blog-title">Top Sustainable Architecture Firms in India — Leading the Future of Design (2026)</h2>
+          <p class="blog-excerpt">A new generation of sustainable architecture firms is working to build smarter — biophilic design, eco-resorts, and green homes across India.</p>
+          <div class="blog-meta">
+            <span class="blog-meta-author"><i class="fas fa-user"></i> Ar. Udit Vishnoi</span>
+            <span class="blog-meta-dot"></span>
+            <span>April 2026</span>
+            <span class="blog-meta-dot"></span>
+            <span>10 min read</span>
+          </div>
+          <span class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <!-- ── POST 3 ── -->
+      <a href="sangam-pooja-wellness-resort-prayagraj.html" class="blog-card fade-up d1">
+        <div class="blog-thumb">
+          <img src="images/sangam pooja wellness resort at prayagraj.webp" alt="How to Design a Luxury Resort Architecture in India" loading="lazy">
+        </div>
+        <div class="blog-body">
+          <span class="blog-tag">Resort Architecture</span>
+          <h2 class="blog-title">How to Design a Luxury Resort in India — Architecture, Planning & Spatial Strategy</h2>
+          <p class="blog-excerpt">Designing a luxury resort is not simply about aesthetics — it is the orchestration of landscape, programme, guest experience, and construction feasibility into a single cohesive vision.</p>
+          <div class="blog-meta">
+            <span class="blog-meta-author"><i class="fas fa-user"></i> Ar. Udit Vishnoi</span>
+            <span class="blog-meta-dot"></span>
+            <span>March 2026</span>
+            <span class="blog-meta-dot"></span>
+            <span>8 min read</span>
+          </div>
+          <span class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <!-- ── POST 4 ── -->
+      <a href="bliss-glass-house-bijnor.html" class="blog-card fade-up d2">
+        <div class="blog-thumb">
+          <img src="images/tab/the-bliss-bijnor-banquet-architect.webp" alt="Banquet Hall Design Guide" loading="lazy">
+        </div>
+        <div class="blog-body">
+          <span class="blog-tag">Banquet Design</span>
+          <h2 class="blog-title">Banquet Hall Architecture — What Makes a Celebration Venue Truly Grand</h2>
+          <p class="blog-excerpt">From structural spans to lighting design, the architecture of a banquet hall demands a precise balance of grandeur, flexibility, and acoustic intelligence.</p>
+          <div class="blog-meta">
+            <span class="blog-meta-author"><i class="fas fa-user"></i> Ar. Udit Vishnoi</span>
+            <span class="blog-meta-dot"></span>
+            <span>Feb 2026</span>
+            <span class="blog-meta-dot"></span>
+            <span>6 min read</span>
+          </div>
+          <span class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <!-- ── POST 4 ── -->
+      <a href="neo-classical-villa-greater-noida.html" class="blog-card fade-up d3">
+        <div class="blog-thumb">
+          <img src="images/Neo Classic at Greater Noida.webp" alt="Neo Classical Architecture Guide" loading="lazy">
+        </div>
+        <div class="blog-body">
+          <span class="blog-tag">Architecture</span>
+          <h2 class="blog-title">Neo-Classical Architecture in India — Reviving Grandeur for the Modern Age</h2>
+          <p class="blog-excerpt">The neo-classical vocabulary — columns, symmetry, cornices, and monumental scale — is seeing a powerful revival in India's luxury residential segment.</p>
+          <div class="blog-meta">
+            <span class="blog-meta-author"><i class="fas fa-user"></i> Ar. Udit Vishnoi</span>
+            <span class="blog-meta-dot"></span>
+            <span>Jan 2026</span>
+            <span class="blog-meta-dot"></span>
+            <span>7 min read</span>
+          </div>
+          <span class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA ═══════════════════════════════════════════════ -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <span class="section-label fade-up">Start a Project</span>
+    <h2 class="section-title fade-up d1">Have a Vision?<br>Let's <span class="gold-italic">Build It Together</span></h2>
+    <p class="cta-sub fade-up d2">From luxury residences to resort campuses — our studio brings architectural ambition to life across India.</p>
+    <a href="contact.html" class="btn-gold fade-up d3">
+      <i class="fas fa-paper-plane"></i> Schedule a Consultation
+    </a>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══════════════════════════════════════════ -->
+<footer class="site-footer">
+    <nav class="footer-areas" aria-label="Our service areas" style="max-width:1280px;margin:0 auto 22px;padding:0 40px 22px;border-bottom:1px solid rgba(255,255,255,.08);text-align:center;line-height:2.4;">
+    <span style="display:block;color:#c9a96e;letter-spacing:2px;text-transform:uppercase;font-size:11px;margin-bottom:10px;">Architecture &amp; Interior Design Across India</span>
+    <a href="noida/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Architects in Noida</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="greater-noida/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Greater Noida</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="delhi/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Delhi NCR</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="ghaziabad/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Ghaziabad</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="uttarakhand/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Resorts in Uttarakhand</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="resorts-architects.html" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Resort &amp; Hotel Architects</a>
+  </nav>
+<div class="footer-inner">
+    <a href="index.php">
+      <img src="images/logo.png" alt="Innov Interiors & Architects" style="width:120px;opacity:.65;display:block;">
+    </a>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/people/Innov-Interiors-Architects/100064101032579/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/innov_arc" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@innov_arc" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/company/innov-arc/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:support@weinnovarch.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div class="footer-copy">&copy; 2026 Innov Interiors &amp; Architects. All rights reserved.</div>
+  </div>
+</footer>
+
+<!-- ═══ WHATSAPP ══════════════════════════════════════════ -->
+<a href="https://api.whatsapp.com/send?phone=918178262805&text=Hi,%20I%27m%20interested%20in%20getting%20interior%20design%20work%20done.%20Please%20share%20more%20details."
+   class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<script>
+const hdr = document.getElementById('siteHeader');
+window.addEventListener('scroll', () => hdr.classList.toggle('scrolled', scrollY > 60), {passive:true});
+
+const navToggle = document.getElementById('navToggle');
+const headerNav = document.getElementById('headerNav');
+navToggle.addEventListener('click', () => {
+  const open = headerNav.classList.toggle('open');
+  const spans = navToggle.querySelectorAll('span');
+  spans[0].style.transform = open ? 'rotate(45deg) translate(5px,5px)' : '';
+  spans[1].style.opacity   = open ? '0' : '1';
+  spans[2].style.transform = open ? 'rotate(-45deg) translate(5px,-5px)' : '';
+  document.body.style.overflow = open ? 'hidden' : '';
+});
+headerNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  headerNav.classList.remove('open');
+  navToggle.querySelectorAll('span').forEach(s => { s.style.transform=''; s.style.opacity=''; });
+  document.body.style.overflow = '';
+}));
+
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+}, {threshold: 0.08});
+document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>

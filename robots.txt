@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+Disallow: /submit.php
+Disallow: /thanks.php
+Disallow: /example.php
+Disallow: /index2.html
+
+# Block leftover template + WordPress install (duplicate/thin content, crawl-budget waste)
+Disallow: /weinnovarch/
+Disallow: /wp/
+
+Sitemap: https://weinnovarch.com/sitemap.xml

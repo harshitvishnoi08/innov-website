@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+window.addEventListener('load',function(){fbq('init','1095418249121855');fbq('track','PageView');});
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1095418249121855&ev=PageView&noscript=1"/></noscript>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N3DFG47HWK"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N3DFG47HWK',{'send_page_view':false});window.addEventListener('load',function(){gtag('event','page_view',{'send_to':'G-N3DFG47HWK'});});</script>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="About Innov Interiors & Architects — 15+ years of excellence in architecture and interior design. Meet our team of passionate designers and architects across Delhi NCR.">
+<title>About Us | Innov Interiors & Architects</title>
+<link rel="icon" type="image/png" href="images/circle-logo.png">
+<link rel="apple-touch-icon" href="images/circle-logo.png">
+<link rel="canonical" href="https://weinnovarch.com/about.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous"></noscript>
+
+<style>
+:root{
+  --bg:#0a0a0a; --bg-card:#111111; --bg-raised:#141414;
+  --gold:#c9a96e; --gold-dim:rgba(201,169,110,.12); --gold-border:rgba(201,169,110,.28);
+  --white:#ffffff; --muted:#888888; --dim:#555555;
+  --border:rgba(255,255,255,.07);
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'Inter',system-ui,sans-serif;
+  --section-pad:100px;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;overflow-x:hidden;}
+body{font-family:var(--sans);font-size:16px;line-height:1.7;color:var(--white);background:var(--bg);-webkit-font-smoothing:antialiased;}
+img{display:block;max-width:100%;}
+a{text-decoration:none;color:inherit;}
+button{font-family:var(--sans);}
+
+.fade-up{opacity:0;transform:translateY(32px);transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);}
+.fade-up.visible{opacity:1;transform:none;}
+.fade-left{opacity:0;transform:translateX(-32px);transition:opacity .9s cubic-bezier(.22,1,.36,1),transform .9s cubic-bezier(.22,1,.36,1);}
+.fade-left.visible{opacity:1;transform:none;}
+.d1{transition-delay:.1s;} .d2{transition-delay:.2s;} .d3{transition-delay:.3s;}
+
+.section-label{font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:10px;margin-bottom:14px;}
+.section-label::before{content:'';display:block;width:6px;height:6px;background:var(--gold);border-radius:50%;flex-shrink:0;}
+.section-title{font-family:var(--serif);font-size:clamp(28px,3.5vw,48px);font-weight:400;line-height:1.2;letter-spacing:-.02em;color:var(--white);margin-bottom:14px;}
+.section-title em{color:var(--gold);font-style:italic;}
+.section-sub{font-size:15px;color:var(--muted);font-weight:300;line-height:1.8;}
+.btn-gold{display:inline-flex;align-items:center;gap:10px;background:var(--gold);color:#0a0a0a;font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:14px 30px;border:1px solid var(--gold);cursor:pointer;transition:background .3s,color .3s;}
+.btn-gold:hover{background:transparent;color:var(--gold);}
+.btn-outline{display:inline-flex;align-items:center;gap:10px;background:transparent;color:var(--white);font-size:12px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;padding:13px 30px;border:1px solid rgba(255,255,255,.2);cursor:pointer;transition:border-color .3s;}
+.btn-outline:hover{border-color:var(--white);}
+
+/* HEADER */
+.site-header{position:fixed;top:0;left:0;right:0;z-index:900;padding:18px 0;transition:background .4s,padding .3s,border-color .4s;border-bottom:1px solid transparent;}
+.site-header.scrolled{background:rgba(10,10,10,.97);border-color:var(--border);padding:12px 0;}
+.header-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:flex;align-items:center;justify-content:space-between;gap:20px;}
+.header-logo img{width:150px;height:auto;}
+.header-nav{display:flex;align-items:center;gap:28px;}
+.header-nav a{font-size:13px;color:rgba(255,255,255,.8);letter-spacing:.3px;transition:color .3s;}
+.header-nav a:hover,.header-nav a.nav-active{color:var(--gold);}
+.header-cta{font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#0a0a0a;background:var(--gold);padding:11px 20px;border:1px solid var(--gold);cursor:pointer;transition:background .3s,color .3s;white-space:nowrap;}
+.header-cta:hover{background:transparent;color:var(--gold);}
+.nav-toggle{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none;}
+.nav-toggle span{display:block;width:24px;height:1.5px;background:var(--white);transition:all .3s;}
+
+/* PAGE HERO */
+.page-hero{padding:140px 0 80px;background:var(--bg);border-bottom:1px solid var(--border);position:relative;overflow:hidden;}
+.page-hero::before{content:'';position:absolute;top:0;left:0;width:50%;height:100%;background:radial-gradient(ellipse at top left,rgba(201,169,110,.05) 0%,transparent 65%);pointer-events:none;}
+.page-hero-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+.page-hero-label{font-size:11px;font-weight:500;letter-spacing:5px;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:14px;margin-bottom:24px;}
+.page-hero-label::before{content:'';display:block;width:36px;height:1px;background:var(--gold);}
+.page-hero-title{font-family:var(--serif);font-size:clamp(36px,4.5vw,64px);font-weight:400;line-height:1.1;letter-spacing:-.03em;color:var(--white);}
+.page-hero-title em{color:var(--gold);font-style:italic;}
+.page-hero-sub{font-size:16px;color:rgba(255,255,255,.5);font-weight:300;line-height:1.85;}
+
+/* STATS STRIP */
+.stats-strip{background:var(--bg-card);border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
+.stats-strip-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:repeat(4,1fr);}
+.stat-item{padding:36px 24px;border-right:1px solid var(--border);text-align:center;}
+.stat-item:last-child{border-right:none;}
+.stat-num{font-family:var(--serif);font-size:clamp(32px,4vw,52px);font-weight:400;color:var(--gold);line-height:1;margin-bottom:6px;}
+.stat-label{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);}
+
+/* STORY */
+.story-section{padding:var(--section-pad) 0;background:var(--bg);}
+.story-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
+.story-imgs{position:relative;}
+.story-img-main{width:100%;height:480px;object-fit:cover;filter:brightness(.85);display:block;}
+.story-img-row{display:grid;grid-template-columns:1fr 1fr;gap:3px;margin-top:3px;}
+.story-img-sm{width:100%;height:220px;object-fit:cover;filter:brightness(.8);display:block;}
+.story-badge{position:absolute;bottom:250px;right:-24px;background:var(--gold);color:#0a0a0a;padding:20px 24px;text-align:center;}
+.story-badge-num{font-family:var(--serif);font-size:36px;font-weight:700;line-height:1;}
+.story-badge-text{font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:600;margin-top:4px;}
+.story-body{font-size:15px;color:rgba(255,255,255,.65);font-weight:300;line-height:1.9;margin-bottom:20px;}
+.story-values{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:32px 0;}
+.value-item{display:flex;align-items:flex-start;gap:12px;}
+.value-icon{width:36px;height:36px;border:1px solid var(--gold-border);display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:13px;flex-shrink:0;margin-top:2px;}
+.value-title{font-size:13px;font-weight:500;color:var(--white);margin-bottom:2px;}
+.value-desc{font-size:12px;color:var(--dim);line-height:1.5;}
+
+/* BRAND FILM */
+.brand-film-section{padding:var(--section-pad) 0;background:var(--bg);border-top:1px solid var(--border);}
+.brand-film-inner{max-width:1280px;margin:0 auto;padding:0 40px;}
+.brand-film-header{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:52px;}
+.brand-film-player{position:relative;width:100%;padding-bottom:56.25%;background:#000;overflow:hidden;cursor:pointer;}
+.brand-film-thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;image-rendering:-webkit-optimize-contrast;transition:transform .6s cubic-bezier(.22,1,.36,1),filter .4s;}
+.brand-film-player:hover .brand-film-thumb{transform:scale(1.03);filter:brightness(.75);}
+.brand-film-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,10,.6) 0%,rgba(10,10,10,.1) 50%,transparent 100%);}
+.brand-film-play{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;}
+.brand-film-play-btn{width:88px;height:88px;border:2px solid rgba(255,255,255,.9);border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.3);backdrop-filter:blur(4px);transition:background .3s,transform .3s,border-color .3s;}
+.brand-film-play-btn i{color:#fff;font-size:30px;margin-left:5px;}
+.brand-film-player:hover .brand-film-play-btn{background:var(--gold);border-color:var(--gold);transform:scale(1.08);}
+.brand-film-player:hover .brand-film-play-btn i{color:#0a0a0a;}
+.brand-film-duration{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.6);}
+.brand-film-caption{position:absolute;bottom:28px;left:36px;right:36px;display:flex;align-items:center;justify-content:space-between;}
+.brand-film-caption-label{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.5);}
+.brand-film-caption-title{font-family:var(--serif);font-size:22px;color:var(--white);font-weight:400;}
+@media(max-width:640px){.brand-film-header{grid-template-columns:1fr;}.brand-film-inner{padding:0 20px;}}
+
+/* TEAM */
+.team-section{padding:var(--section-pad) 0;background:var(--bg-raised);border-top:1px solid var(--border);}
+.team-header{max-width:1280px;margin:0 auto 56px;padding:0 40px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;}
+.team-grid{max-width:1280px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:repeat(3,1fr);gap:3px;}
+.team-card{background:var(--bg-card);border:1px solid var(--border);overflow:hidden;transition:transform .4s cubic-bezier(.22,1,.36,1),border-color .3s;}
+.team-card:hover{transform:translateY(-6px);border-color:var(--gold-border);}
+.team-card-img{overflow:hidden;}
+.team-card-img img{width:100%;height:340px;object-fit:cover;object-position:top;filter:brightness(.82);transition:transform 1s,filter .4s;display:block;}
+.team-card:hover .team-card-img img{transform:scale(1.04);filter:brightness(.95);}
+.team-card-body{padding:24px 26px 26px;border-top:1px solid var(--border);}
+.team-card-name{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--white);margin-bottom:4px;}
+.team-card-role{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:12px;}
+.team-card-bio{font-size:13px;color:rgba(255,255,255,.5);line-height:1.7;font-weight:300;}
+.team-grid-sm{max-width:1280px;margin:3px auto 0;padding:0 40px;display:flex;flex-wrap:wrap;justify-content:center;gap:3px;}
+.team-card-sm{flex:0 0 calc(25% - 2.25px);background:var(--bg-card);border:1px solid var(--border);overflow:hidden;transition:transform .4s,border-color .3s;}
+.team-card-sm:hover{transform:translateY(-4px);border-color:var(--gold-border);}
+.team-card-sm .team-card-img img{height:220px;}
+.team-card-sm .team-card-body{padding:16px 18px 18px;}
+.team-card-sm .team-card-name{font-size:15px;}
+
+/* WHY CHOOSE US */
+.why-section{padding:var(--section-pad) 0;background:var(--bg);border-top:1px solid var(--border);}
+.why-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
+.why-img img{width:100%;height:520px;object-fit:cover;filter:brightness(.75);display:block;}
+.why-list{display:flex;flex-direction:column;gap:0;margin-top:32px;}
+.why-item{display:flex;align-items:flex-start;gap:20px;padding:24px 0;border-bottom:1px solid var(--border);}
+.why-item:last-child{border-bottom:none;}
+.why-num{font-family:var(--serif);font-size:28px;color:var(--gold);opacity:.35;line-height:1;flex-shrink:0;width:32px;}
+.why-title{font-size:15px;font-weight:500;color:var(--white);margin-bottom:4px;}
+.why-desc{font-size:13px;color:var(--muted);line-height:1.7;font-weight:300;}
+
+/* CTA */
+.cta-banner{padding:80px 0;background:var(--bg-raised);border-top:1px solid var(--border);text-align:center;}
+.cta-banner-inner{max-width:600px;margin:0 auto;padding:0 40px;}
+.cta-banner-title{font-family:var(--serif);font-size:clamp(28px,3.5vw,44px);font-weight:400;line-height:1.2;color:var(--white);margin-bottom:14px;letter-spacing:-.02em;}
+.cta-banner-title em{color:var(--gold);font-style:italic;}
+.cta-banner-sub{font-size:15px;color:var(--muted);font-weight:300;margin-bottom:32px;line-height:1.7;}
+.cta-banner-btns{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;}
+
+/* FOOTER */
+.site-footer{background:var(--bg);border-top:1px solid var(--border);padding:28px 0;}
+.footer-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;}
+.footer-social{display:flex;gap:14px;}
+.footer-social a{width:34px;height:34px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px;transition:all .3s;}
+.footer-social a:hover{border-color:var(--gold-border);color:var(--gold);}
+.footer-copy{font-size:12px;color:var(--dim);}
+
+/* WHATSAPP & MODAL */
+.wa-float{position:fixed;bottom:28px;right:28px;z-index:8999;width:54px;height:54px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:24px;color:#0a0a0a;box-shadow:0 4px 24px rgba(201,169,110,.35);transition:transform .3s;}
+.wa-float:hover{transform:scale(1.1);}
+.modal-overlay{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.75);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .3s;}
+.modal-overlay.open{opacity:1;pointer-events:all;}
+.modal-box{background:var(--bg-card);border:1px solid var(--border);border-top:2px solid var(--gold);width:100%;max-width:520px;padding:44px 40px 36px;position:relative;transform:translateY(24px);transition:transform .35s cubic-bezier(.22,1,.36,1);max-height:90vh;overflow-y:auto;}
+.modal-overlay.open .modal-box{transform:translateY(0);}
+.modal-close{position:absolute;top:14px;right:16px;background:none;border:none;cursor:pointer;color:var(--muted);font-size:22px;line-height:1;transition:color .2s;padding:4px 8px;}
+.modal-close:hover{color:var(--white);}
+.modal-label{font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+.modal-title{font-family:var(--serif);font-size:clamp(20px,2.8vw,28px);font-weight:400;color:var(--white);line-height:1.25;margin-bottom:26px;}
+.mf-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;}
+.mf-group{display:flex;flex-direction:column;gap:6px;margin-bottom:14px;}
+.mf-label{font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--muted);}
+.mf-input,.mf-select{background:#1a1a1a;border:1px solid var(--border);color:var(--white);font-family:var(--sans);font-size:14px;font-weight:300;padding:12px 14px;width:100%;outline:none;transition:border-color .25s;-webkit-appearance:none;appearance:none;}
+.mf-input::placeholder{color:var(--dim);}
+.mf-input:focus,.mf-select:focus{border-color:var(--gold-border);}
+.mf-select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23888' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;}
+.mf-select option{background:#1a1a1a;}
+.mf-submit{width:100%;background:var(--gold);color:#0a0a0a;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:14px;border:1px solid var(--gold);cursor:pointer;transition:background .3s,color .3s;margin-top:6px;}
+.mf-submit:hover{background:transparent;color:var(--gold);}
+.mf-disclaimer{font-size:12px;color:var(--dim);text-align:center;margin-top:10px;}
+.mf-disclaimer i{color:var(--gold);margin-right:4px;}
+
+/* RESPONSIVE */
+@media(max-width:1024px){
+  :root{--section-pad:72px;}
+  .header-nav{display:none;}
+  .header-nav.open{display:flex;flex-direction:column;position:fixed;inset:0;background:#0a0a0a;padding:90px 40px 40px;gap:24px;z-index:800;}
+  .header-nav.open a{font-size:20px;}
+  .nav-toggle{display:flex;}
+  .page-hero-inner{grid-template-columns:1fr;}
+  .stats-strip-inner{grid-template-columns:1fr 1fr;}
+  .stat-item:nth-child(2){border-right:none;}
+  .stat-item:nth-child(3){border-top:1px solid var(--border);}
+  .stat-item:nth-child(4){border-top:1px solid var(--border);border-right:none;}
+  .story-inner{grid-template-columns:1fr;gap:48px;}
+  .story-badge{right:0;bottom:auto;top:16px;}
+  .team-header{grid-template-columns:1fr;}
+  .team-grid{grid-template-columns:1fr 1fr;}
+  .team-card-sm{flex:0 0 calc(50% - 1.5px);}
+  .why-inner{grid-template-columns:1fr;}
+  .why-img{display:none;}
+}
+@media(max-width:640px){
+  :root{--section-pad:56px;}
+  .header-inner,.page-hero-inner,.stats-strip-inner,.story-inner,.team-header,.team-grid,.team-grid-sm,.why-inner,.cta-banner-inner,.footer-inner{padding-left:20px;padding-right:20px;}
+  .team-grid{grid-template-columns:1fr;}
+  .team-card-sm{flex:0 0 calc(50% - 1.5px);}
+  .team-card-img img{height:280px;}
+  .story-img-main{height:300px;}
+  .story-img-sm{height:140px;}
+  .story-values{grid-template-columns:1fr;}
+  .mf-row{grid-template-columns:1fr;}
+  .modal-box{padding:36px 20px 28px;}
+  .footer-inner{flex-direction:column;text-align:center;align-items:center;}
+}
+</style>
+</head>
+<body>
+
+<!-- ══ HEADER ══════════════════════════════════════════════ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="index.php" class="header-logo">
+      <img src="images/logo.png" alt="Innov Interiors & Architects Logo" loading="eager">
+    </a>
+    <nav class="header-nav" id="headerNav">
+      <a href="index.php">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="index.php#services">Services</a>
+      <a href="about.html" class="nav-active">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <button class="header-cta open-modal">Get In Touch</button>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ══ PAGE HERO ════════════════════════════════════════════ -->
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div>
+      <div class="page-hero-label fade-up">Our Story</div>
+      <h1 class="page-hero-title fade-up d1">Crafting spaces that<em> define living</em></h1>
+    </div>
+    <p class="page-hero-sub fade-up d2">Innov Interiors & Architects is a leading architecture and interior design studio based in Delhi NCR with 15+ years of experience transforming visions into extraordinary spaces across India.</p>
+  </div>
+</div>
+
+<!-- ══ STATS STRIP ══════════════════════════════════════════ -->
+<div class="stats-strip">
+  <div class="stats-strip-inner">
+    <div class="stat-item fade-up">
+      <div class="stat-num">15+</div>
+      <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat-item fade-up d1">
+      <div class="stat-num">500+</div>
+      <div class="stat-label">Projects Delivered</div>
+    </div>
+    <div class="stat-item fade-up d2">
+      <div class="stat-num">50+</div>
+      <div class="stat-label">Cities Covered</div>
+    </div>
+    <div class="stat-item fade-up d3">
+      <div class="stat-num">100%</div>
+      <div class="stat-label">Client Satisfaction</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ STORY SECTION ════════════════════════════════════════ -->
+<section class="story-section">
+  <div class="story-inner">
+    <div class="story-imgs fade-left">
+      <img class="story-img-main" src="images/about.webp" alt="Innov Interiors & Architects Studio" loading="lazy">
+      <div class="story-img-row">
+        <img class="story-img-sm" src="images/about2.webp" alt="Innov Arch design process" loading="lazy">
+        <img class="story-img-sm" src="images/why1.webp" alt="Innov Arch completed project" loading="lazy">
+      </div>
+      <div class="story-badge">
+        <div class="story-badge-num">500+</div>
+        <div class="story-badge-text">Projects<br>Delivered</div>
+      </div>
+    </div>
+    <div class="fade-up d1">
+      <span class="section-label">Who We Are</span>
+      <h2 class="section-title">Innov Interiors<br>&amp; <em>Architects</em></h2>
+      <p class="story-body">Innov Interiors &amp; Architects was founded on a conviction that premium architecture must do more than look extraordinary — it must <strong style="color:rgba(255,255,255,.85);font-weight:500;">perform commercially, stand the test of time, and carry the client's vision with absolute fidelity.</strong> We specialise in resort architecture, luxury hospitality design, banquet complexes, neo-classical estates, and high-value residential projects above &#8377;5 Crore.</p>
+      <p class="story-body">Our practice is structured differently from the typical design studio. Every project — from the initial site analysis to the final handover — is <strong style="color:rgba(255,255,255,.85);font-weight:500;">personally overseen by our principal architects and senior designers.</strong> We do not delegate the critical thinking. We believe the client at this level deserves the firm's best minds, not its juniors.</p>
+      <p class="story-body">Registered with the <strong style="color:rgba(255,255,255,.85);font-weight:500;">Council of Architecture, India</strong>, we have delivered 500+ projects across Delhi NCR, Uttar Pradesh, Himachal Pradesh, and other states. Our portfolio spans luxury resorts, banquet halls, neo-classical private estates, and wellness destinations — each one a long-term asset for its owner.</p>
+      <div class="story-values">
+        <div class="value-item">
+          <div class="value-icon"><i class="fas fa-pencil-ruler"></i></div>
+          <div>
+            <div class="value-title">Creative Expertise</div>
+            <div class="value-desc">Unique, tailored designs for every project</div>
+          </div>
+        </div>
+        <div class="value-item">
+          <div class="value-icon"><i class="fas fa-handshake"></i></div>
+          <div>
+            <div class="value-title">Client-Centred</div>
+            <div class="value-desc">Your vision drives everything we do</div>
+          </div>
+        </div>
+        <div class="value-item">
+          <div class="value-icon"><i class="fas fa-drafting-compass"></i></div>
+          <div>
+            <div class="value-title">Precision Execution</div>
+            <div class="value-desc">From concept to completion, flawlessly</div>
+          </div>
+        </div>
+        <div class="value-item">
+          <div class="value-icon"><i class="fas fa-tasks"></i></div>
+          <div>
+            <div class="value-title">On Time Delivery</div>
+            <div class="value-desc">Projects delivered within agreed timelines</div>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <button class="btn-gold open-modal">Start Your Project</button>
+        <a href="portfolio.html" class="btn-outline">View Our Work <i class="fas fa-arrow-right" style="font-size:10px;"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ BRAND FILM ═══════════════════════════════════════════ -->
+<section class="brand-film-section">
+  <div class="brand-film-inner">
+    <div class="brand-film-header">
+      <div>
+        <span class="section-label fade-up">Brand Film</span>
+        <h2 class="section-title fade-up d1">Meet the team behind<em> Innov Arch</em></h2>
+      </div>
+      <p class="section-sub fade-up d2">Get to know our principal architect and the passionate team driving every project — from first sketch to final handover. This is our story.</p>
+    </div>
+    <div class="brand-film-player fade-up" id="brandFilmThumb">
+      <img class="brand-film-thumb"
+           src="https://i.ytimg.com/vi_webp/M-ZOizjNZuE/maxresdefault.webp"
+           alt="Innov Interiors & Architects — Brand Film"
+           loading="lazy">
+      <div class="brand-film-overlay"></div>
+      <div class="brand-film-play">
+        <div class="brand-film-play-btn"><i class="fas fa-play"></i></div>
+        <span class="brand-film-duration">Watch Our Story</span>
+      </div>
+      <div class="brand-film-caption">
+        <span class="brand-film-caption-label">Innov Interiors &amp; Architects</span>
+        <span class="brand-film-caption-title">Our Brand Story</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TEAM ══════════════════════════════════════════════════ -->
+<section class="team-section">
+  <div class="team-header">
+    <div>
+      <span class="section-label fade-up">The People Behind The Work</span>
+      <h2 class="section-title fade-up d1">Meet our <em>expert team</em></h2>
+    </div>
+    <p class="section-sub fade-up d2">A multidisciplinary team of architects, designers, and creative professionals united by a shared passion for exceptional spaces.</p>
+  </div>
+
+  <!-- Leadership & Principal Architects — 3-col with bios -->
+  <div class="team-grid">
+    <div class="team-card fade-up">
+      <div class="team-card-img">
+        <img src="images/team/1.webp" alt="Ujjwal Kumar — Director, Innov Arch" loading="lazy">
+      </div>
+      <div class="team-card-body">
+        <div class="team-card-name">Ujjwal Kumar</div>
+        <div class="team-card-role">Director</div>
+        <div class="team-card-bio">At the helm of Innov Interiors &amp; Architects, Ujjwal is the driving force that keeps the entire organisation running at its highest standard. He oversees the business — from identifying the right opportunities and building client relationships, to ensuring that every project is resourced, scheduled, and delivered with the professionalism the firm is known for. His strength lies in operational clarity and business acumen: the single point of accountability that clients trust to get things done.</div>
+      </div>
+    </div>
+    <div class="team-card fade-up d1">
+      <div class="team-card-img">
+        <img src="images/team/ritu_mam.webp" alt="Ritu Vishnoi — Director, Innov Arch" loading="lazy">
+      </div>
+      <div class="team-card-body">
+        <div class="team-card-name">Ritu Vishnoi</div>
+        <div class="team-card-role">Director</div>
+        <div class="team-card-bio">Ritu oversees all financial planning, operations, and studio management at Innov Arch. Her meticulous approach to budgeting and resource allocation ensures every project is delivered efficiently, on time, and within budget — making her the backbone of the firm's operations.</div>
+      </div>
+    </div>
+    <div class="team-card fade-up d2">
+      <div class="team-card-img">
+        <img src="images/team/3.webp" alt="Ar. Udit Vishnoi — Principal Architect, Innov Arch" loading="lazy">
+      </div>
+      <div class="team-card-body">
+        <div class="team-card-name">Ar. Udit Vishnoi</div>
+        <div class="team-card-role">Principal Architect</div>
+        <div class="team-card-bio">The creative and technical authority behind the firm. As founder, Udit personally leads all architectural client dealings — from the first brief to design sign-off. Every project vision originates from his desk, and no major design decision leaves the studio without his direction.</div>
+      </div>
+    </div>
+    <div class="team-card fade-up">
+      <div class="team-card-img">
+        <img src="images/team/web_shivensir.webp" alt="Shiven Malhotra — Principal Architect, Innov Arch" loading="lazy">
+      </div>
+      <div class="team-card-body">
+        <div class="team-card-name">Shiven Malhotra</div>
+        <div class="team-card-role">Principal Architect</div>
+        <div class="team-card-bio">Shiven brings rigorous technical expertise and a sharp design eye to every project at Innov Arch. He leads complex architectural commissions from concept through site execution — ensuring that structural integrity and design intent are never compromised at any stage of the build.</div>
+      </div>
+    </div>
+    <div class="team-card fade-up d1">
+      <div class="team-card-img">
+        <img src="images/team/2.webp" alt="Umang Arora — Principal Designer, Innov Arch" loading="lazy">
+      </div>
+      <div class="team-card-body">
+        <div class="team-card-name">Umang Arora</div>
+        <div class="team-card-role">Principal Designer</div>
+        <div class="team-card-bio">Leads all interior design commissions and handles client relationships for both interiors and architecture projects. His ability to bridge design thinking with client expectations — across interiors and architectural briefs alike — makes him the natural single point of contact for the full project experience.</div>
+      </div>
+    </div>
+    <div class="team-card fade-up d2">
+      <div class="team-card-img">
+        <img src="images/team/vandana_mam.webp" alt="Vandana Sikarwar — Principal Architect, Innov Arch" loading="lazy">
+      </div>
+      <div class="team-card-body">
+        <div class="team-card-name">Vandana Sikarwar</div>
+        <div class="team-card-role">Principal Architect</div>
+        <div class="team-card-bio">The execution backbone of the architecture team. She ensures every drawing, specification, and site milestone is delivered on schedule and to the standard the firm demands. Her rigorous oversight of the in-house team means the vision set at the top is faithfully built on the ground.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Supporting team -->
+  <div class="team-grid-sm">
+    <div class="team-card team-card-sm fade-up">
+      <div class="team-card-img">
+        <img src="images/team/4.webp" alt="Anubhav Jha — Marketing Head, Innov Arch" loading="lazy">
+      </div>
+      <div class="team-card-body">
+        <div class="team-card-name">Anubhav Jha</div>
+        <div class="team-card-role">Marketing Head</div>
+        <div class="team-card-bio">Oversees brand strategy, client acquisition, and all communications for the studio. Manages the firm's digital presence and ensures every touchpoint — from the first enquiry to the final handover — reflects the standard of the practice.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ WHY CHOOSE US ════════════════════════════════════════ -->
+<section class="why-section">
+  <div class="why-inner">
+    <div class="why-img fade-left">
+      <img src="images/why1.webp" alt="Innov Arch — Why Choose Us" loading="lazy">
+    </div>
+    <div class="fade-up d1">
+      <span class="section-label">Why Choose Us</span>
+      <h2 class="section-title">What sets us <em>apart</em></h2>
+      <p class="section-sub">We don't just design spaces — we craft experiences. Here's why hundreds of clients across India trust Innov Arch.</p>
+      <div class="why-list">
+        <div class="why-item">
+          <div class="why-num">01</div>
+          <div>
+            <div class="why-title">End-to-End Service</div>
+            <div class="why-desc">From the first sketch to the final handover, we manage every stage — architecture, interiors, 3D visualisation, and on-site execution — under one roof.</div>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-num">02</div>
+          <div>
+            <div class="why-title">Bespoke Design, Every Time</div>
+            <div class="why-desc">No templates, no shortcuts. Every project starts from scratch, tailored precisely to your vision, site, and budget.</div>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-num">03</div>
+          <div>
+            <div class="why-title">Proven Track Record</div>
+            <div class="why-desc">500+ completed projects across 50+ cities spanning luxury resorts, hospitals, schools, residences, and commercial interiors.</div>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-num">04</div>
+          <div>
+            <div class="why-title">Transparent Communication</div>
+            <div class="why-desc">Regular updates, clear timelines, and honest budgeting. You're never in the dark about your project's progress.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA ═══════════════════════════════════════════════════ -->
+<div class="cta-banner">
+  <div class="cta-banner-inner">
+    <h2 class="cta-banner-title fade-up">Have a project <em>in mind?</em></h2>
+    <p class="cta-banner-sub fade-up d1">Let's talk about how we can bring your vision to life. A free consultation is just one click away.</p>
+    <div class="cta-banner-btns fade-up d2">
+      <button class="btn-gold open-modal">Get a Free Consultation</button>
+      <a href="contact.html" class="btn-outline">Contact Us <i class="fas fa-arrow-right" style="font-size:10px;"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- ══ FOOTER ══════════════════════════════════════════════ -->
+<footer class="site-footer">
+    <nav class="footer-areas" aria-label="Our service areas" style="max-width:1280px;margin:0 auto 22px;padding:0 40px 22px;border-bottom:1px solid rgba(255,255,255,.08);text-align:center;line-height:2.4;">
+    <span style="display:block;color:#c9a96e;letter-spacing:2px;text-transform:uppercase;font-size:11px;margin-bottom:10px;">Architecture &amp; Interior Design Across India</span>
+    <a href="noida/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Architects in Noida</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="greater-noida/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Greater Noida</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="delhi/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Delhi NCR</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="ghaziabad/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Ghaziabad</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="uttarakhand/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Resorts in Uttarakhand</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="resorts-architects.html" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Resort &amp; Hotel Architects</a>
+  </nav>
+<div class="footer-inner">
+    <a href="index.php">
+      <img src="images/logo.png" alt="Innov Interiors & Architects" style="width:120px;opacity:.65;display:block;">
+    </a>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/people/Innov-Interiors-Architects/100064101032579/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/innov_arc" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@innov_arc" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/company/innov-arc/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:support@weinnovarch.com" aria-label="Email Innov Arch"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div class="footer-copy">&copy; 2026 Innov Interiors &amp; Architects. All rights reserved.</div>
+  </div>
+</footer>
+
+<!-- ══ WHATSAPP ═════════════════════════════════════════════ -->
+<a href="https://api.whatsapp.com/send?phone=918178262805&text=Hi,%20I%27m%20interested%20in%20getting%20interior%20design%20work%20done.%20Please%20share%20more%20details."
+   class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- ══ MODAL ════════════════════════════════════════════════ -->
+<div class="modal-overlay" id="consultModal" role="dialog" aria-modal="true" aria-labelledby="modalHeading">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <div class="modal-label">Get In Touch</div>
+    <h2 class="modal-title" id="modalHeading">Schedule a free<br><em>consultation</em></h2>
+    <form action="submit.php" method="POST">
+      <div class="mf-row">
+        <div class="mf-group">
+          <label class="mf-label" for="mf-name">Full Name *</label>
+          <input class="mf-input" type="text" id="mf-name" name="Name" placeholder="Your name" required>
+        </div>
+        <div class="mf-group">
+          <label class="mf-label" for="mf-phone">Phone *</label>
+          <input class="mf-input" type="tel" id="mf-phone" name="Number" placeholder="+91 XXXXX XXXXX" required>
+        </div>
+      </div>
+      <div class="mf-row">
+        <div class="mf-group">
+          <label class="mf-label" for="mf-email">Email</label>
+          <input class="mf-input" type="email" id="mf-email" name="Email" placeholder="your@email.com">
+        </div>
+        <div class="mf-group">
+          <label class="mf-label" for="mf-city">City</label>
+          <input class="mf-input" type="text" id="mf-city" name="City" placeholder="Your city">
+        </div>
+      </div>
+      <div class="mf-group">
+        <label class="mf-label" for="mf-req">Requirement</label>
+        <select class="mf-select" id="mf-req" name="Requirement">
+          <option value="">Select an Option</option>
+          <option value="Home Interiors">Home Interiors</option>
+          <option value="Construction">Construction</option>
+          <option value="Front elevation">Front Elevation</option>
+          <option value="Architecture">Architecture</option>
+          <option value="Resort / Hotel Architecture">Resort / Hotel Architecture</option>
+          <option value="Banquet Hall Design">Banquet Hall Design</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <button type="submit" name="submit" class="mf-submit">Submit &rarr;</button>
+      <p class="mf-disclaimer"><i class="fas fa-lock"></i> 100% confidential. We respond within 4 business hours.</p>
+    </form>
+  </div>
+</div>
+
+<script>
+const hdr = document.getElementById('siteHeader');
+window.addEventListener('scroll', () => hdr.classList.toggle('scrolled', scrollY > 60), {passive:true});
+
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('visible'); obs.unobserve(e.target); } });
+}, {threshold:0.08});
+document.querySelectorAll('.fade-up, .fade-left').forEach(el => obs.observe(el));
+
+const navToggle = document.getElementById('navToggle');
+const headerNav = document.getElementById('headerNav');
+navToggle.addEventListener('click', () => {
+  const open = headerNav.classList.toggle('open');
+  const spans = navToggle.querySelectorAll('span');
+  spans[0].style.transform = open ? 'rotate(45deg) translate(5px,5px)' : '';
+  spans[1].style.opacity  = open ? '0' : '1';
+  spans[2].style.transform = open ? 'rotate(-45deg) translate(5px,-5px)' : '';
+  document.body.style.overflow = open ? 'hidden' : '';
+});
+headerNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  headerNav.classList.remove('open');
+  navToggle.querySelectorAll('span').forEach(s => { s.style.transform=''; s.style.opacity=''; });
+  document.body.style.overflow = '';
+}));
+
+const modal = document.getElementById('consultModal');
+function openModal(){ modal.classList.add('open'); document.body.style.overflow='hidden'; setTimeout(()=>document.getElementById('mf-name').focus(),100); }
+function closeModal(){ modal.classList.remove('open'); document.body.style.overflow=''; }
+document.getElementById('modalClose').addEventListener('click', closeModal);
+modal.addEventListener('click', e => { if(e.target===modal) closeModal(); });
+document.addEventListener('keydown', e => { if(e.key==='Escape') closeModal(); });
+document.querySelectorAll('.open-modal').forEach(el => el.addEventListener('click', e => { e.preventDefault(); openModal(); }));
+
+/* Brand film player */
+document.getElementById('brandFilmThumb').addEventListener('click', function(){
+  const iframe = document.createElement('iframe');
+  iframe.src = 'https://www.youtube.com/embed/M-ZOizjNZuE?autoplay=1&rel=0&vq=hd2160';
+  iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+  iframe.allowFullscreen = true;
+  iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+  iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0;';
+  this.innerHTML = '';
+  this.appendChild(iframe);
+  this.style.cursor = 'default';
+});
+</script>
+</body>
+</html>

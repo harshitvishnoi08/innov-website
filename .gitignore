@@ -1,0 +1,24 @@
+# ── OS / editor cruft ─────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+
+# ── Server logs ───────────────────────────────────
+error_log
+*.log
+
+# ── SECURITY: never commit secrets / DB credentials ─
+wp/wp-config.php
+**/wp-config.php
+.env
+*.env
+
+# ── WordPress install (managed on the server; do NOT
+#    deploy via this static-site repo) ──────────────
+wp/
+
+# ── Legacy template leftovers (not part of live site) ─
+weinnovarch/
+
+# ── cPanel deploy artifacts ───────────────────────
+.cpanel.yml.bak

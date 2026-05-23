@@ -1,0 +1,1667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N3DFG47HWK"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N3DFG47HWK',{'send_page_view':false});window.addEventListener('load',function(){gtag('event','page_view',{'send_to':'G-N3DFG47HWK'});});</script>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Innov Interiors & Architects — Premium architecture and interior design studio in Delhi NCR. 15+ years of experience. Resorts, banquet halls, residences, commercial projects across India.">
+<title>Innov Interiors & Architects | Architecture & Interior Design Studio</title>
+<link rel="icon" type="image/png" href="images/circle-logo.png">
+<link rel="apple-touch-icon" href="images/circle-logo.png">
+<link rel="canonical" href="https://weinnovarch.com/">
+
+<!-- ═══ OPEN GRAPH / SOCIAL SHARING (WhatsApp, Facebook, LinkedIn) ═══ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Innov Interiors & Architects">
+<meta property="og:title" content="Innov Interiors & Architects | Architecture & Interior Design Studio">
+<meta property="og:description" content="Premium architecture & interior design studio in Delhi NCR. 15+ years of experience — luxury villas, resorts, banquet halls & commercial projects across India.">
+<meta property="og:url" content="https://weinnovarch.com/">
+<meta property="og:image" content="https://weinnovarch.com/images/logo.png">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Innov Interiors & Architects | Architecture & Interior Design Studio">
+<meta name="twitter:description" content="Premium architecture & interior design studio in Delhi NCR — luxury villas, resorts, banquet halls & commercial projects across India.">
+<meta name="twitter:image" content="https://weinnovarch.com/images/logo.png">
+<meta name="geo.region" content="IN-UP">
+<meta name="geo.placename" content="Noida">
+<meta name="geo.position" content="28.611910;77.374726">
+<meta name="ICBM" content="28.611910, 77.374726">
+
+<!-- ═══ STRUCTURED DATA — LocalBusiness + Organization ═══ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://weinnovarch.com/#organization",
+      "name": "Innov Interiors & Architects",
+      "url": "https://weinnovarch.com/",
+      "logo": "https://weinnovarch.com/images/logo.png",
+      "image": "https://weinnovarch.com/images/logo.png",
+      "email": "support@weinnovarch.com",
+      "telephone": "+91-81782-62805",
+      "sameAs": [
+        "https://www.facebook.com/people/Innov-Interiors-Architects/100064101032579/",
+        "https://www.instagram.com/innov_arc",
+        "https://www.linkedin.com/company/innov-arc/",
+        "https://www.youtube.com/@innov_arc"
+      ]
+    },
+    {
+      "@type": ["LocalBusiness", "ProfessionalService"],
+      "@id": "https://weinnovarch.com/#localbusiness",
+      "name": "Innov Interiors & Architects",
+      "description": "Premium architecture and interior design studio in Delhi NCR specialising in luxury villas, resorts & hotels, banquet halls and commercial projects across India.",
+      "url": "https://weinnovarch.com/",
+      "image": "https://weinnovarch.com/images/logo.png",
+      "logo": "https://weinnovarch.com/images/logo.png",
+      "telephone": "+91-81782-62805",
+      "email": "support@weinnovarch.com",
+      "priceRange": "₹₹₹",
+      "parentOrganization": { "@id": "https://weinnovarch.com/#organization" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B-20, B Block, Sector 64",
+        "addressLocality": "Noida",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "201309",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.611910,
+        "longitude": 77.374726
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "10:00",
+          "closes": "19:00"
+        }
+      ],
+      "areaServed": [
+        { "@type": "City", "name": "Noida" },
+        { "@type": "City", "name": "Greater Noida" },
+        { "@type": "City", "name": "Delhi" },
+        { "@type": "City", "name": "Ghaziabad" },
+        { "@type": "AdministrativeArea", "name": "Delhi NCR" },
+        { "@type": "Country", "name": "India" }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/people/Innov-Interiors-Architects/100064101032579/",
+        "https://www.instagram.com/innov_arc",
+        "https://www.linkedin.com/company/innov-arc/",
+        "https://www.youtube.com/@innov_arc"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://weinnovarch.com/#website",
+      "url": "https://weinnovarch.com/",
+      "name": "Innov Interiors & Architects",
+      "publisher": { "@id": "https://weinnovarch.com/#organization" }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Preload hero images -->
+<link rel="preload" as="image" href="images/Prayagraj.webp" fetchpriority="high" media="(min-width:768px)">
+<link rel="preload" as="image" href="images/sangam-portrait.webp" fetchpriority="high" media="(max-width:767px)">
+<!-- Google Fonts — non-render-blocking -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous"></noscript>
+
+<style>
+/* ═══════════════════════════════════════
+   VARIABLES & RESET
+═══════════════════════════════════════ */
+:root{
+  --bg:#0a0a0a; --bg-card:#111111; --bg-raised:#141414;
+  --gold:#c9a96e; --gold-dim:rgba(201,169,110,.12); --gold-border:rgba(201,169,110,.28);
+  --white:#ffffff; --muted:#888888; --dim:#555555;
+  --border:rgba(255,255,255,.07);
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'Inter',system-ui,sans-serif;
+  --section-pad:100px;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;overflow-x:hidden;}
+body{font-family:var(--sans);font-size:16px;line-height:1.7;color:var(--white);background:var(--bg);-webkit-font-smoothing:antialiased;}
+img{display:block;max-width:100%;}
+a{text-decoration:none;color:inherit;}
+button{font-family:var(--sans);}
+
+/* Scroll animations */
+.fade-up{opacity:0;transform:translateY(32px);transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);}
+.fade-up.visible{opacity:1;transform:none;}
+.d1{transition-delay:.1s;} .d2{transition-delay:.2s;} .d3{transition-delay:.3s;} .d4{transition-delay:.4s;}
+
+/* Utility */
+.container{max-width:1280px;margin:0 auto;padding:0 40px;}
+.section-label{font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:14px;}
+.section-title{font-family:var(--serif);font-size:clamp(28px,3.5vw,48px);font-weight:400;line-height:1.2;letter-spacing:-.02em;color:var(--white);margin-bottom:14px;}
+.section-title span,.section-title em{color:var(--gold);font-style:italic;}
+.section-sub{font-size:15px;color:var(--muted);font-weight:300;line-height:1.8;}
+
+/* Buttons */
+.btn-gold{display:inline-flex;align-items:center;gap:10px;background:var(--gold);color:#0a0a0a;font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:14px 30px;border:1px solid var(--gold);cursor:pointer;transition:background .3s,color .3s;}
+.btn-gold:hover{background:transparent;color:var(--gold);}
+.btn-outline{display:inline-flex;align-items:center;gap:10px;background:transparent;color:var(--white);font-size:12px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;padding:13px 30px;border:1px solid rgba(255,255,255,.25);cursor:pointer;transition:border-color .3s;}
+.btn-outline:hover{border-color:var(--white);}
+
+/* ═══════════════════════════════════════
+   HEADER
+═══════════════════════════════════════ */
+.site-header{position:fixed;top:0;left:0;right:0;z-index:900;padding:18px 0;transition:background .4s,padding .3s,border-color .4s;border-bottom:1px solid transparent;}
+.site-header.scrolled{background:rgba(10,10,10,.97);border-color:var(--border);padding:12px 0;}
+.header-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:flex;align-items:center;justify-content:space-between;gap:20px;}
+.header-logo img{width:150px;height:auto;}
+.header-nav{display:flex;align-items:center;gap:28px;}
+.header-nav a{font-size:13px;color:rgba(255,255,255,.8);letter-spacing:.3px;transition:color .3s;}
+.header-nav a:hover{color:var(--white);}
+.header-cta{font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#0a0a0a;background:var(--gold);padding:11px 20px;border:1px solid var(--gold);cursor:pointer;transition:background .3s,color .3s;white-space:nowrap;}
+.header-cta:hover{background:transparent;color:var(--gold);}
+.nav-toggle{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none;}
+.nav-toggle span{display:block;width:24px;height:1.5px;background:var(--white);transition:all .3s;}
+
+/* ═══════════════════════════════════════
+   HERO
+═══════════════════════════════════════ */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;}
+.hero-bg{position:absolute;inset:0;overflow:hidden;}
+.hero-bg img,.hero-bg picture{position:absolute;inset:0;width:100%;height:100%;}
+.hero-bg img{object-fit:cover;object-position:center;}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(110deg,rgba(10,10,10,.85) 40%,rgba(10,10,10,.45) 100%);}
+.hero-content{position:relative;z-index:2;max-width:1280px;margin:0 auto;padding:140px 40px 80px;width:100%;}
+@keyframes heroFadeIn{from{opacity:.3;transform:translateY(16px);}to{opacity:1;transform:none;}}
+.hero-eyebrow{font-size:11px;font-weight:500;letter-spacing:5px;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:14px;margin-bottom:24px;animation:heroFadeIn .8s ease both;}
+.hero-eyebrow::before{content:'';display:block;width:36px;height:1px;background:var(--gold);}
+.hero-title{font-family:var(--serif);font-size:clamp(40px,6vw,76px);font-weight:400;line-height:1.1;letter-spacing:-.03em;color:var(--white);max-width:720px;margin-bottom:20px;animation:heroFadeIn .8s .1s ease both;}
+.hero-title em{color:var(--gold);}
+.hero-sub{font-size:16px;color:rgba(255,255,255,.65);font-weight:300;max-width:460px;line-height:1.8;margin-bottom:40px;animation:heroFadeIn .8s .2s ease both;}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap;animation:heroFadeIn .8s .3s ease both;}
+
+/* ═══════════════════════════════════════
+   STATS STRIP
+═══════════════════════════════════════ */
+.stats-strip{background:var(--bg-card);border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
+.stats-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:repeat(4,1fr);}
+.stat-item{padding:32px 20px;text-align:center;border-right:1px solid var(--border);}
+.stat-item:last-child{border-right:none;}
+.stat-num{font-family:var(--serif);font-size:clamp(28px,3vw,44px);font-weight:400;color:var(--gold);line-height:1;margin-bottom:6px;}
+.stat-label{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);}
+
+/* ═══════════════════════════════════════
+   INTRO BANNER (glass.webp)
+═══════════════════════════════════════ */
+.intro-banner{position:relative;overflow:hidden;}
+.intro-banner img{width:100%;height:480px;object-fit:cover;display:block;filter:brightness(.55);}
+.intro-banner-overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;}
+.intro-banner-title{font-family:var(--serif);font-size:clamp(28px,4vw,56px);font-weight:400;color:var(--white);margin-bottom:12px;}
+.intro-banner-sub{font-size:16px;color:rgba(255,255,255,.7);margin-bottom:28px;font-weight:300;}
+
+/* ═══════════════════════════════════════
+   VIDEO PLAY (pw.webp)
+═══════════════════════════════════════ */
+.video-play-section{padding:60px 0;background:var(--bg-raised);}
+.video-play-wrap{max-width:1280px;margin:0 auto;padding:0 40px;}
+.video-play-box{position:relative;cursor:pointer;overflow:hidden;width:100%;padding-bottom:56.25%;}
+.video-play-box img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.7);transition:filter .4s;image-rendering:-webkit-optimize-contrast;}
+.video-play-box:hover img{filter:brightness(.85);}
+.video-play-btn{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;}
+.play-circle{width:80px;height:80px;border:2px solid var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;transition:background .3s,transform .3s;}
+.play-circle i{color:var(--gold);font-size:24px;margin-left:4px;}
+.video-play-box:hover .play-circle{background:var(--gold-dim);transform:scale(1.08);}
+
+/* ═══════════════════════════════════════
+   PROJECTS — LARGER 2-COL VIEW
+═══════════════════════════════════════ */
+.projects-section{padding:var(--section-pad) 0;}
+.section-header{max-width:1280px;margin:0 auto;padding:0 40px;margin-bottom:60px;}
+.section-header-row{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;}
+.projects-grid{max-width:1280px;margin:0 auto;padding:0 40px;display:flex;flex-direction:column;gap:3px;}
+.proj-card{position:relative;overflow:hidden;cursor:pointer;}
+.proj-img{position:relative;overflow:hidden;}
+.proj-img img{width:100%;height:580px;object-fit:cover;display:block;transition:transform 1.2s cubic-bezier(.22,1,.36,1);filter:brightness(.75);}
+.proj-card:hover .proj-img img{transform:scale(1.06);filter:brightness(.85);}
+.proj-info{position:absolute;bottom:0;left:0;right:0;padding:32px 32px 28px;background:linear-gradient(to top,rgba(10,10,10,.95) 0%,rgba(10,10,10,.4) 60%,transparent 100%);}
+.proj-location{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;}
+.proj-name{font-family:var(--serif);font-size:clamp(18px,2vw,26px);font-weight:400;color:var(--white);line-height:1.25;}
+.proj-arrow{display:inline-flex;align-items:center;gap:8px;margin-top:12px;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.6);transition:color .3s,gap .3s;}
+.proj-card:hover .proj-arrow{color:var(--gold);gap:14px;}
+.proj-arrow i{font-size:11px;}
+.proj-num-badge{position:absolute;top:20px;left:20px;font-family:var(--serif);font-size:13px;color:rgba(255,255,255,.5);letter-spacing:1px;}
+.projects-cta{max-width:1280px;margin:48px auto 0;padding:0 40px;text-align:center;}
+
+/* ═══════════════════════════════════════
+   WHY CHOOSE US
+═══════════════════════════════════════ */
+.why-section{padding:var(--section-pad) 0;background:var(--bg-raised);border-top:1px solid var(--border);}
+.why-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:5fr 7fr;gap:72px;align-items:center;}
+.why-points{margin-top:36px;display:flex;flex-direction:column;gap:26px;}
+.why-point{display:flex;gap:18px;align-items:flex-start;}
+.why-icon{width:44px;height:44px;flex-shrink:0;border:1px solid var(--gold-border);display:flex;align-items:center;justify-content:center;}
+.why-icon i{color:var(--gold);font-size:18px;}
+.why-point-title{font-family:var(--serif);font-size:17px;font-weight:400;color:var(--white);margin-bottom:5px;}
+.why-point-desc{font-size:13px;color:var(--muted);font-weight:300;line-height:1.7;}
+.why-images{display:grid;grid-template-columns:1fr 1fr;gap:3px;}
+.why-img{overflow:hidden;}
+.why-img img{width:100%;height:200px;object-fit:cover;filter:brightness(.7);transition:transform 1s,filter .4s;display:block;}
+.why-img:hover img{transform:scale(1.05);filter:brightness(.9);}
+.why-img:first-child{grid-column:span 2;}
+.why-img:first-child img{height:260px;}
+
+/* ═══════════════════════════════════════
+   SERVICES
+═══════════════════════════════════════ */
+.services-section{padding:var(--section-pad) 0;}
+.services-grid{max-width:1280px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:repeat(3,1fr);gap:3px;}
+.svc-card{background:var(--bg-card);border:1px solid var(--border);overflow:hidden;cursor:pointer;transition:border-color .3s;}
+.svc-card:hover{border-color:var(--gold-border);}
+.svc-img{overflow:hidden;height:210px;}
+.svc-img img{width:100%;height:100%;object-fit:cover;filter:brightness(.75);transition:transform 1s,filter .4s;display:block;}
+.svc-card:hover .svc-img img{transform:scale(1.06);filter:brightness(.9);}
+.svc-body{padding:24px 28px 28px;}
+.svc-num{font-size:10px;letter-spacing:2px;color:var(--gold);margin-bottom:10px;}
+.svc-title{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--white);margin-bottom:10px;}
+.svc-desc{font-size:13px;color:var(--muted);font-weight:300;line-height:1.7;}
+.services-cta{max-width:1280px;margin:48px auto 0;padding:0 40px;text-align:center;}
+
+/* ═══════════════════════════════════════
+   TESTIMONIAL VIDEOS
+═══════════════════════════════════════ */
+.testi-videos-section{padding:var(--section-pad) 0;background:var(--bg-raised);border-top:1px solid var(--border);}
+.testi-videos-grid{max-width:1280px;margin:40px auto 0;padding:0 40px;display:grid;grid-template-columns:repeat(4,1fr);gap:3px;}
+.yt-thumb{position:relative;padding-bottom:177.78%;overflow:hidden;cursor:pointer;background:#000;}
+.yt-thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.8);transition:filter .4s;}
+.yt-thumb:hover img{filter:brightness(1);}
+.yt-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;}
+.yt-play-btn{width:54px;height:54px;background:rgba(255,255,255,.9);border-radius:50%;display:flex;align-items:center;justify-content:center;transition:transform .3s,background .3s;}
+.yt-play-btn i{color:#000;font-size:20px;margin-left:4px;}
+.yt-thumb:hover .yt-play-btn{transform:scale(1.1);background:#fff;}
+
+/* ═══════════════════════════════════════
+   TESTIMONIALS
+═══════════════════════════════════════ */
+.testi-section{padding:var(--section-pad) 0;border-top:1px solid var(--border);}
+.testi-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:1fr 1fr;gap:0;align-items:stretch;}
+.testi-img{overflow:hidden;}
+.testi-img img{width:100%;height:100%;min-height:500px;object-fit:cover;filter:brightness(.7);display:block;}
+.testi-content{background:var(--bg-card);border:1px solid var(--border);padding:56px 52px;display:flex;flex-direction:column;justify-content:center;}
+.testi-slider{margin-top:32px;}
+.testi-item{display:none;}
+.testi-item.active{display:block;}
+.testi-stars{display:flex;gap:4px;margin-bottom:18px;}
+.testi-stars i{color:var(--gold);font-size:13px;}
+.testi-text{font-size:14px;color:var(--muted);font-weight:300;line-height:1.85;margin-bottom:24px;font-style:italic;}
+.testi-author{font-size:13px;font-weight:500;color:var(--white);letter-spacing:.5px;}
+.testi-nav{display:flex;gap:10px;margin-top:28px;}
+.testi-dot{width:8px;height:8px;border-radius:50%;background:var(--dim);cursor:pointer;border:none;transition:background .3s,transform .3s;}
+.testi-dot.active{background:var(--gold);transform:scale(1.3);}
+.testi-rating-row{margin-top:36px;display:flex;align-items:center;gap:16px;padding-top:28px;border-top:1px solid var(--border);}
+.testi-big-num{font-family:var(--serif);font-size:48px;font-weight:400;color:var(--gold);line-height:1;}
+.testi-rating-stars{display:flex;gap:3px;}
+.testi-rating-stars i{color:var(--gold);font-size:12px;}
+.testi-rating-label{font-size:11px;color:var(--muted);margin-top:4px;}
+
+/* ═══════════════════════════════════════
+   ABOUT
+═══════════════════════════════════════ */
+.about-section{padding:var(--section-pad) 0;}
+.about-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center;}
+.about-imgs{position:relative;}
+.about-img-main{overflow:hidden;}
+.about-img-main img{width:100%;height:360px;object-fit:cover;filter:brightness(.75);display:block;}
+.about-img-row{display:grid;grid-template-columns:1fr 1fr;gap:3px;margin-top:3px;}
+.about-img-sm{overflow:hidden;}
+.about-img-sm img{width:100%;height:180px;object-fit:cover;filter:brightness(.7);display:block;}
+.about-stats-badge{position:absolute;bottom:196px;right:-16px;background:var(--gold);color:#0a0a0a;padding:18px 22px;text-align:center;}
+.about-stats-num{font-family:var(--serif);font-size:32px;font-weight:700;line-height:1;}
+.about-stats-label{font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;margin-top:3px;}
+.about-list{margin:24px 0;display:flex;flex-direction:column;gap:10px;}
+.about-list li{display:flex;align-items:center;gap:12px;font-size:14px;color:rgba(255,255,255,.8);list-style:none;}
+.about-list li::before{content:'';display:block;width:20px;height:1px;background:var(--gold);flex-shrink:0;}
+.about-contacts{margin-top:28px;display:flex;flex-direction:column;gap:16px;}
+.about-contact-item{display:flex;align-items:center;gap:16px;}
+.about-contact-icon{width:40px;height:40px;border:1px solid var(--gold-border);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.about-contact-icon i{color:var(--gold);font-size:14px;}
+.about-contact-label{font-size:11px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:3px;}
+.about-contact-value{font-size:15px;color:var(--white);font-weight:500;}
+.about-contact-value a{color:var(--white);transition:color .3s;}
+.about-contact-value a:hover{color:var(--gold);}
+
+/* ═══════════════════════════════════════
+   TEAM
+═══════════════════════════════════════ */
+.team-section{padding:var(--section-pad) 0;background:var(--bg-raised);border-top:1px solid var(--border);}
+.team-grid{max-width:1280px;margin:48px auto 0;padding:0 40px;display:flex;flex-wrap:wrap;justify-content:center;gap:3px;}
+.team-card{flex:0 0 calc(25% - 2.25px);background:var(--bg-card);border:1px solid var(--border);overflow:hidden;}
+.team-card-img{overflow:hidden;height:280px;}
+.team-card-img img{width:100%;height:100%;object-fit:cover;filter:brightness(.8);transition:transform 1s,filter .4s;display:block;}
+.team-card:hover .team-card-img img{transform:scale(1.05);filter:brightness(.95);}
+.team-card-body{padding:20px 22px 22px;border-top:1px solid var(--border);}
+.team-card-name{font-family:var(--serif);font-size:17px;font-weight:400;color:var(--white);margin-bottom:4px;}
+.team-card-role{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);}
+
+/* ═══════════════════════════════════════
+   PROCESS (HOW WE WORK)
+═══════════════════════════════════════ */
+.process-section{padding:var(--section-pad) 0;}
+.process-inner{max-width:1280px;margin:0 auto;padding:0 40px;}
+.process-steps{margin-top:56px;display:flex;flex-direction:column;gap:2px;}
+.process-step{display:grid;grid-template-columns:80px 1fr;gap:32px;align-items:start;padding:32px 36px;background:var(--bg-card);border:1px solid var(--border);transition:border-color .3s;}
+.process-step:hover{border-color:var(--gold-border);}
+.process-step-icon{width:56px;height:56px;border:1px solid var(--gold-border);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.process-step-icon i{color:var(--gold);font-size:20px;}
+.process-step-title{font-family:var(--serif);font-size:19px;font-weight:400;color:var(--white);margin-bottom:8px;}
+.process-step-desc{font-size:14px;color:var(--muted);font-weight:300;line-height:1.75;}
+
+/* ═══════════════════════════════════════
+   BRAND FILM SECTION
+═══════════════════════════════════════ */
+.brand-film-section{padding:var(--section-pad) 0;background:var(--bg);border-top:1px solid var(--border);}
+.brand-film-inner{max-width:1280px;margin:0 auto;padding:0 40px;}
+.brand-film-header{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:52px;}
+.brand-film-player{position:relative;width:100%;padding-bottom:56.25%;background:#000;overflow:hidden;cursor:pointer;}
+.brand-film-thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;image-rendering:-webkit-optimize-contrast;transition:transform .6s cubic-bezier(.22,1,.36,1),filter .4s;}
+.brand-film-player:hover .brand-film-thumb{transform:scale(1.03);filter:brightness(.75);}
+.brand-film-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,10,.6) 0%,rgba(10,10,10,.1) 50%,transparent 100%);}
+.brand-film-play{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;}
+.brand-film-play-btn{
+  width:88px;height:88px;
+  border:2px solid rgba(255,255,255,.9);
+  border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  background:rgba(0,0,0,.35);
+  backdrop-filter:blur(4px);
+  transition:background .3s,transform .3s,border-color .3s;
+}
+.brand-film-play-btn i{color:#fff;font-size:30px;margin-left:5px;}
+.brand-film-player:hover .brand-film-play-btn{background:var(--gold);border-color:var(--gold);transform:scale(1.08);}
+.brand-film-player:hover .brand-film-play-btn i{color:#0a0a0a;}
+.brand-film-duration{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.6);}
+.brand-film-caption{position:absolute;bottom:28px;left:36px;right:36px;display:flex;align-items:center;justify-content:space-between;}
+.brand-film-caption-label{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.5);}
+.brand-film-caption-title{font-family:var(--serif);font-size:22px;color:var(--white);font-weight:400;}
+@media(max-width:640px){
+  .brand-film-header{grid-template-columns:1fr;}
+  .brand-film-inner{padding:0 20px;}
+}
+
+/* Brand logo ticker */
+.brand-strip{margin-top:60px;overflow:hidden;border-top:1px solid var(--border);padding-top:48px;padding-bottom:8px;}
+.brand-track{display:flex;gap:20px;align-items:stretch;animation:ticker 28s linear infinite;}
+.brand-item{
+  flex-shrink:0;
+  background:#ffffff;
+  border:1px solid rgba(255,255,255,0.12);
+  padding:16px 24px;
+  display:flex;align-items:center;justify-content:center;
+  width:280px;height:160px;
+  transition:transform .3s,box-shadow .3s;
+}
+.brand-item:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(0,0,0,.4);}
+.brand-item img{height:120px;width:auto;max-width:240px;object-fit:contain;display:block;}
+@keyframes ticker{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
+
+/* ═══════════════════════════════════════
+   CONTACT SECTION
+═══════════════════════════════════════ */
+.contact-section{padding:var(--section-pad) 0;background:var(--bg-raised);border-top:1px solid var(--border);}
+.contact-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:stretch;}
+.contact-map{overflow:hidden;border:1px solid var(--border);display:flex;flex-direction:column;}
+.contact-map iframe{display:block;width:100%;flex:1;min-height:480px;border:0;}
+.contact-form-wrap{background:var(--bg-card);border:1px solid var(--border);border-top:2px solid var(--gold);padding:44px 40px;}
+.cf-title{font-family:var(--serif);font-size:26px;font-weight:400;color:var(--white);margin-bottom:6px;}
+.cf-sub{font-size:13px;color:var(--muted);margin-bottom:28px;}
+.cf-group{margin-bottom:16px;}
+.cf-input,.cf-select{width:100%;background:#1a1a1a;border:1px solid var(--border);color:var(--white);font-family:var(--sans);font-size:14px;font-weight:300;padding:12px 14px;outline:none;transition:border-color .25s;-webkit-appearance:none;appearance:none;}
+.cf-input::placeholder{color:var(--dim);}
+.cf-input:focus,.cf-select:focus{border-color:var(--gold-border);}
+.cf-select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23888' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;}
+.cf-select option{background:#1a1a1a;}
+.cf-submit{width:100%;background:var(--gold);color:#0a0a0a;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:14px;border:1px solid var(--gold);cursor:pointer;transition:background .3s,color .3s;margin-top:6px;}
+.cf-submit:hover{background:transparent;color:var(--gold);}
+
+/* ═══════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════ */
+.site-footer{background:var(--bg);border-top:1px solid var(--border);padding:28px 0;}
+.footer-inner{max-width:1280px;margin:0 auto;padding:0 40px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;}
+.footer-logo img{width:120px;opacity:.65;}
+.footer-social{display:flex;gap:14px;}
+.footer-social a{width:34px;height:34px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px;transition:all .3s;}
+.footer-social a:hover{border-color:var(--gold-border);color:var(--gold);}
+.footer-copy{font-size:12px;color:var(--dim);}
+
+/* ═══════════════════════════════════════
+   WHATSAPP FLOAT
+═══════════════════════════════════════ */
+.wa-float{position:fixed;bottom:28px;right:28px;z-index:8999;width:54px;height:54px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:24px;color:#0a0a0a;box-shadow:0 4px 24px rgba(201,169,110,.35);transition:transform .3s;}
+.wa-float:hover{transform:scale(1.1);}
+
+/* ═══════════════════════════════════════
+   MODAL
+═══════════════════════════════════════ */
+.modal-overlay{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.75);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .3s;}
+.modal-overlay.open{opacity:1;pointer-events:all;}
+.modal-box{background:var(--bg-card);border:1px solid var(--border);border-top:2px solid var(--gold);width:100%;max-width:520px;padding:44px 40px 36px;position:relative;transform:translateY(24px);transition:transform .35s cubic-bezier(.22,1,.36,1);max-height:90vh;overflow-y:auto;}
+.modal-overlay.open .modal-box{transform:translateY(0);}
+.modal-close{position:absolute;top:14px;right:16px;background:none;border:none;cursor:pointer;color:var(--muted);font-size:22px;line-height:1;transition:color .2s;padding:4px 8px;}
+.modal-close:hover{color:var(--white);}
+.modal-label{font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+.modal-title{font-family:var(--serif);font-size:clamp(20px,2.8vw,28px);font-weight:400;color:var(--white);line-height:1.25;margin-bottom:26px;}
+.mf-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;}
+.mf-group{display:flex;flex-direction:column;gap:6px;margin-bottom:14px;}
+.mf-label{font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--muted);}
+.mf-input,.mf-select{background:#1a1a1a;border:1px solid var(--border);color:var(--white);font-family:var(--sans);font-size:14px;font-weight:300;padding:12px 14px;width:100%;outline:none;transition:border-color .25s;-webkit-appearance:none;appearance:none;}
+.mf-input::placeholder{color:var(--dim);}
+.mf-input:focus,.mf-select:focus{border-color:var(--gold-border);}
+.mf-select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23888' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;}
+.mf-select option{background:#1a1a1a;}
+.mf-submit{width:100%;background:var(--gold);color:#0a0a0a;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:14px;border:1px solid var(--gold);cursor:pointer;transition:background .3s,color .3s;margin-top:6px;}
+.mf-submit:hover{background:transparent;color:var(--gold);}
+.mf-disclaimer{font-size:12px;color:var(--dim);text-align:center;margin-top:10px;}
+.mf-disclaimer i{color:var(--gold);margin-right:4px;}
+
+/* ═══════════════════════════════════════
+   EXTENDED ANIMATIONS & EFFECTS
+═══════════════════════════════════════ */
+
+/* Parallax — hero bg will shift on scroll */
+.hero-bg{will-change:transform;transition:none;}
+
+/* Text split animation (like text-anime-style-2) */
+.split-title .char{
+  display:inline-block;
+  opacity:0;
+  transform:translateY(36px);
+  transition:opacity .55s cubic-bezier(.22,1,.36,1),transform .55s cubic-bezier(.22,1,.36,1);
+}
+.split-title.chars-visible .char{opacity:1;transform:none;}
+
+/* Image reveal wipe (like GSAP .reveal) */
+.img-reveal{position:relative;overflow:hidden;}
+.img-reveal::after{
+  content:'';position:absolute;inset:0;
+  background:var(--gold);
+  transform:translateX(-101%);
+  transition:transform .75s cubic-bezier(.77,0,.18,1);
+  z-index:2;pointer-events:none;
+}
+.img-reveal.wipe-in::after{transform:translateX(101%);}
+.img-reveal img{
+  transform:scale(1.08);
+  transition:transform .75s cubic-bezier(.22,1,.36,1) .1s,filter .4s;
+}
+.img-reveal.wipe-in img{transform:scale(1);}
+
+/* Stagger-children grid animation */
+.stagger-children > *{
+  opacity:0;
+  transform:translateY(28px);
+  transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);
+}
+.stagger-children.stagger-in > *:nth-child(1){opacity:1;transform:none;transition-delay:0s;}
+.stagger-children.stagger-in > *:nth-child(2){opacity:1;transform:none;transition-delay:.1s;}
+.stagger-children.stagger-in > *:nth-child(3){opacity:1;transform:none;transition-delay:.2s;}
+.stagger-children.stagger-in > *:nth-child(4){opacity:1;transform:none;transition-delay:.3s;}
+.stagger-children.stagger-in > *:nth-child(5){opacity:1;transform:none;transition-delay:.4s;}
+.stagger-children.stagger-in > *:nth-child(6){opacity:1;transform:none;transition-delay:.5s;}
+
+/* Counter num pulse when visible */
+.stat-num{transition:color .3s;}
+.stat-item:hover .stat-num{color:var(--white);}
+.stat-item{transition:background .3s;}
+.stat-item:hover{background:var(--bg-raised);}
+
+/* Section label dot */
+.section-label{display:flex;align-items:center;gap:10px;}
+.section-label::before{
+  content:'';display:block;width:6px;height:6px;
+  background:var(--gold);border-radius:50%;flex-shrink:0;
+}
+
+/* Section title animated underline */
+.section-title{position:relative;display:inline-block;}
+.section-title::after{
+  content:'';position:absolute;bottom:-8px;left:0;
+  width:0;height:1px;background:var(--gold-border);
+  transition:width 1s cubic-bezier(.22,1,.36,1) .3s;
+}
+.section-title.title-in::after{width:60px;}
+
+/* Active nav link */
+.header-nav a.nav-active{color:var(--gold);}
+
+/* Hero scroll indicator */
+.hero-scroll-hint{
+  position:absolute;bottom:36px;left:50%;transform:translateX(-50%);
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+  font-size:9px;letter-spacing:3px;text-transform:uppercase;
+  color:rgba(255,255,255,.35);z-index:2;pointer-events:none;
+}
+.hero-scroll-line{
+  width:1px;height:40px;
+  background:linear-gradient(to bottom,rgba(201,169,110,.6),transparent);
+  animation:scrollDrop 1.8s ease-in-out infinite;
+}
+@keyframes scrollDrop{
+  0%{transform:scaleY(0);transform-origin:top;opacity:1;}
+  50%{transform:scaleY(1);transform-origin:top;opacity:1;}
+  51%{transform:scaleY(1);transform-origin:bottom;}
+  100%{transform:scaleY(0);transform-origin:bottom;opacity:0;}
+}
+
+/* Why point hover effect */
+.why-point{
+  padding:14px 16px;margin-left:-16px;
+  border-left:2px solid transparent;
+  transition:border-color .3s,background .3s;
+}
+.why-point:hover{border-left-color:var(--gold);background:rgba(201,169,110,.04);}
+
+/* Process step enhanced hover */
+.process-step-num-badge{
+  font-size:10px;letter-spacing:2px;color:var(--gold);
+  margin-bottom:4px;font-weight:500;
+}
+.process-step:hover .process-step-icon{background:var(--gold-dim);}
+.process-step-icon{transition:background .3s;}
+
+/* Service card arrow reveal */
+.svc-arrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);
+  margin-top:16px;opacity:0;transform:translateX(-8px);
+  transition:opacity .3s,transform .3s,gap .3s;
+}
+.svc-card:hover .svc-arrow{opacity:1;transform:none;gap:14px;}
+.svc-arrow i{font-size:10px;}
+
+/* Team card lift on hover */
+.team-card{transition:transform .4s cubic-bezier(.22,1,.36,1),border-color .3s;}
+.team-card:hover{transform:translateY(-6px);border-color:var(--gold-border);}
+
+/* About image hover zoom */
+.about-img-main img,.about-img-sm img{
+  transition:transform 1s cubic-bezier(.22,1,.36,1),filter .4s !important;
+}
+.about-img-main:hover img,.about-img-sm:hover img{transform:scale(1.06) !important;filter:brightness(.9) !important;}
+
+/* Project card overlay line accent */
+.proj-info::before{
+  content:'';position:absolute;top:0;left:28px;right:28px;
+  height:1px;background:rgba(201,169,110,.2);
+}
+
+/* Ticker pause on hover */
+.brand-strip:hover .brand-track{animation-play-state:paused;}
+
+/* Intro banner image zoom on scroll */
+.intro-banner .banner-img{
+  transition:transform 1.2s cubic-bezier(.22,1,.36,1),filter .6s;
+}
+.intro-banner.banner-in .banner-img{transform:scale(1) !important;}
+
+/* Section fade-left for alternating layouts */
+.fade-left{opacity:0;transform:translateX(-32px);transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);}
+.fade-left.visible{opacity:1;transform:none;}
+.fade-right{opacity:0;transform:translateX(32px);transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);}
+.fade-right.visible{opacity:1;transform:none;}
+
+/* ═══════════════════════════════════════
+   RESPONSIVE
+═══════════════════════════════════════ */
+@media(max-width:1024px){
+  :root{--section-pad:72px;}
+  .header-nav{display:none;}
+  .header-nav.open{display:flex;flex-direction:column;position:fixed;inset:0;background:#0a0a0a;padding:90px 40px 40px;gap:24px;z-index:800;}
+  .header-nav.open a{font-size:20px;}
+  .nav-toggle{display:flex;}
+  .proj-img img{height:auto;}
+  .why-inner{grid-template-columns:1fr;gap:48px;}
+  .services-grid{grid-template-columns:1fr 1fr;}
+  .testi-inner{grid-template-columns:1fr;}
+  .testi-img{display:none;}
+  .about-inner{grid-template-columns:1fr;gap:48px;}
+  .team-card{flex:0 0 calc(50% - 1.5px);}
+  .contact-inner{grid-template-columns:1fr;}
+  .testi-videos-grid{grid-template-columns:1fr 1fr;}
+  .stats-inner{grid-template-columns:1fr 1fr;}
+  .stat-item:nth-child(2){border-right:none;}
+  .stat-item:nth-child(3){border-top:1px solid var(--border);}
+  .stat-item:nth-child(4){border-top:1px solid var(--border);border-right:none;}
+  .section-header-row{grid-template-columns:1fr;}
+}
+@media(max-width:640px){
+  :root{--section-pad:56px;}
+  .container,.header-inner,.stats-inner,.section-header,.projects-cta,.services-grid,.services-cta,.why-inner,.testi-inner,.about-inner,.team-grid,.process-inner,.contact-inner,.footer-inner,.testi-videos-grid{padding-left:20px;padding-right:20px;}
+  .projects-grid{padding-left:0;padding-right:0;}
+  .video-play-wrap{padding:0;}
+  .video-play-section{padding:0;}
+  .hero-content{padding:110px 20px 60px;}
+  .services-grid{grid-template-columns:1fr;}
+  .team-grid{grid-template-columns:1fr 1fr;}
+  .mf-row{grid-template-columns:1fr;}
+  .modal-box{padding:36px 20px 28px;}
+  .about-stats-badge{right:0;}
+  .hero-btns{flex-direction:column;}
+  .btn-gold,.btn-outline{width:100%;justify-content:center;}
+  .footer-inner{flex-direction:column;text-align:center;align-items:center;}
+  .contact-form-wrap{padding:32px 20px;}
+  .process-step{grid-template-columns:1fr;gap:16px;padding:24px 20px;}
+  .intro-banner img{height:300px;}
+  .testi-content{padding:36px 24px;}
+}
+
+/* ═══ AWARD BANNER ════════════════════════════════════════ */
+.award-banner{padding:0;background:var(--bg-card);border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
+.award-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;align-items:stretch;}
+.award-img-col{display:flex;align-items:center;justify-content:center;text-decoration:none;background:var(--bg-card);overflow:hidden;padding:32px;}
+.award-img-col img{width:100%;height:100%;object-fit:contain;object-position:center;display:block;transition:transform 1.2s cubic-bezier(.22,1,.36,1);max-height:600px;}
+.award-img-col:hover img{transform:scale(1.03);}
+.award-text-col{background:linear-gradient(135deg,rgba(201,169,110,.07) 0%,rgba(20,20,14,.0) 100%);border-left:1px solid var(--gold-border);padding:60px 56px;display:flex;flex-direction:column;justify-content:center;}
+.award-badge{display:inline-flex;align-items:center;gap:10px;background:var(--gold);color:#0a0a0a;font-size:10px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:9px 18px;margin-bottom:28px;width:fit-content;}
+.award-badge i{font-size:12px;}
+.award-title{font-family:var(--serif);font-size:clamp(22px,2.8vw,40px);font-weight:400;color:var(--white);line-height:1.15;margin-bottom:16px;}
+.award-title em{color:var(--gold);font-style:italic;}
+.award-sub{font-size:14px;color:var(--muted);font-weight:300;line-height:1.85;margin-bottom:32px;max-width:460px;}
+.award-meta-row{display:flex;gap:32px;flex-wrap:wrap;padding-top:24px;border-top:1px solid var(--border);margin-bottom:36px;}
+.award-meta-item{display:flex;flex-direction:column;gap:5px;}
+.award-meta-label{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);}
+.award-meta-value{font-size:13px;color:var(--white);font-weight:500;}
+@media(max-width:1024px){
+  .award-inner{grid-template-columns:1fr;}
+  .award-img-col{padding:24px;min-height:360px;}
+  .award-text-col{border-left:none;border-top:1px solid var(--gold-border);padding:48px 40px;}
+}
+@media(max-width:640px){
+  .award-img-col{padding:20px;min-height:280px;}
+  .award-text-col{padding:36px 20px;}
+  .award-meta-row{gap:18px;}
+}
+</style>
+</head>
+<body>
+
+<!-- ══ HEADER ══════════════════════════════════════════ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="index.php" class="header-logo">
+      <img src="images/logo.png" alt="Innov Interiors & Architects Logo" loading="eager">
+    </a>
+    <nav class="header-nav" id="headerNav">
+      <a href="index.php">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <button class="header-cta open-modal">Get In Touch</button>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ══ HERO ══════════════════════════════════════════════ -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <picture>
+      <source media="(max-width:767px)" srcset="images/sangam-portrait.webp" type="image/webp">
+      <img src="images/Prayagraj.webp" alt="" fetchpriority="high" decoding="async" loading="eager" width="1440" height="955">
+    </picture>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Innov Interiors &amp; Architects</div>
+    <h1 class="hero-title">Transform Your Space<br>with <em>Innov Arch!</em></h1>
+    <p class="hero-sub">Unleash exceptional design and superior craftsmanship. Explore our bespoke solutions and redefine your interior today.</p>
+    <div class="hero-btns">
+      <button class="btn-gold open-modal">Get In Touch</button>
+      <a href="#projects" class="btn-outline">View Projects</a>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <div class="hero-scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ══ STATS ══════════════════════════════════════════════ -->
+<div class="stats-strip">
+  <div class="stats-inner">
+    <div class="stat-item fade-up"><div class="stat-num" data-target="500" data-suffix="+">500+</div><div class="stat-label">Projects Delivered</div></div>
+    <div class="stat-item fade-up d1"><div class="stat-num" data-target="15" data-suffix="+">15+</div><div class="stat-label">Years Experience</div></div>
+    <div class="stat-item fade-up d2"><div class="stat-num" data-target="95" data-suffix="%">95%</div><div class="stat-label">Positive Feedback</div></div>
+    <div class="stat-item fade-up d3"><div class="stat-num" data-target="4.82" data-suffix="★">4.82★</div><div class="stat-label">Client Rating</div></div>
+  </div>
+</div>
+
+<!-- ══ INTRO BANNER ════════════════════════════════════════ -->
+<div class="intro-banner fade-up">
+  <img src="images/glass.webp" alt="Innov Arch — Have A Project Mind" loading="lazy">
+  <div class="intro-banner-overlay">
+    <h2 class="intro-banner-title">Have A Project Mind</h2>
+    <p class="intro-banner-sub">Building your vision, creating reality</p>
+    <button class="btn-gold open-modal">Request An Appointment</button>
+  </div>
+</div>
+
+<!-- ══ VIDEO PLAY ══════════════════════════════════════════ -->
+<div class="video-play-section">
+  <div class="video-play-wrap">
+    <div class="video-play-box fade-up" id="videoThumb" data-video-id="8yy0vS6yzMo">
+      <img src="https://i.ytimg.com/vi_webp/8yy0vS6yzMo/maxresdefault.webp" alt="Innov Arch — Watch Our Work" loading="lazy">
+      <div class="video-play-btn">
+        <div class="play-circle"><i class="fas fa-play"></i></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ PROJECTS ════════════════════════════════════════════ -->
+<section id="projects" class="projects-section">
+  <div class="section-header">
+    <div class="section-header-row">
+      <div>
+        <span class="section-label fade-up">Latest Project</span>
+        <h2 class="section-title split-title fade-up d1">Creative projects that define<em> our style</em></h2>
+      </div>
+      <p class="section-sub fade-up d2">Our portfolio showcases a diverse range of projects, from beautifully crafted residential spaces to functional and stylish commercial interiors.</p>
+    </div>
+  </div>
+
+  <div class="projects-grid">
+
+    <a href="sangam-pooja-wellness-resort-prayagraj.html" class="proj-card fade-up">
+      <div class="proj-img">
+        <img src="images/sangam pooja wellness resort at prayagraj.webp" alt="Wellness Resort at Prayagraj" loading="lazy">
+      </div>
+      <span class="proj-num-badge">01</span>
+      <div class="proj-info">
+        <div class="proj-location">At Prayagraj</div>
+        <div class="proj-name">Wellness Resort</div>
+        <div class="proj-arrow">View Project <i class="fas fa-arrow-right"></i></div>
+      </div>
+    </a>
+
+    <a href="bliss-glass-house-bijnor.html" class="proj-card fade-up d1">
+      <div class="proj-img">
+        <img src="images/tab/the-bliss-bijnor-banquet-architect.webp" alt="The Bliss Glass House Banquets — Bijnor, Uttar Pradesh" loading="lazy">
+      </div>
+      <span class="proj-num-badge">02</span>
+      <div class="proj-info">
+        <div class="proj-location">At Bijnor, Uttar Pradesh</div>
+        <div class="proj-name">The Bliss Glass House Banquets</div>
+        <div class="proj-arrow">View Project <i class="fas fa-arrow-right"></i></div>
+      </div>
+    </a>
+
+    <div class="proj-card fade-up open-modal">
+      <div class="proj-img">
+        <img src="images/tab/chandigarh-neo-classical.webp" alt="Neo Classical Residence — Chandigarh" loading="lazy">
+      </div>
+      <span class="proj-num-badge">03</span>
+      <div class="proj-info">
+        <div class="proj-location">At Chandigarh</div>
+        <div class="proj-name">Neo Classical Residence</div>
+        <div class="proj-arrow">View Project <i class="fas fa-arrow-right"></i></div>
+      </div>
+    </div>
+
+    <div class="proj-card fade-up d1 open-modal">
+      <div class="proj-img">
+        <img src="images/tab/mp.webp" alt="ONOG Logia Chemical Plane — Madhya Pradesh" loading="lazy">
+      </div>
+      <span class="proj-num-badge">04</span>
+      <div class="proj-info">
+        <div class="proj-location">At Madhya Pradesh</div>
+        <div class="proj-name">ONOG Chemical Plant</div>
+        <div class="proj-arrow">View Project <i class="fas fa-arrow-right"></i></div>
+      </div>
+    </div>  
+
+    <a href="neo-classical-villa-greater-noida.html" class="proj-card fade-up">
+      <div class="proj-img">
+        <img src="images/Neo Classic at Greater Noida.webp" alt="Neo Classic at Greater Noida" loading="lazy" style="object-position:top;">
+      </div>
+      <span class="proj-num-badge">05</span>
+      <div class="proj-info">
+        <div class="proj-location">At Greater Noida</div>
+        <div class="proj-name">Neo Classical</div>
+        <div class="proj-arrow">View Project <i class="fas fa-arrow-right"></i></div>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="projects-cta fade-up">
+    <a href="portfolio.html" class="btn-outline">See All Projects <i class="fas fa-arrow-right"></i></a>
+  </div>
+</section>
+
+<!-- ══ AWARD BANNER ════════════════════════════════════════ -->
+<section class="award-banner">
+  <div class="award-inner">
+    <a href="foaid-2025.html" class="award-img-col" aria-label="View FOAID 2025 Award page">
+      <img src="images/foaid-2025/recognition.webp"
+           alt="FOAID 2025 Recognition — Innov Interiors & Architects"
+           loading="lazy">
+    </a>
+    <div class="award-text-col fade-up">
+      <div class="award-badge"><i class="fas fa-trophy"></i>&nbsp; FOAID 2025 &mdash; Award Winner</div>
+      <h2 class="award-title">Winner — Conceptual Architecture<br><em>FOAID 2025</em></h2>
+      <p class="award-sub">Our IT Centre proposal "The Breathing Sphere" won the prestigious FOAID 2025 award in the Conceptual Architecture category — a human-centric, biophilic vision for the future of workspaces in Noida.</p>
+      <div class="award-meta-row">
+        <div class="award-meta-item">
+          <span class="award-meta-label">Award</span>
+          <span class="award-meta-value">FOAID 2025</span>
+        </div>
+        <div class="award-meta-item">
+          <span class="award-meta-label">Category</span>
+          <span class="award-meta-value">Conceptual Architecture</span>
+        </div>
+        <div class="award-meta-item">
+          <span class="award-meta-label">Project</span>
+          <span class="award-meta-value">IT Centre, Noida</span>
+        </div>
+        <div class="award-meta-item">
+          <span class="award-meta-label">Area</span>
+          <span class="award-meta-value">32,70,320 sq.ft.</span>
+        </div>
+      </div>
+      <a href="foaid-2025.html" class="btn-gold">View Award Project <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ WHY CHOOSE US ══════════════════════════════════════ -->
+<section class="why-section">
+  <div class="why-inner">
+    <div>
+      <span class="section-label fade-up">Why Choose Us</span>
+      <h2 class="section-title split-title fade-up d1">We Commit to Quality<br><em>Our Agency</em></h2>
+      <p class="section-sub fade-up d2">Quality is at the heart of everything we do. Our commitment to quality ensures that your space is not only visually stunning but also durable and functional.</p>
+      <div class="why-points">
+        <div class="why-point fade-up d2">
+          <div class="why-icon"><i class="fas fa-pencil-ruler"></i></div>
+          <div>
+            <div class="why-point-title">Tailored Design Solutions</div>
+            <p class="why-point-desc">We provide personalized interior design services that reflect your unique vision and lifestyle.</p>
+          </div>
+        </div>
+        <div class="why-point fade-up d3">
+          <div class="why-icon"><i class="fas fa-tasks"></i></div>
+          <div>
+            <div class="why-point-title">Seamless Project Management</div>
+            <p class="why-point-desc">We handle the entire design process, from concept to completion, with flawless execution.</p>
+          </div>
+        </div>
+        <div class="why-point fade-up d4">
+          <div class="why-icon"><i class="fas fa-handshake"></i></div>
+          <div>
+            <div class="why-point-title">Client-Centered Collaboration</div>
+            <p class="why-point-desc">Your input is valued throughout the entire process, ensuring your vision is fully realized.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="why-images fade-right">
+      <div class="why-img img-reveal"><img src="images/why1.webp" alt="Innov Arch project — living space design" loading="lazy"></div>
+      <div class="why-img img-reveal"><img src="images/why2.webp" alt="Innov Arch project — architectural detail" loading="lazy"></div>
+      <div class="why-img img-reveal"><img src="images/why3.webp" alt="Innov Arch project — interior craftsmanship" loading="lazy"></div>
+      <div class="why-img img-reveal"><img src="images/why4.webp" alt="Innov Arch project — completed space" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICES ════════════════════════════════════════════ -->
+<section id="services" class="services-section">
+  <div class="section-header">
+    <div class="section-header-row">
+      <div>
+        <span class="section-label fade-up">Our Services</span>
+        <h2 class="section-title split-title fade-up d1">Innovative design services for <em>every need</em></h2>
+      </div>
+    </div>
+  </div>
+  <div class="services-grid stagger-children">
+    <a href="services.html#architecture" class="svc-card">
+      <div class="svc-img"><img src="images/arc.webp" alt="Architecture service — Innov Arch" loading="lazy"></div>
+      <div class="svc-body">
+        <div class="svc-num">01</div>
+        <h3 class="svc-title">Architecture</h3>
+        <p class="svc-desc">Our Architecture services combines innovative design with practical functionality to create spaces that inspire. With a focus on sustainability, aesthetics, and personalized solutions, we deliver tailored designs that reflect the unique vision and needs of each client.</p>
+        <span class="svc-arrow">Learn More <i class="fas fa-arrow-right"></i></span>
+      </div>
+    </a>
+    <a href="services.html#interiors" class="svc-card">
+      <div class="svc-img"><img src="images/design.webp" alt="Interior Designing service — Innov Arch" loading="lazy"></div>
+      <div class="svc-body">
+        <div class="svc-num">02</div>
+        <h3 class="svc-title">Interior Designing</h3>
+        <p class="svc-desc">At Innov Arch, we specialize in creating stunning, functional interiors that reflect your style and vision. From concept to completion, our team blends creativity with precision, offering tailored designs that elevate both residential and commercial spaces.</p>
+        <span class="svc-arrow">Learn More <i class="fas fa-arrow-right"></i></span>
+      </div>
+    </a>
+    <a href="contact.html" class="svc-card">
+      <div class="svc-img"><img src="images/consul.webp" alt="Designing Consultancy service — Innov Arch" loading="lazy"></div>
+      <div class="svc-body">
+        <div class="svc-num">03</div>
+        <h3 class="svc-title">Designing Consultancy</h3>
+        <p class="svc-desc">Our expert design consultancy services provide personalized solutions that bring your vision to life. From concept to execution, we blend creativity with technical precision, ensuring every space is functional, aesthetically pleasing, and tailored to your unique needs.</p>
+        <span class="svc-arrow">Learn More <i class="fas fa-arrow-right"></i></span>
+      </div>
+    </a>
+    <a href="contact.html" class="svc-card">
+      <div class="svc-img"><img src="images/2d.webp" alt="2D and 3D Visuals service — Innov Arch" loading="lazy"></div>
+      <div class="svc-body">
+        <div class="svc-num">04</div>
+        <h3 class="svc-title">2D / 3D Visuals</h3>
+        <p class="svc-desc">Our 2D/3D visual services bring your design concepts to life with stunning clarity and precision. From realistic architectural renderings to immersive 3D walkthroughs, we help you visualize spaces before they're built, ensuring every detail aligns with your vision.</p>
+        <span class="svc-arrow">Learn More <i class="fas fa-arrow-right"></i></span>
+      </div>
+    </a>
+    <a href="contact.html" class="svc-card">
+      <div class="svc-img"><img src="images/kitchen.webp" alt="Modular Kitchen design service — Innov Arch" loading="lazy"></div>
+      <div class="svc-body">
+        <div class="svc-num">05</div>
+        <h3 class="svc-title">Modular Kitchen</h3>
+        <p class="svc-desc">Transform your cooking space with our custom-designed modular kitchens that combine style, functionality, and smart storage solutions. Tailored to fit your lifestyle, we offer a seamless blend of modern design and practicality.</p>
+        <span class="svc-arrow">Learn More <i class="fas fa-arrow-right"></i></span>
+      </div>
+    </a>
+    <a href="contact.html" class="svc-card">
+      <div class="svc-img"><img src="images/evelotion.webp" alt="Front Elevation design service — Innov Arch" loading="lazy"></div>
+      <div class="svc-body">
+        <div class="svc-num">06</div>
+        <h3 class="svc-title">Front Elevation</h3>
+        <p class="svc-desc">Our front elevation service enhances the visual appeal of your property with striking, modern designs that reflect your unique style. We create customized, eye-catching facades that blend aesthetics with functionality, ensuring your building makes a lasting first impression.</p>
+        <span class="svc-arrow">Learn More <i class="fas fa-arrow-right"></i></span>
+      </div>
+    </a>
+  </div>
+  <div class="services-cta fade-up">
+    <a href="services.html" class="btn-outline">See All Services <i class="fas fa-arrow-right"></i></a>
+  </div>
+</section>
+
+<!-- ══ TESTIMONIAL VIDEOS ══════════════════════════════════ -->
+<section class="testi-videos-section">
+  <div class="section-header">
+    <div class="section-header-row">
+      <div>
+        <span class="section-label fade-up">Testimonial Videos</span>
+        <h2 class="section-title split-title fade-up d1">Beautiful Interiors, <em>Timeless Appeal</em></h2>
+      </div>
+      <p class="section-sub fade-up d2">Discover our latest interior design projects where every detail is carefully curated — from textures and tones to layout and lighting. Our spaces are designed to look beautiful and feel like home.</p>
+    </div>
+  </div>
+  <div class="testi-videos-grid">
+    <div class="yt-thumb fade-up" data-video-id="PQ7QSz3Xkog">
+      <img src="https://img.youtube.com/vi/PQ7QSz3Xkog/maxresdefault.jpg" alt="Innov Arch client testimonial video 1" loading="lazy">
+      <div class="yt-play"><div class="yt-play-btn"><i class="fas fa-play"></i></div></div>
+    </div>
+    <div class="yt-thumb fade-up d1" data-video-id="TGz-gGVk_h4">
+      <img src="https://img.youtube.com/vi/TGz-gGVk_h4/maxresdefault.jpg" alt="Innov Arch client testimonial video 2" loading="lazy">
+      <div class="yt-play"><div class="yt-play-btn"><i class="fas fa-play"></i></div></div>
+    </div>
+    <div class="yt-thumb fade-up d2" data-video-id="uXBZJvXI64M">
+      <img src="https://img.youtube.com/vi/uXBZJvXI64M/maxresdefault.jpg" alt="Innov Arch client testimonial video 3" loading="lazy">
+      <div class="yt-play"><div class="yt-play-btn"><i class="fas fa-play"></i></div></div>
+    </div>
+    <div class="yt-thumb fade-up d3" data-video-id="94D1IYKzQtw">
+      <img src="https://img.youtube.com/vi/94D1IYKzQtw/maxresdefault.jpg" alt="Innov Arch client testimonial video 4" loading="lazy">
+      <div class="yt-play"><div class="yt-play-btn"><i class="fas fa-play"></i></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TESTIMONIALS ════════════════════════════════════════ -->
+<section class="testi-section">
+  <div class="testi-inner">
+    <div class="testi-img fade-up">
+      <img src="images/skylit-area.webp" alt="Happy Innov Arch client" loading="lazy">
+    </div>
+    <div class="testi-content fade-up d1">
+      <span class="section-label">Client Testimonials</span>
+      <h2 class="section-title">Trusted by thousands of <em>people &amp; companies</em></h2>
+      <div class="testi-slider">
+        <div class="testi-item active">
+          <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="testi-text">"I was looking for a creative team who can design my Interiors and understand the needs and expectations. So I am glad that I found INNOV ARCH because Mr. Udit and his team were very professional and they understood our requirements well — the quality of work they provided us was more than we expected and delivered our project on time. We really had an amazing experience and truly recommend Innov to everyone. 👍🏻👍🏻"</p>
+          <div class="testi-author">Saurabh Gangwar</div>
+        </div>
+        <div class="testi-item">
+          <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="testi-text">"We had a vacant property on which we wanted to construct a Commercial Complex and we hired Innov architects to design and build it for us. They gave us good design options and constructed it in given time period under our budget 👍🏻. It took 1 complete year. Gave proper modern look to our building and with Innov's guidance, we were able to compete in our market aesthetically."</p>
+          <div class="testi-author">Aditya Panwar</div>
+        </div>
+        <div class="testi-item">
+          <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="testi-text">"I am the owner of GULMOHAR BANQUET HALL. We hired Architect Udit Vishnoi to design our Banquet hall &amp; in the very first meeting we gained confidence on him and his firm's working. Team Innov designed our banquet hall in very classy style as we wanted and helped us executing the entire work in very professional manner. They provided all 3Ds &amp; 2D drawings which were needed on site for smooth working. Thanks a lot team Innov — much recommended 👌 👍"</p>
+          <div class="testi-author">Ashish Jaiswal</div>
+        </div>
+      </div>
+      <div class="testi-nav">
+        <button class="testi-dot active" data-idx="0"></button>
+        <button class="testi-dot" data-idx="1"></button>
+        <button class="testi-dot" data-idx="2"></button>
+      </div>
+      <div class="testi-rating-row">
+        <div class="testi-big-num">4.82</div>
+        <div>
+          <div class="testi-rating-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <div class="testi-rating-label">Average client rating</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ ABOUT ════════════════════════════════════════════════ -->
+<section id="about" class="about-section">
+  <div class="about-inner">
+    <div class="about-imgs fade-left">
+      <div class="about-img-main img-reveal"><img src="images/about.webp" alt="Innov Interiors & Architects studio" loading="lazy"></div>
+      <div class="about-img-row">
+        <div class="about-img-sm img-reveal"><img src="images/about2.webp" alt="Innov Arch design process" loading="lazy"></div>
+        <div class="about-img-sm img-reveal"><img src="images/why1.webp" alt="Innov Arch completed project detail" loading="lazy"></div>
+      </div>
+      <div class="about-stats-badge">
+        <div class="about-stats-num">500+</div>
+        <div class="about-stats-label">Projects<br>Delivered</div>
+      </div>
+    </div>
+    <div class="fade-up d1">
+      <span class="section-label">About Us</span>
+      <h2 class="section-title split-title">Innov Interiors<br>&amp; <em>Architects</em></h2>
+      <p class="section-sub">Innov Arch is a leading architecture and interior design studio based in Delhi NCR holding an experience of 15+ years in this industry.</p>
+      <ul class="about-list">
+        <li>Creative Expertise</li>
+        <li>Client-centered Approach</li>
+        <li>Functional &amp; Aesthetic Balance</li>
+        <li>Attention to Detail</li>
+      </ul>
+      <button class="btn-gold open-modal" style="margin-bottom:32px;">Connect Now</button>
+      <div class="about-contacts">
+        <div class="about-contact-item">
+          <div class="about-contact-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <div class="about-contact-label">Need any help?</div>
+            <div class="about-contact-value"><a href="tel:8178262805">+91-8178262805</a></div>
+          </div>
+        </div>
+        <div class="about-contact-item">
+          <div class="about-contact-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <div class="about-contact-label">Email Us</div>
+            <div class="about-contact-value"><a href="mailto:support@weinnovarch.com">support@weinnovarch.com</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ BRAND FILM ══════════════════════════════════════════ -->
+<section class="brand-film-section">
+  <div class="brand-film-inner">
+    <div class="brand-film-header">
+      <div>
+        <span class="section-label fade-up">Brand Film</span>
+        <h2 class="section-title split-title fade-up d1">Meet the team behind<em> Innov Arch</em></h2>
+      </div>
+      <p class="section-sub fade-up d2">Get to know our principal architect and the passionate team driving every project — from first sketch to final handover. This is our story.</p>
+    </div>
+
+    <div class="brand-film-player fade-up" id="brandFilmThumb">
+      <img class="brand-film-thumb"
+           src="https://i.ytimg.com/vi_webp/M-ZOizjNZuE/maxresdefault.webp"
+           alt="Innov Interiors & Architects — Brand Film"
+           loading="lazy">
+      <div class="brand-film-overlay"></div>
+      <div class="brand-film-play">
+        <div class="brand-film-play-btn"><i class="fas fa-play"></i></div>
+        <span class="brand-film-duration">Watch Our Story</span>
+      </div>
+      <div class="brand-film-caption">
+        <span class="brand-film-caption-label">Innov Interiors &amp; Architects</span>
+        <span class="brand-film-caption-title">Our Brand Story</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TEAM ═════════════════════════════════════════════════ -->
+<section class="team-section">
+  <div class="section-header">
+    <div class="section-header-row">
+      <div>
+        <span class="section-label fade-up">Meet Our Team</span>
+        <h2 class="section-title fade-up d1">Experts Driving <em>Your Success</em></h2>
+      </div>
+      <p class="section-sub fade-up d2">Our interior design team blends creativity and expertise to craft elegant, functional spaces. From concept to execution, we transform your vision into reality with precision, passion, and style.</p>
+    </div>
+  </div>
+  <div class="team-grid stagger-children">
+    <div class="team-card fade-up">
+      <div class="team-card-img"><img src="images/team/1.webp" alt="Ujjwal Kumar — Director, Innov Arch" loading="lazy"></div>
+      <div class="team-card-body">
+        <div class="team-card-name">Ujjwal Kumar</div>
+        <div class="team-card-role">Director</div>
+      </div>
+    </div>
+    <div class="team-card fade-up d1">
+      <div class="team-card-img"><img src="images/team/2.webp" alt="Umang Arora — Principal Designer, Innov Arch" loading="lazy"></div>
+      <div class="team-card-body">
+        <div class="team-card-name">Umang Arora</div>
+        <div class="team-card-role">Principal Designer</div>
+      </div>
+    </div>
+    <div class="team-card fade-up d2">
+      <div class="team-card-img"><img src="images/team/3.webp" alt="Ar. Udit Vishnoi — Principal Architect, Innov Arch" loading="lazy"></div>
+      <div class="team-card-body">
+        <div class="team-card-name">Ar. Udit Vishnoi</div>
+        <div class="team-card-role">Principal Architect</div>
+      </div>
+    </div>
+    <div class="team-card fade-up d3">
+      <div class="team-card-img"><img src="images/team/4.webp" alt="Anubhav Jha — Marketing Head, Innov Arch" loading="lazy"></div>
+      <div class="team-card-body">
+        <div class="team-card-name">Anubhav Jha</div>
+        <div class="team-card-role">Marketing Head</div>
+      </div>
+    </div>
+    <div class="team-card fade-up">
+      <div class="team-card-img"><img src="images/team/ritu_mam.webp" alt="Ritu — Director, Innov Arch" loading="lazy" style="object-position:top;"></div>
+      <div class="team-card-body">
+        <div class="team-card-name">Ritu Vishnoi</div>
+        <div class="team-card-role">Director</div>
+      </div>
+    </div>
+    <div class="team-card fade-up d1">
+      <div class="team-card-img"><img src="images/team/vandana_mam.webp" alt="Vandana — Principal Architect, Innov Arch" loading="lazy" style="object-position:top;"></div>
+      <div class="team-card-body">
+        <div class="team-card-name">Vandana Sikarwar</div>
+        <div class="team-card-role">Principal Architect</div>
+      </div>
+    </div>
+    <div class="team-card fade-up d2">
+      <div class="team-card-img"><img src="images/team/web_shivensir.webp" alt="Shiven — Principal Architect, Innov Arch" loading="lazy" style="object-position:top;"></div>
+      <div class="team-card-body">
+        <div class="team-card-name">Shiven Malhotra</div>
+        <div class="team-card-role">Principal Architect</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SECOND INTRO BANNER ══════════════════════════════════ -->
+<div class="intro-banner fade-up">
+  <img src="images/glass.webp" alt="Innov Arch — Request An Appointment" loading="lazy">
+  <div class="intro-banner-overlay">
+    <h2 class="intro-banner-title">Have A Project Mind</h2>
+    <p class="intro-banner-sub">Building your vision, creating reality</p>
+    <button class="btn-gold open-modal">Request An Appointment</button>
+  </div>
+</div>
+
+<!-- ══ HOW WE WORK ══════════════════════════════════════════ -->
+<section class="process-section" id="process">
+  <div class="process-inner">
+    <div class="section-header-row" style="margin-bottom:0;">
+      <div>
+        <span class="section-label fade-up">How We Work</span>
+        <h2 class="section-title fade-up d1">From concept to completion <em>in our work</em></h2>
+      </div>
+      <p class="section-sub fade-up d2">Our comprehensive approach guides you through each phase of the design process, from initial brainstorming and conceptualization.</p>
+    </div>
+    <div class="process-steps">
+      <div class="process-step fade-up">
+        <div class="process-step-icon"><i class="fas fa-drafting-compass"></i></div>
+        <div>
+          <div class="process-step-title">01. Developing a Concept</div>
+          <p class="process-step-desc">Developing a strong and clear concept from the beginning. Concept development is the creative phase where ideas take shape, allowing us to explore different possibilities and align our vision with the client's desires.</p>
+        </div>
+      </div>
+      <div class="process-step fade-up d1">
+        <div class="process-step-icon"><i class="fas fa-chart-bar"></i></div>
+        <div>
+          <div class="process-step-title">02. Budget Planning</div>
+          <p class="process-step-desc">Before we begin the execution phase, we work closely with our clients to establish a clear and realistic budget that aligns with their vision and financial expectations — transparently outlining all expenses and considering various options.</p>
+        </div>
+      </div>
+      <div class="process-step fade-up d2">
+        <div class="process-step-icon"><i class="fas fa-ruler-combined"></i></div>
+        <div>
+          <div class="process-step-title">03. Designing &amp; Execution</div>
+          <p class="process-step-desc">Our design process at Innov Arch involves creating detailed 2D and 3D designs to visualize and refine concepts. Once the design is finalized and approved, we move seamlessly to the execution phase on site, ensuring precise implementation of every detail.</p>
+        </div>
+      </div>
+      <div class="process-step fade-up d3">
+        <div class="process-step-icon"><i class="fas fa-clipboard-check"></i></div>
+        <div>
+          <div class="process-step-title">04. Final Review</div>
+          <p class="process-step-desc">After completing the project we conduct a thorough walkthrough with you to review the space, ensuring every element meets our standards and your expectations.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Brand logos -->
+    <div class="brand-strip fade-up">
+      <div class="brand-track" id="brandTrack">
+        <div class="brand-item"><img src="images/brand-logo/18.webp" alt="Partner brand 18" loading="lazy"></div>
+        <div class="brand-item"><img src="images/brand-logo/19.webp" alt="Partner brand 19" loading="lazy"></div>
+        <div class="brand-item"><img src="images/brand-logo/20.webp" alt="Partner brand 20" loading="lazy"></div>
+        <div class="brand-item"><img src="images/brand-logo/21.webp" alt="Partner brand 21" loading="lazy"></div>
+        <div class="brand-item"><img src="images/brand-logo/22.webp" alt="Partner brand 22" loading="lazy"></div>
+        <div class="brand-item"><img src="images/brand-logo/23.webp" alt="Partner brand 23" loading="lazy"></div>
+        <!-- Duplicated for seamless loop -->
+        <div class="brand-item"><img src="images/brand-logo/18.webp" alt="Partner brand 18" loading="lazy"></div>
+        <div class="brand-item"><img src="images/brand-logo/19.webp" alt="Partner brand 19" loading="lazy"></div>
+        <div class="brand-item"><img src="images/brand-logo/20.webp" alt="Partner brand 20" loading="lazy"></div>
+        <div class="brand-item"><img src="images/brand-logo/21.webp" alt="Partner brand 21" loading="lazy"></div>
+        <div class="brand-item"><img src="images/brand-logo/22.webp" alt="Partner brand 22" loading="lazy"></div>
+        <div class="brand-item"><img src="images/brand-logo/23.webp" alt="Partner brand 23" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══════════════════════════════════════════════ -->
+<section id="contact" class="contact-section">
+  <div class="section-header">
+    <span class="section-label fade-up">Contact Form</span>
+    <h2 class="section-title fade-up d1">We would love to hear <em>from you</em></h2>
+  </div>
+  <div class="contact-inner">
+    <div class="contact-map fade-up">
+      <iframe
+        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.595454675908!2d77.37472607616378!3d28.61191068501565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfa878893ecdf%3A0xff5eb460177c7b40!2sInnov%20Interiors%20and%20Architects!5e0!3m2!1sen!2sin!4v1750094316927!5m2!1sen!2sin"
+        allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+        title="Innov Interiors and Architects — Office Location"
+        id="mapsIframe">
+      </iframe>
+    </div>
+    <div class="contact-form-wrap fade-up d1">
+      <div class="cf-title">Get In Touch</div>
+      <div class="cf-sub">Fill in the form and we'll get back to you within 4 business hours.</div>
+      <form id="contactForm" action="submit.php" method="POST">
+        <div class="cf-group">
+          <input class="cf-input" type="text" name="Name" placeholder="Name *" required>
+        </div>
+        <div class="cf-group">
+          <input class="cf-input" type="email" name="Email" placeholder="Email Address">
+        </div>
+        <div class="cf-group">
+          <input class="cf-input" type="tel" name="Number" placeholder="Your Phone *" required>
+        </div>
+        <div class="cf-group">
+          <input class="cf-input" type="text" name="City" placeholder="Your City">
+        </div>
+        <div class="cf-group">
+          <select class="cf-select" name="Requirement">
+            <option value="">Select an Option</option>
+            <option value="Home Interiors">Home Interiors</option>
+            <option value="Construction">Construction</option>
+            <option value="Front elevation">Front Elevation</option>
+            <option value="Architecture">Architecture</option>
+          </select>
+        </div>
+        <button type="submit" name="submit" class="cf-submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══════════════════════════════════════════════ -->
+<footer class="site-footer">
+    <nav class="footer-areas" aria-label="Our service areas" style="max-width:1280px;margin:0 auto 22px;padding:0 40px 22px;border-bottom:1px solid rgba(255,255,255,.08);text-align:center;line-height:2.4;">
+    <span style="display:block;color:#c9a96e;letter-spacing:2px;text-transform:uppercase;font-size:11px;margin-bottom:10px;">Architecture &amp; Interior Design Across India</span>
+    <a href="noida/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Architects in Noida</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="greater-noida/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Greater Noida</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="delhi/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Delhi NCR</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="ghaziabad/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Ghaziabad</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="uttarakhand/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Resorts in Uttarakhand</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="resorts-architects.html" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Resort &amp; Hotel Architects</a>
+  </nav>
+<div class="footer-inner">
+    <a href="index.php">
+      <img src="images/logo.png" alt="Innov Interiors & Architects" style="width:120px;opacity:.65;display:block;">
+    </a>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/people/Innov-Interiors-Architects/100064101032579/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/innov_arc" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@innov_arc" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/company/innov-arc/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:support@weinnovarch.com" aria-label="Email Innov Arch"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div class="footer-copy">&copy; 2026 Innov Interiors &amp; Architects. All rights reserved.</div>
+  </div>
+</footer>
+
+<!-- ══ WHATSAPP ════════════════════════════════════════════ -->
+<a href="https://api.whatsapp.com/send?phone=918178262805&text=Hi,%20I%27m%20interested%20in%20getting%20interior%20design%20work%20done.%20Please%20share%20more%20details."
+   class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- ══ CONSULTATION MODAL ══════════════════════════════════ -->
+<div class="modal-overlay" id="consultModal" role="dialog" aria-modal="true" aria-labelledby="modalHeading">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <div class="modal-label">Get In Touch</div>
+    <h2 class="modal-title" id="modalHeading">We would love to hear<br><em>from you</em></h2>
+    <form action="submit.php" method="POST">
+      <div class="mf-row">
+        <div class="mf-group">
+          <label class="mf-label" for="mf-name">Full Name *</label>
+          <input class="mf-input" type="text" id="mf-name" name="Name" placeholder="Your name" required>
+        </div>
+        <div class="mf-group">
+          <label class="mf-label" for="mf-phone">Phone *</label>
+          <input class="mf-input" type="tel" id="mf-phone" name="Number" placeholder="+91 XXXXX XXXXX" required>
+        </div>
+      </div>
+      <div class="mf-row">
+        <div class="mf-group">
+          <label class="mf-label" for="mf-email">Email</label>
+          <input class="mf-input" type="email" id="mf-email" name="Email" placeholder="your@email.com">
+        </div>
+        <div class="mf-group">
+          <label class="mf-label" for="mf-city">City</label>
+          <input class="mf-input" type="text" id="mf-city" name="City" placeholder="Your city">
+        </div>
+      </div>
+      <div class="mf-group">
+        <label class="mf-label" for="mf-req">Requirement</label>
+        <select class="mf-select" id="mf-req" name="Requirement">
+          <option value="">Select an Option</option>
+          <option value="Home Interiors">Home Interiors</option>
+          <option value="Construction">Construction</option>
+          <option value="Front elevation">Front Elevation</option>
+          <option value="Architecture">Architecture</option>
+          <option value="Resort / Hotel Architecture">Resort / Hotel Architecture</option>
+          <option value="Banquet Hall Design">Banquet Hall Design</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <button type="submit" name="submit" class="mf-submit">Submit &rarr;</button>
+      <p class="mf-disclaimer"><i class="fas fa-lock"></i> 100% confidential. We respond within 4 business hours.</p>
+    </form>
+  </div>
+</div>
+
+<script>
+/* ── Header scroll ── */
+const hdr = document.getElementById('siteHeader');
+window.addEventListener('scroll', () => hdr.classList.toggle('scrolled', scrollY > 60), {passive:true});
+
+/* ── Parallax hero background ── */
+(function(){
+  const heroBg = document.querySelector('.hero-bg');
+  if(!heroBg) return;
+  window.addEventListener('scroll', () => {
+    heroBg.style.transform = 'translateY(' + (window.scrollY * 0.35) + 'px)';
+  }, {passive:true});
+})();
+
+/* ── Lazy-load Google Maps iframe ── */
+(function(){
+  var mapEl = document.getElementById('mapsIframe');
+  if(!mapEl) return;
+  var mapObs = new IntersectionObserver(function(entries){
+    if(entries[0].isIntersecting){
+      mapEl.src = mapEl.dataset.src;
+      mapObs.disconnect();
+    }
+  },{rootMargin:'200px'});
+  mapObs.observe(mapEl);
+})();
+
+/* ── Fade-up / fade-left / fade-right scroll observer ── */
+const fadeObs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+}, {threshold: 0.1});
+document.querySelectorAll('.fade-up, .fade-left, .fade-right').forEach(el => fadeObs.observe(el));
+
+/* ── Section title underline ── */
+const titleObs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('title-in'); titleObs.unobserve(e.target); } });
+}, {threshold: 0.3});
+document.querySelectorAll('.section-title').forEach(el => titleObs.observe(el));
+
+/* ── Text split animation (like text-anime-style-2) ── */
+(function(){
+  function splitChars(el) {
+    if(el.dataset.splitDone) return;
+    el.dataset.splitDone = '1';
+    function processNode(node, frag) {
+      if(node.nodeType === 3) {
+        node.textContent.split('').forEach((ch, i) => {
+          const s = document.createElement('span');
+          s.className = 'char';
+          s.textContent = ch === ' ' ? '\u00a0' : ch;
+          frag.appendChild(s);
+        });
+      } else {
+        const clone = node.cloneNode(false);
+        frag.appendChild(clone);
+        node.childNodes.forEach(child => processNode(child, clone));
+      }
+    }
+    const frag = document.createDocumentFragment();
+    el.childNodes.forEach(child => processNode(child, frag));
+    el.innerHTML = '';
+    el.appendChild(frag);
+    el.querySelectorAll('.char').forEach((ch, i) => {
+      ch.style.transitionDelay = (i * 0.022) + 's';
+    });
+  }
+
+  const splitObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if(e.isIntersecting) {
+        splitChars(e.target);
+        e.target.classList.add('chars-visible');
+        splitObs.unobserve(e.target);
+      }
+    });
+  }, {threshold: 0.2});
+  document.querySelectorAll('.split-title').forEach(el => splitObs.observe(el));
+})();
+
+/* ── Image reveal wipe ── */
+(function(){
+  const revObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if(e.isIntersecting) { e.target.classList.add('wipe-in'); revObs.unobserve(e.target); }
+    });
+  }, {threshold: 0.15});
+  document.querySelectorAll('.img-reveal').forEach(el => revObs.observe(el));
+})();
+
+/* ── Stagger children ── */
+(function(){
+  const stgObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if(e.isIntersecting) { e.target.classList.add('stagger-in'); stgObs.unobserve(e.target); }
+    });
+  }, {threshold: 0.1});
+  document.querySelectorAll('.stagger-children').forEach(el => stgObs.observe(el));
+})();
+
+/* ── Counter animation ── */
+(function(){
+  function easeOutCubic(t){ return 1 - Math.pow(1-t, 3); }
+  function animCount(el) {
+    const target = parseFloat(el.dataset.target);
+    const suffix = el.dataset.suffix || '';
+    const isDecimal = (el.dataset.target.indexOf('.') !== -1);
+    const dur = 2000;
+    const start = performance.now();
+    (function step(now){
+      const p = Math.min((now - start) / dur, 1);
+      const val = target * easeOutCubic(p);
+      el.textContent = (isDecimal ? val.toFixed(2) : Math.round(val)) + suffix;
+      if(p < 1) requestAnimationFrame(step);
+    })(start);
+  }
+  const cntObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if(e.isIntersecting) { animCount(e.target); cntObs.unobserve(e.target); }
+    });
+  }, {threshold: 0.5});
+  document.querySelectorAll('.stat-num[data-target]').forEach(el => cntObs.observe(el));
+})();
+
+/* ── Active nav on scroll ── */
+(function(){
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.header-nav a');
+  const navObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if(e.isIntersecting) {
+        const id = e.target.id;
+        navLinks.forEach(a => {
+          const href = a.getAttribute('href');
+          a.classList.toggle('nav-active', href === '#' + id || href.endsWith('#' + id));
+        });
+      }
+    });
+  }, {threshold: 0.4});
+  sections.forEach(s => navObs.observe(s));
+})();
+
+/* ── Mobile nav ── */
+const navToggle = document.getElementById('navToggle');
+const headerNav = document.getElementById('headerNav');
+navToggle.addEventListener('click', () => {
+  const open = headerNav.classList.toggle('open');
+  const spans = navToggle.querySelectorAll('span');
+  spans[0].style.transform = open ? 'rotate(45deg) translate(5px,5px)' : '';
+  spans[1].style.opacity  = open ? '0' : '1';
+  spans[2].style.transform = open ? 'rotate(-45deg) translate(5px,-5px)' : '';
+  document.body.style.overflow = open ? 'hidden' : '';
+});
+headerNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  headerNav.classList.remove('open');
+  navToggle.querySelectorAll('span').forEach(s => { s.style.transform=''; s.style.opacity=''; });
+  document.body.style.overflow = '';
+}));
+
+/* ── Modal ── */
+const modal = document.getElementById('consultModal');
+function openModal(){ modal.classList.add('open'); document.body.style.overflow='hidden'; setTimeout(()=>document.getElementById('mf-name').focus(),100); }
+function closeModal(){ modal.classList.remove('open'); document.body.style.overflow=''; }
+document.getElementById('modalClose').addEventListener('click', closeModal);
+modal.addEventListener('click', e => { if(e.target===modal) closeModal(); });
+document.addEventListener('keydown', e => { if(e.key==='Escape') closeModal(); });
+document.querySelectorAll('.open-modal').forEach(el => el.addEventListener('click', e => { e.preventDefault(); openModal(); }));
+
+/* ── Smooth scroll ── */
+document.addEventListener('click', e => {
+  const a = e.target.closest('a[href^="#"]');
+  if(!a) return;
+  const href = a.getAttribute('href');
+  if(href==='#contact'){ e.preventDefault(); window.location.href='contact.html'; return; }
+  if(href==='#about'){ e.preventDefault(); window.location.href='about.html'; return; }
+  const t = document.querySelector(href);
+  if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth', block:'start'}); }
+});
+
+/* ── Testimonial slider ── */
+const items = document.querySelectorAll('.testi-item');
+const dots  = document.querySelectorAll('.testi-dot');
+function showTesti(idx){
+  items.forEach((it,i) => it.classList.toggle('active', i===idx));
+  dots.forEach((d,i) => d.classList.toggle('active', i===idx));
+}
+dots.forEach(d => d.addEventListener('click', () => showTesti(+d.dataset.idx)));
+let cur = 0;
+setInterval(() => { cur = (cur+1) % items.length; showTesti(cur); }, 5000);
+
+/* ── YouTube thumbnail click ── */
+document.querySelectorAll('.yt-thumb').forEach(thumb => {
+  thumb.addEventListener('click', () => {
+    const id = thumb.dataset.videoId;
+    const iframe = document.createElement('iframe');
+    iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1';
+    iframe.allow = 'autoplay; encrypted-media';
+    iframe.allowFullscreen = true;
+    iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0;';
+    thumb.innerHTML = '';
+    thumb.appendChild(iframe);
+  });
+});
+
+/* ── Main video play button ── */
+document.getElementById('videoThumb').addEventListener('click', function(){
+  const id = this.dataset.videoId;
+  const iframe = document.createElement('iframe');
+  iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0&vq=hd2160';
+  iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+  iframe.allowFullscreen = true;
+  iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+  iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0;';
+  this.style.paddingBottom = '56.25%';
+  this.innerHTML = '';
+  this.appendChild(iframe);
+  this.style.cursor = 'default';
+});
+
+/* ── Brand film player ── */
+document.getElementById('brandFilmThumb').addEventListener('click', function(){
+  const iframe = document.createElement('iframe');
+  iframe.src = 'https://www.youtube.com/embed/M-ZOizjNZuE?autoplay=1&rel=0&vq=hd2160';
+  iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+  iframe.allowFullscreen = true;
+  iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+  iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0;';
+  this.innerHTML = '';
+  this.appendChild(iframe);
+  this.style.cursor = 'default';
+});
+
+/* ── Hide hero scroll hint on scroll ── */
+(function(){
+  const hint = document.querySelector('.hero-scroll-hint');
+  if(!hint) return;
+  window.addEventListener('scroll', () => {
+    hint.style.opacity = window.scrollY > 120 ? '0' : '';
+  }, {passive:true});
+})();
+
+/* ── Process step stagger ── */
+(function(){
+  const steps = document.querySelectorAll('.process-step');
+  const psObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if(e.isIntersecting) {
+        const idx = Array.from(steps).indexOf(e.target);
+        setTimeout(() => e.target.classList.add('fade-up', 'visible'), idx * 120);
+        psObs.unobserve(e.target);
+      }
+    });
+  }, {threshold: 0.2});
+  steps.forEach(s => psObs.observe(s));
+})();
+</script>
+
+</body>
+</html>

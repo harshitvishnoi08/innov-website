@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="Interior design of Sangam Pooja Wellness Resort, Prayagraj — a luxury hospitality interior rooted in Indo-Islamic craftsmanship. Grand lobby, heritage dining, suite interiors and reception designed by Innov Interiors & Architects.">
+<title>Sangam Pooja Wellness Resort — Interior Design | Innov Interiors & Architects</title>
+<link rel="icon" type="image/svg+xml" href="images/logo.png">
+<link rel="canonical" href="https://weinnovarch.com/sangam-pooja-wellness-resort-interiors.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preload" as="image" href="images/prayagraj/interiors/12121.png" fetchpriority="high">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous" referrerpolicy="no-referrer"
+      media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous"></noscript>
+
+<style>
+/* ── Variables ─────────────────────────────────────────── */
+:root{
+  --bg:#0a0a0a;--bg-card:#111111;--bg-raised:#181818;
+  --gold:#c9a96e;--gold-dim:rgba(201,169,110,.18);--gold-border:rgba(201,169,110,.25);
+  --white:#f5f0e8;--text-muted:#9a9a8a;--text-dim:#5a5a4a;
+  --border:rgba(255,255,255,.07);
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'Inter',system-ui,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--white);font-family:var(--sans);font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased;}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+
+/* ── Header ─────────────────────────────────────────────── */
+.site-header{
+  position:fixed;top:0;left:0;right:0;z-index:900;
+  padding:20px 0;
+  background:linear-gradient(to bottom,rgba(10,10,10,.75) 0%,transparent 100%);
+  transition:background .4s ease,padding .3s ease;
+}
+.site-header.scrolled{background:#0a0a0a;border-bottom:1px solid var(--border);padding:14px 0;}
+.header-inner{
+  max-width:1280px;margin:0 auto;padding:0 40px;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.header-logo img{height:44px;width:auto;}
+.header-back{
+  display:flex;align-items:center;gap:8px;
+  font-size:12px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;
+  color:var(--text-muted);transition:color .2s;
+}
+.header-back:hover{color:var(--gold);}
+.header-back i{font-size:11px;}
+
+/* ── Hero ────────────────────────────────────────────────── */
+.hero{position:relative;height:100vh;min-height:600px;display:flex;align-items:flex-end;overflow:hidden;}
+.hero-bg{
+  position:absolute;inset:0;
+  background:url('images/prayagraj/interiors/12121.png') center 30%/cover no-repeat;
+  transform:scale(1.04);
+  transition:transform 8s ease;
+}
+.hero-bg.loaded{transform:scale(1);}
+.hero-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to bottom,rgba(10,10,10,.25) 0%,rgba(10,10,10,.1) 40%,rgba(10,10,10,.82) 75%,rgba(10,10,10,.97) 100%);
+}
+.hero-content{
+  position:relative;z-index:2;
+  width:100%;max-width:1280px;margin:0 auto;padding:0 40px 80px;
+}
+.hero-eyebrow{
+  display:flex;align-items:center;gap:14px;margin-bottom:20px;
+}
+.hero-line{width:36px;height:1px;background:var(--gold);}
+.hero-eyebrow-text{font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:var(--gold);}
+.hero-h1{
+  font-family:var(--serif);font-size:clamp(32px,5vw,64px);font-weight:400;
+  line-height:1.1;color:var(--white);max-width:820px;margin-bottom:16px;
+}
+.hero-h1 em{font-style:italic;color:var(--gold);}
+.hero-sub{font-size:16px;color:rgba(245,240,232,.7);max-width:520px;line-height:1.7;}
+.hero-meta-row{
+  display:flex;align-items:center;gap:28px;
+  margin-top:32px;flex-wrap:wrap;
+}
+.hero-meta-item{
+  display:flex;align-items:center;gap:8px;
+  font-size:12px;font-weight:500;letter-spacing:1px;text-transform:uppercase;
+  color:var(--text-muted);
+}
+.hero-meta-item i{color:var(--gold);font-size:12px;}
+.hero-scroll{
+  position:absolute;bottom:36px;right:40px;z-index:2;
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+  font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--text-dim);
+}
+.hero-scroll-line{width:1px;height:40px;background:var(--gold-border);animation:scrollPulse 2s ease infinite;}
+@keyframes scrollPulse{0%,100%{opacity:.3}50%{opacity:1}}
+
+/* ── Section base ───────────────────────────────────────── */
+.section{padding:100px 0;}
+.container{max-width:1280px;margin:0 auto;padding:0 40px;}
+.section-label{
+  font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;
+  color:var(--gold);display:block;margin-bottom:16px;
+}
+.section-title{
+  font-family:var(--serif);font-size:clamp(28px,3.5vw,48px);
+  font-weight:400;color:var(--white);line-height:1.2;margin-bottom:0;
+}
+.gold-italic{font-style:italic;color:var(--gold);}
+
+/* ── Project Brief ──────────────────────────────────────── */
+.brief-section{padding:100px 0;border-bottom:1px solid var(--border);}
+.brief-inner{
+  max-width:1280px;margin:0 auto;padding:0 40px;
+  display:grid;grid-template-columns:1fr 380px;gap:100px;align-items:start;
+}
+.brief-body p{
+  font-size:16px;color:var(--text-muted);line-height:1.9;margin-bottom:24px;
+}
+.brief-body p:last-child{margin-bottom:0;}
+.brief-body p strong{color:var(--white);font-weight:500;}
+.spec-card{
+  background:var(--bg-card);border:1px solid var(--border);
+  border-top:2px solid var(--gold);padding:36px 32px;
+  position:sticky;top:100px;
+}
+.spec-title{
+  font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;
+  color:var(--gold);margin-bottom:28px;
+}
+.spec-item{
+  padding:16px 0;border-bottom:1px solid var(--border);
+  display:grid;grid-template-columns:1fr 1fr;gap:8px;
+}
+.spec-item:last-child{border-bottom:none;padding-bottom:0;}
+.spec-key{font-size:11px;font-weight:500;letter-spacing:1px;text-transform:uppercase;color:var(--text-dim);}
+.spec-val{font-size:13px;color:var(--white);font-weight:500;text-align:right;line-height:1.5;}
+
+/* ── Spaces Grid ─────────────────────────────────────────── */
+.spaces-section{padding:100px 0;border-bottom:1px solid var(--border);}
+.spaces-inner{
+  max-width:1280px;margin:0 auto;padding:0 40px;
+}
+.spaces-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:1px;
+  margin-top:60px;background:var(--border);
+}
+.space-card{
+  background:var(--bg-card);padding:40px 32px;
+}
+.space-icon{
+  width:40px;height:1px;background:var(--gold);margin-bottom:28px;
+}
+.space-name{
+  font-family:var(--serif);font-size:20px;font-weight:400;
+  color:var(--white);margin-bottom:12px;
+}
+.space-desc{
+  font-size:14px;color:var(--text-muted);line-height:1.8;
+}
+
+/* ── Gallery ────────────────────────────────────────────── */
+.gallery-section{padding:100px 0;background:var(--bg);}
+.gallery-header{max-width:1280px;margin:0 auto;padding:0 40px;margin-bottom:60px;}
+.gallery-grid{
+  max-width:1280px;margin:0 auto;padding:0 40px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:4px;
+}
+.gallery-item{overflow:hidden;position:relative;cursor:zoom-in;}
+.gallery-item img{
+  width:100%;height:100%;object-fit:cover;
+  transition:transform .7s cubic-bezier(.22,1,.36,1);
+  display:block;
+}
+.gallery-item:hover img{transform:scale(1.05);}
+
+/* Gallery layout — 6 interior images
+   Cols 1-2 rows 1-2: gi-1 Grand Lobby (span 2 cols × 2 rows, no fixed ratio — fills stack)
+   Col 3 row 1: gi-2 Bedroom  |  Col 3 row 2: gi-3 Spa (stacked, each 4/3)
+   Row 3: gi-4 Reception  |  gi-5 Dining  |  gi-6 Suite Sitting (three equal 4/3) */
+.gi-1{grid-column:span 2;grid-row:span 2;}
+.gi-2{aspect-ratio:4/3;}
+.gi-3{aspect-ratio:4/3;}
+.gi-4{aspect-ratio:4/3;}
+.gi-5{aspect-ratio:4/3;}
+.gi-6{aspect-ratio:4/3;}
+
+/* ── Design Narrative ───────────────────────────────────── */
+.narrative-section{
+  padding:120px 0;
+  background:var(--bg);
+  border-top:1px solid var(--border);
+}
+.narrative-inner{
+  max-width:860px;margin:0 auto;padding:0 40px;text-align:center;
+}
+.narrative-inner .section-label{text-align:center;display:block;}
+.narrative-inner .section-title{margin-bottom:40px;}
+.narrative-pull{
+  font-family:var(--serif);font-size:clamp(20px,2.5vw,28px);
+  font-weight:400;font-style:italic;
+  color:rgba(245,240,232,.75);line-height:1.65;
+  border-left:2px solid var(--gold);
+  padding:24px 0 24px 36px;
+  text-align:left;margin-bottom:48px;
+}
+.narrative-body{
+  font-size:16px;color:var(--text-muted);line-height:1.9;
+  text-align:left;
+}
+.narrative-body p{margin-bottom:24px;}
+.narrative-body p:last-child{margin-bottom:0;}
+
+/* ── CTA ────────────────────────────────────────────────── */
+.cta-section{
+  padding:120px 0;
+  background:var(--bg-card);
+  border-top:1px solid var(--border);
+  text-align:center;
+}
+.cta-inner{max-width:680px;margin:0 auto;padding:0 40px;}
+.cta-inner .section-title{margin-bottom:16px;}
+.cta-sub{font-size:15px;color:var(--text-muted);margin-bottom:40px;line-height:1.7;}
+.btn-gold{
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--gold);color:#0a0a0a;
+  font-family:var(--sans);font-size:12px;font-weight:600;
+  letter-spacing:1.5px;text-transform:uppercase;
+  padding:16px 32px;border:none;cursor:pointer;
+  transition:opacity .2s;
+}
+.btn-gold:hover{opacity:.88;}
+.btn-outline{
+  display:inline-flex;align-items:center;gap:10px;
+  border:1px solid var(--gold-border);color:var(--text-muted);
+  font-family:var(--sans);font-size:12px;font-weight:500;
+  letter-spacing:1.5px;text-transform:uppercase;
+  padding:16px 32px;
+  transition:border-color .2s,color .2s;
+}
+.btn-outline:hover{border-color:var(--gold);color:var(--white);}
+.cta-btns{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;}
+
+/* ── Footer ─────────────────────────────────────────────── */
+.site-footer{
+  padding:32px 0;
+  border-top:1px solid var(--border);
+}
+.footer-inner{
+  max-width:1280px;margin:0 auto;padding:0 40px;
+  display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:16px;
+}
+.footer-logo img{height:36px;width:auto;opacity:.7;}
+.footer-copy{font-size:12px;color:var(--text-dim);}
+.footer-back{
+  font-size:12px;color:var(--text-muted);
+  display:flex;align-items:center;gap:6px;
+  transition:color .2s;
+}
+.footer-back:hover{color:var(--gold);}
+
+/* ── Lightbox ────────────────────────────────────────────── */
+.lightbox{
+  display:none;position:fixed;inset:0;z-index:9900;
+  background:rgba(5,5,5,.96);
+  align-items:center;justify-content:center;
+  padding:20px;
+}
+.lightbox.active{display:flex;}
+.lightbox img{max-width:92vw;max-height:90vh;object-fit:contain;}
+.lb-close{
+  position:fixed;top:20px;right:24px;
+  background:none;border:none;color:var(--text-muted);
+  font-size:28px;cursor:pointer;z-index:10000;
+  transition:color .2s;
+}
+.lb-close:hover{color:var(--white);}
+.lb-prev,.lb-next{
+  position:fixed;top:50%;transform:translateY(-50%);
+  background:none;border:1px solid var(--border);
+  color:var(--text-muted);font-size:18px;
+  width:48px;height:48px;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:border-color .2s,color .2s;
+}
+.lb-prev{left:20px;}
+.lb-next{right:20px;}
+.lb-prev:hover,.lb-next:hover{border-color:var(--gold);color:var(--gold);}
+
+/* ── Scroll animations ───────────────────────────────────── */
+.fade-up{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;}
+.fade-up.visible{opacity:1;transform:none;}
+.d1{transition-delay:.1s;} .d2{transition-delay:.2s;} .d3{transition-delay:.3s;}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media(max-width:991px){
+  .brief-inner{grid-template-columns:1fr;gap:60px;}
+  .spec-card{position:static;}
+  .gallery-grid{grid-template-columns:repeat(2,1fr);padding:0 20px;}
+  .gi-1{grid-column:span 2;grid-row:span 2;}
+  .gi-4,.gi-5,.gi-6{grid-column:span 1;}
+  .spaces-grid{grid-template-columns:1fr;}
+  .header-inner{padding:0 20px;}
+}
+@media(max-width:767px){
+  .hero{height:auto;min-height:0;display:block;overflow:visible;}
+  .hero-bg{position:relative;inset:auto;height:58vh;transform:none;transition:none;}
+  .hero-overlay{display:none;}
+  .hero-content{
+    position:static;z-index:auto;background:var(--bg);
+    padding:28px 20px 52px;max-width:100%;
+    border-top:2px solid var(--gold-border);
+  }
+  .hero-h1{font-size:clamp(26px,7vw,36px);}
+  .hero-sub{font-size:14px;}
+  .hero-meta-row{margin-top:20px;gap:14px;}
+  .hero-scroll{display:none;}
+  .brief-section,.gallery-section,.narrative-section,.cta-section,.spaces-section{padding:70px 0;}
+  .container,.brief-inner,.gallery-header,.narrative-inner,.cta-inner,.footer-inner,.spaces-inner{padding-left:20px;padding-right:20px;}
+  .gallery-grid{grid-template-columns:1fr;padding:0;}
+  .gi-1,.gi-2,.gi-3,.gi-4,.gi-5,.gi-6{grid-column:span 1;grid-row:span 1;aspect-ratio:4/3;}
+  .site-footer{padding:24px 0;}
+  .cta-btns{flex-direction:column;}
+  .btn-gold,.btn-outline{width:100%;justify-content:center;}
+  .spaces-grid{gap:1px;}
+  .space-card{padding:28px 20px;}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══════════════════════════════════════════ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="index.php" class="header-logo">
+      <img src="images/logo.png" alt="Innov Interiors & Architects">
+    </a>
+    <a href="sangam-pooja-wellness-resort-prayagraj.html" class="header-back">
+      <i class="fas fa-arrow-left"></i> Back to Project
+    </a>
+  </div>
+</header>
+
+<!-- ═══ HERO ══════════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <div class="hero-line"></div>
+      <span class="hero-eyebrow-text">Innov Arch &mdash; Interior Design</span>
+    </div>
+    <h1 class="hero-h1">
+      Crafted Interiors Rooted in<br><em>Heritage Craftsmanship</em>
+    </h1>
+    <p class="hero-sub">Sangam Pooja Wellness Resort &mdash; Indo-Islamic Interior Vocabulary, Prayagraj</p>
+    <div class="hero-meta-row">
+      <div class="hero-meta-item">
+        <i class="fas fa-map-marker-alt"></i>
+        Prayagraj, Uttar Pradesh
+      </div>
+      <div class="hero-meta-item">
+        <i class="fas fa-couch"></i>
+        Interior Design
+      </div>
+      <div class="hero-meta-item">
+        <i class="fas fa-hotel"></i>
+        Luxury Wellness Resort
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ═══ PROJECT BRIEF ════════════════════════════════════ -->
+<section class="brief-section">
+  <div class="brief-inner">
+
+    <!-- Left: Description -->
+    <div>
+      <span class="section-label fade-up">Interior Overview</span>
+      <h2 class="section-title fade-up d1">A Heritage Interior Language for a <span class="gold-italic">Luxury Resort</span></h2>
+      <div style="height:36px;"></div>
+      <div class="brief-body fade-up d2">
+        <p>The interior design of Sangam Pooja Wellness Resort draws from the <strong>richness of Indo-Islamic architectural tradition</strong> &mdash; the layered ornament, the handcrafted jali screen, the warm ochre plaster, the arched niche &mdash; recomposed to meet the expectations of a premium contemporary hospitality experience.</p>
+        <p>Each space within the resort is conceived as a distinct sensory environment united by a common material palette: <strong>hand-polished marble floors with inlaid geometric patterns, carved wood joinery, brass lighting, and hand-applied lime plaster</strong> in the warm tones of terracotta and sandstone. The result is an interior world that feels both timeless and deeply rooted in place.</p>
+        <p>From the grand arrival lobby with its vaulted coffered ceiling and central water feature, to the heritage dining room with Mughal-arched alcoves and the intimate suite interiors with <strong>hand-carved jali headboards</strong>, every detail is an expression of craft-first design thinking &mdash; the philosophy that distinguishes luxury from mere opulence.</p>
+      </div>
+    </div>
+
+    <!-- Right: Specs -->
+    <div class="fade-up d2">
+      <div class="spec-card">
+        <div class="spec-title">Design Details</div>
+        <div class="spec-item">
+          <span class="spec-key">Project</span>
+          <span class="spec-val">Sangam Pooja Wellness Resort</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">Location</span>
+          <span class="spec-val">Prayagraj, Uttar Pradesh</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">Typology</span>
+          <span class="spec-val">Luxury Hospitality Interior</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">Design Language</span>
+          <span class="spec-val">Indo-Islamic &middot; Heritage Contemporary</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">Key Spaces</span>
+          <span class="spec-val">Lobby &middot; Reception &middot; Dining &middot; Suites &middot; Wellness Spa</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">Studio</span>
+          <span class="spec-val">Innov Interiors &amp; Architects</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ KEY SPACES ════════════════════════════════════════ -->
+<section class="spaces-section">
+  <div class="spaces-inner">
+    <span class="section-label fade-up">Spaces Designed</span>
+    <h2 class="section-title fade-up d1">Every Room, a <span class="gold-italic">Crafted Experience</span></h2>
+    <div class="spaces-grid">
+
+      <div class="space-card fade-up">
+        <div class="space-icon"></div>
+        <div class="space-name">Grand Arrival Lobby</div>
+        <div class="space-desc">A vaulted coffered ceiling soars above a central stone water feature. Terracotta velvet seating, carved stone columns, and warm ambient lighting compose a first arrival that commands attention.</div>
+      </div>
+
+      <div class="space-card fade-up d1">
+        <div class="space-icon"></div>
+        <div class="space-name">Heritage Reception</div>
+        <div class="space-desc">Hand-painted floral murals in a Mughal miniature tradition frame the reception desk. Paired chandeliers with brass fittings and hand-inlaid marble floors establish the tone for the entire property.</div>
+      </div>
+
+      <div class="space-card fade-up d2">
+        <div class="space-icon"></div>
+        <div class="space-name">Fine Dining Restaurant</div>
+        <div class="space-desc">A formal dining hall with a symmetrical enfilade of pointed arches, coffered ceiling fans, and white-linen service. Warm wall sconces and framed artwork create an atmosphere of quiet grandeur.</div>
+      </div>
+
+      <div class="space-card fade-up">
+        <div class="space-icon"></div>
+        <div class="space-name">Luxury Suites</div>
+        <div class="space-desc">Suite interiors feature a full-wall hand-carved wooden jali panel as an architectural headboard, herringbone parquet floors, and arched niches &mdash; layering traditional craft within a calm, restrained palette.</div>
+      </div>
+
+      <div class="space-card fade-up d1">
+        <div class="space-icon"></div>
+        <div class="space-name">Heritage Bedrooms</div>
+        <div class="space-desc">Warm lime-plaster walls in sand and ochre tones, ornate Moroccan lantern pendants, jali-carved headboards, and hand-knotted rugs deliver an immersive heritage experience for every overnight guest.</div>
+      </div>
+
+      <div class="space-card fade-up d2">
+        <div class="space-icon"></div>
+        <div class="space-name">Material Palette</div>
+        <div class="space-desc">Hand-polished marble with geometric inlay, carved sandstone, teak joinery, aged brass hardware, hand-applied lime plaster, and hand-woven textiles &mdash; every material chosen for longevity and authenticity.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ IMAGE GALLERY ════════════════════════════════════ -->
+<section class="gallery-section">
+  <div class="gallery-header">
+    <span class="section-label fade-up">Interior Photography</span>
+    <h2 class="section-title fade-up d1">The Craft in <span class="gold-italic">Detail</span></h2>
+  </div>
+  <div class="gallery-grid">
+
+    <!-- Cols 1-2 rows 1-2: Grand Lobby (spans 2 cols × 2 rows) -->
+    <div class="gallery-item gi-1 fade-up" data-src="images/prayagraj/interiors/12121.png">
+      <img src="images/prayagraj/interiors/12121.png" alt="Grand arrival lobby with vaulted coffered ceiling and central water feature — Sangam Pooja Wellness Resort" loading="lazy" style="object-position:center 35%;">
+    </div>
+
+    <!-- Col 3 row 1: Heritage Bedroom -->
+    <div class="gallery-item gi-2 fade-up d1" data-src="images/prayagraj/interiors/382233-ade9ca90-f39f-11f0-867e-ea4b14775f8b.png">
+      <img src="images/prayagraj/interiors/382233-ade9ca90-f39f-11f0-867e-ea4b14775f8b.png" alt="Heritage bedroom with jali carved headboard and Moroccan lantern — Sangam Pooja Wellness Resort" loading="lazy">
+    </div>
+
+    <!-- Col 3 row 2: Ayurvedic Wellness Spa -->
+    <div class="gallery-item gi-3 fade-up d2" data-src="images/prayagraj/interiors/88.jpg">
+      <img src="images/prayagraj/interiors/88.jpg" alt="Ayurvedic wellness spa treatment room with traditional Shirodhara table and brass vessels — Sangam Pooja Wellness Resort" loading="lazy">
+    </div>
+
+    <!-- Row 3: Reception + Dining + Suite Sitting Room -->
+    <div class="gallery-item gi-4 fade-up" data-src="images/prayagraj/interiors/222.jpg">
+      <img src="images/prayagraj/interiors/222.jpg" alt="Heritage reception lobby with hand-painted floral murals and chandeliers — Sangam Pooja Wellness Resort" loading="lazy">
+    </div>
+    <div class="gallery-item gi-5 fade-up d1" data-src="images/prayagraj/interiors/1111.jpg">
+      <img src="images/prayagraj/interiors/1111.jpg" alt="Fine dining restaurant with Mughal-arched ceiling and white-linen service — Sangam Pooja Wellness Resort" loading="lazy">
+    </div>
+    <div class="gallery-item gi-6 fade-up d2" data-src="images/prayagraj/interiors/562715-f5193c74-f3a0-11f0-a8c0-ca2ed68c769d.png">
+      <img src="images/prayagraj/interiors/562715-f5193c74-f3a0-11f0-a8c0-ca2ed68c769d.png" alt="Luxury suite sitting room with hand-carved jali wood panel wall and herringbone parquet floor — Sangam Pooja Wellness Resort" loading="lazy">
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ DESIGN NARRATIVE ═════════════════════════════════ -->
+<section class="narrative-section">
+  <div class="narrative-inner">
+    <span class="section-label fade-up">Design Intent</span>
+    <h2 class="section-title fade-up d1">Craft Before <span class="gold-italic">Ornament</span></h2>
+    <div style="height:48px;"></div>
+    <blockquote class="narrative-pull fade-up d2">
+      The most enduring interiors are those where every surface carries the memory of a hand &mdash; where craft is not decoration but the very structure of the experience.
+    </blockquote>
+    <div class="narrative-body fade-up d3">
+      <p>Luxury resort interior design in India occupies a unique position: it must simultaneously honour the depth of a centuries-old craft tradition and meet the functional rigour of contemporary hospitality. At Sangam Pooja Wellness Resort, we resolved this by treating the Indo-Islamic architectural vocabulary not as a stylistic reference but as a living building system &mdash; arches that define spatial rhythm, jali screens that modulate light, carved plaster that gives walls texture and warmth.</p>
+      <p>The material palette was composed around durability, authenticity, and warmth. Hand-polished marble with geometric inlay anchors the public spaces. Hand-applied lime plaster in ochre and sand tones gives the rooms their distinctive warmth and acoustic softness. Brass &mdash; in chandeliers, in wall sconces, in door hardware &mdash; provides the thread of luminosity that ties every space together.</p>
+      <p>The result is an interior environment that succeeds on two registers simultaneously: it is visually rich and culturally rooted, yet entirely comfortable and functional as a premium hospitality space. Guests arrive and feel the weight of something genuinely made &mdash; an increasingly rare quality in the contemporary built world.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA ═══════════════════════════════════════════════ -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <span class="section-label fade-up" style="text-align:center;display:block;">Commission Your Interior</span>
+    <h2 class="section-title fade-up d1">Design Something That <span class="gold-italic">Endures</span></h2>
+    <p class="cta-sub fade-up d2">
+      Interested in a heritage-inspired luxury interior for your hospitality project? Schedule a private consultation with our principal designer. We work exclusively on projects above &#8377;5 Crore.
+    </p>
+    <div class="cta-btns fade-up d3">
+      <a href="resorts-architects.html#contact" class="btn-gold">
+        <i class="fas fa-paper-plane"></i> Schedule a Consultation
+      </a>
+      <a href="sangam-pooja-wellness-resort-prayagraj.html" class="btn-outline">
+        <i class="fas fa-building"></i> View Architecture Project
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══════════════════════════════════════════ -->
+<footer class="site-footer">
+    <nav class="footer-areas" aria-label="Our service areas" style="max-width:1280px;margin:0 auto 22px;padding:0 40px 22px;border-bottom:1px solid rgba(255,255,255,.08);text-align:center;line-height:2.4;">
+    <span style="display:block;color:#c9a96e;letter-spacing:2px;text-transform:uppercase;font-size:11px;margin-bottom:10px;">Architecture &amp; Interior Design Across India</span>
+    <a href="noida/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Architects in Noida</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="greater-noida/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Greater Noida</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="delhi/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Delhi NCR</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="ghaziabad/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Ghaziabad</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="uttarakhand/" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Resorts in Uttarakhand</a><span style="color:rgba(255,255,255,.25);">&middot;</span>
+    <a href="resorts-architects.html" style="color:rgba(255,255,255,.65);font-size:13px;margin:0 9px;">Resort &amp; Hotel Architects</a>
+  </nav>
+<div class="footer-inner">
+    <a href="index.php" class="footer-logo">
+      <img src="images/logo.png" alt="Innov Interiors & Architects">
+    </a>
+    <span class="footer-copy">&copy; 2026 Innov Interiors &amp; Architects. All rights reserved.</span>
+    <a href="sangam-pooja-wellness-resort-prayagraj.html" class="footer-back">
+      <i class="fas fa-arrow-left"></i> Back to Project
+    </a>
+  </div>
+</footer>
+
+<!-- ═══ LIGHTBOX ══════════════════════════════════════════ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+  <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+  <button class="lb-prev" id="lbPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+  <img src="" alt="" id="lbImg">
+  <button class="lb-next" id="lbNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+</div>
+
+<script>
+/* ── Header scroll ──────────────────────────── */
+const header = document.getElementById('siteHeader');
+window.addEventListener('scroll', () => {
+  header.classList.toggle('scrolled', window.scrollY > 60);
+}, {passive:true});
+
+/* ── Hero image subtle zoom on load ─────────── */
+window.addEventListener('load', () => {
+  document.getElementById('heroBg').classList.add('loaded');
+});
+
+/* ── Scroll animations ───────────────────────── */
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+}, {threshold:0.1});
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+/* ── Lightbox ────────────────────────────────── */
+const items  = [...document.querySelectorAll('.gallery-item[data-src]')];
+const lb     = document.getElementById('lightbox');
+const lbImg  = document.getElementById('lbImg');
+const lbClose= document.getElementById('lbClose');
+const lbPrev = document.getElementById('lbPrev');
+const lbNext = document.getElementById('lbNext');
+let current  = 0;
+
+function openLb(idx){
+  current = idx;
+  lbImg.src = items[idx].dataset.src;
+  lbImg.alt = items[idx].querySelector('img').alt;
+  lb.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+function closeLb(){
+  lb.classList.remove('active');
+  document.body.style.overflow = '';
+}
+function showLb(dir){
+  current = (current + dir + items.length) % items.length;
+  lbImg.src = items[current].dataset.src;
+}
+
+items.forEach((el, i) => el.addEventListener('click', () => openLb(i)));
+lbClose.addEventListener('click', closeLb);
+lb.addEventListener('click', e => { if(e.target === lb) closeLb(); });
+lbPrev.addEventListener('click', () => showLb(-1));
+lbNext.addEventListener('click', () => showLb(1));
+document.addEventListener('keydown', e => {
+  if(!lb.classList.contains('active')) return;
+  if(e.key === 'Escape') closeLb();
+  if(e.key === 'ArrowLeft') showLb(-1);
+  if(e.key === 'ArrowRight') showLb(1);
+});
+</script>
+</body>
+</html>

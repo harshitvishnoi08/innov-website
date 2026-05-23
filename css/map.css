@@ -1,0 +1,125 @@
+/* ===== India Map Section ===== */
+.map-section {
+  /* This is the overall background for the entire section.
+     Using a dark, almost black color from your logo's general tone for the base. */
+  background: #1E2A3A;
+  padding: 80px 0;
+}
+
+.map-section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.map-main-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #D3A934; /* Rich golden header text from logo */
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.map-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 80px;
+}
+
+.map-side-panel {
+  width: 400px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.stat-item {
+  text-align: left;
+}
+
+.stat-number {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #d1a93b; /* Rich golden color for numbers */
+  line-height: 1;
+  margin-bottom: 8px;
+  letter-spacing: -1px;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #f0f3f7; /* Light grey for contrast */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#india-map {
+  flex: 1;
+  min-width: 600px;
+  height: 600px;
+  max-width: 900px;
+  /* IMPORTANT: Remove the background here! Highcharts will draw its own background. */
+  background: none; 
+  border-radius: 8px; /* subtle premium touch */
+  /* Add a subtle shadow to give it depth, matching the image */
+}
+
+@media (max-width: 768px) {
+  .map-section {
+    padding: 40px 0;
+  }
+  
+  .map-main-title {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+  }
+  
+  .map-section-header {
+    margin-bottom: 40px;
+  }
+
+  .map-wrapper {
+    gap: 40px;
+  }
+
+  .map-side-panel {
+    gap: 25px;
+  }
+  
+  .stat-number {
+    font-size: 3rem;
+  }
+  
+  .stat-label {
+    font-size: 1rem;
+  }
+
+  #india-map {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-main-title {
+    font-size: 1.8rem;
+  }
+  
+  .stat-number {
+    font-size: 2.5rem;
+  }
+  
+  .stat-label {
+    font-size: 0.9rem;
+  }
+  
+  #india-map {
+    height: 350px;
+  }
+}
