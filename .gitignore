@@ -22,3 +22,7 @@ weinnovarch/
 
 # ── cPanel deploy artifacts ───────────────────────
 .cpanel.yml.bak
+.htaccess.bak
+
+# ── Local helper files (not part of the website) ──
+urls.txt
