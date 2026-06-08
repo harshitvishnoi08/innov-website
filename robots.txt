@@ -10,5 +10,5 @@ Disallow: /index2.html
 Disallow: /weinnovarch/
 Disallow: /wp/
 
-Sitemap: https://weinnovarch.com/sitemap.xml
+Sitemap: https://weinnovarch.com/sitemap_index.xml
 LLMs: https://weinnovarch.com/llms.txt
