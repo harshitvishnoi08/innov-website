@@ -88,8 +88,14 @@
   <!-- ═══ BLOG ═══════════════════════════════════════════════ -->
   <url>
     <loc>https://weinnovarch.com/blog.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weinnovarch.com/home-interior-design-cost-noida.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
