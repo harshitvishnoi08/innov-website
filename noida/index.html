@@ -795,6 +795,125 @@ button { font-family:var(--sans); }
   </div>
 </section>
 
+<!-- ══ LEAD BAND (Get Your Free Consultation) ════════════════════ -->
+<style>
+.lead-band { background:var(--bg); border-top:1px solid var(--border); padding:84px 0; }
+.lead-inner {
+  max-width:1180px; margin:0 auto; padding:0 40px;
+  display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center;
+}
+.lead-copy .section-label { margin-bottom:16px; }
+.lead-h2 {
+  font-family:var(--serif); font-size:clamp(28px,3.4vw,40px); font-weight:400;
+  line-height:1.18; color:var(--white); margin-bottom:18px;
+}
+.lead-h2 em { color:var(--gold); font-style:italic; }
+.lead-lede { font-size:15px; color:var(--muted); font-weight:300; line-height:1.85; margin-bottom:28px; max-width:460px; }
+.lead-points { list-style:none; padding:0; margin:0 0 30px; }
+.lead-points li { display:flex; align-items:flex-start; gap:12px; font-size:14px; color:var(--white); font-weight:300; margin-bottom:13px; }
+.lead-points i { color:var(--gold); font-size:14px; margin-top:3px; flex-shrink:0; }
+.lead-contact-row { display:flex; flex-wrap:wrap; gap:14px; }
+.lead-contact-row a {
+  display:inline-flex; align-items:center; gap:9px; font-size:13px; font-weight:500;
+  letter-spacing:.5px; color:var(--white); padding:11px 18px; border:1px solid var(--border);
+  transition:border-color .3s, color .3s;
+}
+.lead-contact-row a i { color:var(--gold); }
+.lead-contact-row a:hover { border-color:var(--gold-border); color:var(--gold); }
+.lead-form-card {
+  background:var(--bg-card); border:1px solid var(--border); border-top:2px solid var(--gold);
+  padding:34px 32px;
+}
+.lead-form-card .cf-title { font-family:var(--serif); font-size:25px; font-weight:400; color:var(--white); margin-bottom:6px; }
+.lead-form-card .cf-sub { font-size:13px; color:var(--muted); margin-bottom:22px; }
+.cf-row2 { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.cf-textarea {
+  width:100%; background:#1a1a1a; border:1px solid var(--border); color:var(--white);
+  font-family:var(--sans); font-size:14px; font-weight:300; padding:12px 14px; outline:none;
+  transition:border-color .25s; resize:vertical; min-height:84px;
+}
+.cf-textarea::placeholder { color:var(--dim); }
+.cf-textarea:focus { border-color:var(--gold-border); }
+.lead-note { font-size:11px; color:var(--dim); text-align:center; margin-top:12px; }
+.lead-note i { color:var(--gold); }
+@media (max-width:860px){
+  .lead-band { padding:56px 0; }
+  .lead-inner { grid-template-columns:1fr; gap:40px; padding:0 20px; }
+  .lead-form-card { padding:28px 22px; }
+  .cf-row2 { grid-template-columns:1fr; }
+}
+</style>
+<section class="lead-band" id="get-estimate">
+  <div class="lead-inner">
+    <div class="lead-copy fade-up">
+      <span class="section-label">Free Consultation</span>
+      <h2 class="lead-h2">Planning a project in Noida? <em>Let's talk.</em></h2>
+      <p class="lead-lede">
+        Share a few details about your home or commercial project and one of our architects
+        will call you back within 4 business hours &mdash; with honest guidance on design,
+        timelines and a realistic cost estimate. No obligation, no pressure.
+      </p>
+      <ul class="lead-points">
+        <li><i class="fas fa-check"></i> Free design consultation &amp; transparent, itemised pricing</li>
+        <li><i class="fas fa-check"></i> 500+ homes, villas &amp; commercial spaces delivered across Noida &amp; NCR</li>
+        <li><i class="fas fa-check"></i> One studio for architecture, interiors &amp; turnkey execution</li>
+      </ul>
+      <div class="lead-contact-row">
+        <a href="tel:+918178262805"><i class="fas fa-phone"></i> +91 81782 62805</a>
+        <a href="https://api.whatsapp.com/send?phone=918178262805&text=Hi,%20I%27m%20interested%20in%20architecture%20or%20interior%20design%20services%20in%20Noida." target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="lead-form-card fade-up d1">
+      <h3 class="cf-title">Get Your Free Consultation</h3>
+      <p class="cf-sub">Share your project details and our experts will reach out to you.</p>
+      <form action="../submit.php" method="POST">
+        <div class="cf-group">
+          <input class="cf-input" type="text" name="Name" placeholder="Full Name *" required>
+        </div>
+        <div class="cf-row2">
+          <div class="cf-group">
+            <input class="cf-input" type="email" name="Email" placeholder="Email Address">
+          </div>
+          <div class="cf-group">
+            <input class="cf-input" type="tel" name="Number" placeholder="Phone Number *" required>
+          </div>
+        </div>
+        <div class="cf-row2">
+          <div class="cf-group">
+            <select class="cf-select" name="Requirement" required>
+              <option value="">Select Project Type</option>
+              <option value="Home Interiors">Home Interiors</option>
+              <option value="Architecture / New Home">Architecture / New Home</option>
+              <option value="Villa / Bungalow">Villa / Bungalow</option>
+              <option value="Front Elevation Design">Front Elevation Design</option>
+              <option value="Commercial Interior">Commercial Interior</option>
+              <option value="Home Renovation">Home Renovation</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="cf-group">
+            <select class="cf-select" name="LandArea">
+              <option value="">Select Land Area</option>
+              <option value="Under 1000 sq ft">Under 1,000 sq ft</option>
+              <option value="1000-2000 sq ft">1,000 &ndash; 2,000 sq ft</option>
+              <option value="2000-4000 sq ft">2,000 &ndash; 4,000 sq ft</option>
+              <option value="4000+ sq ft">4,000+ sq ft</option>
+              <option value="Not sure yet">Not sure yet</option>
+            </select>
+          </div>
+        </div>
+        <div class="cf-group">
+          <textarea class="cf-textarea" name="message" placeholder="Project Details (Optional) — location, size, timeline, requirements..."></textarea>
+        </div>
+        <input type="hidden" name="City" value="Noida">
+        <button type="submit" name="submit" class="cf-submit">Get My Free Consultation &rarr;</button>
+        <p class="lead-note"><i class="fas fa-lock"></i> 100% confidential. We respond within 4 business hours.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
 <!-- ══ STATS ══════════════════════════════════════════════════════ -->
 <div class="stats-strip">
   <div class="stats-inner">

@@ -6,6 +6,7 @@ if (isset($_POST['submit'])) {
     $city        = $_POST['City'];
     $requirement = $_POST['Requirement'] ?? '';
     $budget      = $_POST['Budget'] ?? '';
+    $landArea    = $_POST['LandArea'] ?? '';
     $message     = $_POST['message'] ?? '';
     $ip          = $_SERVER['REMOTE_ADDR'];
 
@@ -40,7 +41,8 @@ if (isset($_POST['submit'])) {
   <tr><td style='padding:8px 0;border-bottom:1px solid #eee;color:#888;'>Email</td><td style='padding:8px 0;border-bottom:1px solid #eee;'><a href='mailto:{$email}' style='color:#b8862a;text-decoration:none;'>{$email}</a></td></tr>
   <tr><td style='padding:8px 0;border-bottom:1px solid #eee;color:#888;'>City</td><td style='padding:8px 0;border-bottom:1px solid #eee;'>{$city}</td></tr>
   <tr><td style='padding:8px 0;border-bottom:1px solid #eee;color:#888;'>Project Type</td><td style='padding:8px 0;border-bottom:1px solid #eee;font-weight:bold;color:#b8862a;'>{$requirement}</td></tr>
-  <tr><td style='padding:8px 0;border-bottom:1px solid #eee;color:#888;'>Budget</td><td style='padding:8px 0;border-bottom:1px solid #eee;'>{$budget}</td></tr>
+  <tr><td style='padding:8px 0;border-bottom:1px solid #eee;color:#888;'>Budget</td><td style='padding:8px 0;border-bottom:1px solid #eee;'>{$budget}</td></tr>" . ($landArea ? "
+  <tr><td style='padding:8px 0;border-bottom:1px solid #eee;color:#888;'>Land Area</td><td style='padding:8px 0;border-bottom:1px solid #eee;font-weight:bold;'>{$landArea}</td></tr>" : "") . "
   <tr><td style='padding:8px 0;color:#888;'>IP</td><td style='padding:8px 0;color:#bbb;font-size:12px;'>{$ip}</td></tr>
 </table>
 
@@ -82,6 +84,7 @@ if (isset($_POST['submit'])) {
         'City'        => $city,
         'Requirement' => $requirement,
         'Budget'      => $budget,
+        'LandArea'    => $landArea,
         'Message'     => $message,
         'IP'          => $ip,
         'timestamp'   => '',
