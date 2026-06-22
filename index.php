@@ -6,8 +6,8 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3DFG47HWK"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N3DFG47HWK',{'send_page_view':false});window.addEventListener('load',function(){gtag('event','page_view',{'send_to':'G-N3DFG47HWK'});});</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Innov Interiors & Architects — Premium architecture and interior design studio in Delhi NCR. 15+ years of experience. Resorts, banquet halls, residences, commercial projects across India.">
-<title>Innov Interiors & Architects | Architecture & Interior Design Studio</title>
+<meta name="description" content="Innov Interiors & Architects is a leading architecture & interior design firm in Delhi NCR — homes, villas, offices & commercial projects across Noida, Greater Noida, Ghaziabad & Delhi. 15+ years, 500+ projects. Book a free consultation.">
+<title>Architecture & Interior Design in Delhi NCR | Innov Interiors & Architects</title>
 <link rel="icon" type="image/png" href="images/circle-logo.png">
 <link rel="apple-touch-icon" href="images/circle-logo.png">
 <link rel="canonical" href="https://weinnovarch.com/">
@@ -15,14 +15,14 @@
 <!-- ═══ OPEN GRAPH / SOCIAL SHARING (WhatsApp, Facebook, LinkedIn) ═══ -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Innov Interiors & Architects">
-<meta property="og:title" content="Innov Interiors & Architects | Architecture & Interior Design Studio">
-<meta property="og:description" content="Premium architecture & interior design studio in Delhi NCR. 15+ years of experience — luxury villas, resorts, banquet halls & commercial projects across India.">
+<meta property="og:title" content="Architecture & Interior Design in Delhi NCR | Innov Interiors & Architects">
+<meta property="og:description" content="Leading architecture & interior design firm in Delhi NCR — homes, villas, offices & commercial projects across Noida, Greater Noida, Ghaziabad & Delhi. 15+ years, 500+ projects.">
 <meta property="og:url" content="https://weinnovarch.com/">
 <meta property="og:image" content="https://weinnovarch.com/images/logo.png">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Innov Interiors & Architects | Architecture & Interior Design Studio">
-<meta name="twitter:description" content="Premium architecture & interior design studio in Delhi NCR — luxury villas, resorts, banquet halls & commercial projects across India.">
+<meta name="twitter:title" content="Architecture & Interior Design in Delhi NCR | Innov Interiors & Architects">
+<meta name="twitter:description" content="Leading architecture & interior design firm in Delhi NCR — homes, villas, offices & commercial projects across Noida, Greater Noida, Ghaziabad & Delhi.">
 <meta name="twitter:image" content="https://weinnovarch.com/images/logo.png">
 <meta name="geo.region" content="IN-UP">
 <meta name="geo.placename" content="Noida">
@@ -54,7 +54,7 @@
       "@type": ["LocalBusiness", "ProfessionalService"],
       "@id": "https://weinnovarch.com/#localbusiness",
       "name": "Innov Interiors & Architects",
-      "description": "Premium architecture and interior design studio in Delhi NCR specialising in luxury villas, resorts & hotels, banquet halls and commercial projects across India.",
+      "description": "Leading architecture & interior design firm in Delhi NCR, with 15+ years and 500+ projects — homes, villas, offices and commercial spaces across Noida, Greater Noida, Ghaziabad and Delhi.",
       "url": "https://weinnovarch.com/",
       "image": "https://weinnovarch.com/images/logo.png",
       "logo": "https://weinnovarch.com/images/logo.png",
@@ -728,8 +728,8 @@ button{font-family:var(--sans);}
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <div class="hero-eyebrow">Innov Interiors &amp; Architects</div>
-    <h1 class="hero-title">Transform Your Space<br>with <em>Innov Arch!</em></h1>
-    <p class="hero-sub">Unleash exceptional design and superior craftsmanship. Explore our bespoke solutions and redefine your interior today.</p>
+    <h1 class="hero-title">Architecture &amp; Interior Design<br>in <em>Delhi NCR</em></h1>
+    <p class="hero-sub">Transform your space with Innov Arch — award-winning architects &amp; interior designers delivering homes, villas, offices &amp; commercial projects across Noida, Greater Noida, Ghaziabad &amp; Delhi.</p>
     <div class="hero-btns">
       <button class="btn-gold open-modal">Get In Touch</button>
       <a href="#projects" class="btn-outline">View Projects</a>
