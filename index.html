@@ -1090,7 +1090,7 @@ button{font-family:var(--sans);}
     <div class="fade-up d1">
       <span class="section-label">About Us</span>
       <h2 class="section-title split-title">Innov Interiors<br>&amp; <em>Architects</em></h2>
-      <p class="section-sub">Innov Arch is a leading architecture and interior design studio based in Delhi NCR holding an experience of 15+ years in this industry.</p>
+      <p class="section-sub">Innov Arch is a leading architecture and interior design studio based in Delhi NCR holding an experience of 15+ years in this industry. We're recognised among the <a href="noida/" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px;">best architects in Noida</a>, with homes, villas and commercial projects delivered across <a href="greater-noida/" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px;">Greater Noida</a>, <a href="ghaziabad/" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px;">Ghaziabad</a> and <a href="delhi/" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px;">Delhi</a>.</p>
       <ul class="about-list">
         <li>Creative Expertise</li>
         <li>Client-centered Approach</li>
