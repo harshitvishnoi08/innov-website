@@ -10,5 +10,8 @@ Disallow: /index2.html
 Disallow: /weinnovarch/
 Disallow: /wp/
 
+# Internal reference doc — not for indexing
+Disallow: /SEO-Machine%20(1).pdf
+
 Sitemap: https://weinnovarch.com/sitemap_index.xml
 LLMs: https://weinnovarch.com/llms.txt
