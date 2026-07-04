@@ -1,0 +1,19 @@
+{
+  "siteUrl": "sc-domain:weinnovarch.com",
+  "oauthCredentials": "oauth-credentials.json",
+  "tokenFile": "token.json",
+  "outputDir": "reports",
+  "defaultDays": 28,
+  "rowLimit": 25000,
+  "opportunity": {
+    "minPosition": 5,
+    "maxPosition": 20,
+    "minImpressions": 20
+  },
+  "quickWin": {
+    "minPosition": 3,
+    "maxPosition": 10,
+    "maxCtr": 0.02,
+    "minImpressions": 50
+  }
+}

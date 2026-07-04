@@ -1,4 +1,13 @@
-
+# ── Canonical host: force HTTPS + non-www in ONE 301 redirect ──
+# Consolidates http://, http://www, and https://www onto https://weinnovarch.com
+# so Google treats the site as a single property (no split ranking / link equity).
+# Matches the rel="canonical" URLs used across the site.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\.weinnovarch\.com [NC]
+  RewriteRule ^ https://weinnovarch.com%{REQUEST_URI} [L,R=301]
+</IfModule>
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php83” package as the default “PHP” programming language.

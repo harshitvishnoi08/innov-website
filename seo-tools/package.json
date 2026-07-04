@@ -1,0 +1,14 @@
+{
+  "name": "innovarch-seo-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pulls Google Search Console performance data for weinnovarch.com and generates SEO reports.",
+  "type": "commonjs",
+  "scripts": {
+    "gsc": "node gsc.js",
+    "gsc:90": "node gsc.js 90"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}
