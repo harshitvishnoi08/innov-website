@@ -27,7 +27,7 @@ HARD RULES:
 - Only reference images that exist in `images/`. Verify before linking.
 - Edit surgically — match the file's exact existing formatting/indentation and do
   not reflow or restructure unrelated markup.
-- Preserve the brand voice (Ar. Udit Vishnoi — Innov Interiors & Architects).
+- Preserve the brand voice (Ar. Udit Vishnoi — Innov Architects & Interiors).
 
 Finish with: a bullet list of every change made, any `TODO` facts you need the
 user to confirm, and a suggestion to re-run `/seo-audit $ARGUMENTS` to verify.

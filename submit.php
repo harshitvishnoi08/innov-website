@@ -22,12 +22,12 @@ if (isset($_POST['submit'])) {
     $subject = "New Lead: " . $name . " | " . $requirement;
 
     $mobileDigits = preg_replace('/[^0-9]/', '', $mobile);
-    $waText = rawurlencode("Hi " . $name . ", this is Innov Interiors & Architects. We received your enquiry for " . $requirement . ". Are you available for a quick call?");
+    $waText = rawurlencode("Hi " . $name . ", this is Innov Architects & Interiors. We received your enquiry for " . $requirement . ". Are you available for a quick call?");
 
     $htmlContent = "<html><body style='font-family:Arial,sans-serif;font-size:14px;color:#333;background:#f5f5f5;padding:20px;'>
 <div style='max-width:520px;margin:0 auto;background:#fff;border:1px solid #ddd;padding:28px;'>
 
-<h2 style='margin:0 0 4px;font-size:18px;color:#111;'>New Enquiry - Innov Interiors &amp; Architects</h2>
+<h2 style='margin:0 0 4px;font-size:18px;color:#111;'>New Enquiry - Innov Architects &amp; Interiors</h2>
 <p style='margin:0 0 20px;font-size:12px;color:#999;'>Respond within 4 business hours</p>
 
 <div style='background:#fdf8f0;border:1px solid #e8d8b0;padding:16px;margin-bottom:20px;text-align:center;'>
@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
   <p style='margin:0;font-size:14px;color:#333;line-height:1.6;'>{$message}</p>
 </div>" : "") . "
 
-<p style='margin:20px 0 0;font-size:11px;color:#bbb;text-align:center;'>Innov Interiors &amp; Architects - weinnovarch.com</p>
+<p style='margin:20px 0 0;font-size:11px;color:#bbb;text-align:center;'>Innov Architects &amp; Interiors - weinnovarch.com</p>
 </div>
 </body></html>";
 
@@ -193,7 +193,7 @@ function sendEmailViaSMTP($to, $subject, $htmlContent, $replyTo, $replyToName, $
     if (substr($response, 0, 3) != '354') { fclose($socket); return false; }
 
     $toHeader  = implode(', ', array_map(function($e) { return "<{$e}>"; }, $to));
-    $emailData  = "From: Innov Interiors & Architects <{$smtpUser}>\r\n";
+    $emailData  = "From: Innov Architects & Interiors <{$smtpUser}>\r\n";
     $emailData .= "To: {$toHeader}\r\n";
     $emailData .= "Reply-To: {$replyToName} <{$replyTo}>\r\n";
     $emailData .= "Subject: {$subject}\r\n";

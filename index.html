@@ -6,22 +6,22 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3DFG47HWK"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N3DFG47HWK',{'send_page_view':false});window.addEventListener('load',function(){gtag('event','page_view',{'send_to':'G-N3DFG47HWK'});});</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Innov Interiors & Architects is a leading architecture & interior design firm in Delhi NCR — homes, villas, offices & commercial projects across Noida, Greater Noida, Ghaziabad & Delhi. 15+ years, 500+ projects. Book a free consultation.">
-<title>Architecture & Interior Design in Delhi NCR | Innov Interiors & Architects</title>
+<meta name="description" content="Innov Architects & Interiors is a leading architecture & interior design firm in Delhi NCR — homes, villas, offices & commercial projects across Noida, Greater Noida, Ghaziabad & Delhi. 15+ years, 500+ projects. Book a free consultation.">
+<title>Architecture & Interior Design in Delhi NCR | Innov Architects & Interiors</title>
 <link rel="icon" type="image/png" href="images/circle-logo.png">
 <link rel="apple-touch-icon" href="images/circle-logo.png">
 <link rel="canonical" href="https://weinnovarch.com/">
 
 <!-- ═══ OPEN GRAPH / SOCIAL SHARING (WhatsApp, Facebook, LinkedIn) ═══ -->
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Innov Interiors & Architects">
-<meta property="og:title" content="Architecture & Interior Design in Delhi NCR | Innov Interiors & Architects">
+<meta property="og:site_name" content="Innov Architects & Interiors">
+<meta property="og:title" content="Architecture & Interior Design in Delhi NCR | Innov Architects & Interiors">
 <meta property="og:description" content="Leading architecture & interior design firm in Delhi NCR — homes, villas, offices & commercial projects across Noida, Greater Noida, Ghaziabad & Delhi. 15+ years, 500+ projects.">
 <meta property="og:url" content="https://weinnovarch.com/">
 <meta property="og:image" content="https://weinnovarch.com/images/logo.png">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Architecture & Interior Design in Delhi NCR | Innov Interiors & Architects">
+<meta name="twitter:title" content="Architecture & Interior Design in Delhi NCR | Innov Architects & Interiors">
 <meta name="twitter:description" content="Leading architecture & interior design firm in Delhi NCR — homes, villas, offices & commercial projects across Noida, Greater Noida, Ghaziabad & Delhi.">
 <meta name="twitter:image" content="https://weinnovarch.com/images/logo.png">
 <meta name="geo.region" content="IN-UP">
@@ -37,7 +37,7 @@
     {
       "@type": "Organization",
       "@id": "https://weinnovarch.com/#organization",
-      "name": "Innov Interiors & Architects",
+      "name": "Innov Architects & Interiors",
       "url": "https://weinnovarch.com/",
       "logo": "https://weinnovarch.com/images/logo.png",
       "image": "https://weinnovarch.com/images/logo.png",
@@ -53,7 +53,7 @@
     {
       "@type": ["LocalBusiness", "ProfessionalService"],
       "@id": "https://weinnovarch.com/#localbusiness",
-      "name": "Innov Interiors & Architects",
+      "name": "Innov Architects & Interiors",
       "description": "Leading architecture & interior design firm in Delhi NCR, with 15+ years and 500+ projects — homes, villas, offices and commercial spaces across Noida, Greater Noida, Ghaziabad and Delhi.",
       "url": "https://weinnovarch.com/",
       "image": "https://weinnovarch.com/images/logo.png",
@@ -102,7 +102,7 @@
       "@type": "WebSite",
       "@id": "https://weinnovarch.com/#website",
       "url": "https://weinnovarch.com/",
-      "name": "Innov Interiors & Architects",
+      "name": "Innov Architects & Interiors",
       "publisher": { "@id": "https://weinnovarch.com/#organization" }
     }
   ]
@@ -700,7 +700,7 @@ button{font-family:var(--sans);}
 <header class="site-header" id="siteHeader">
   <div class="header-inner">
     <a href="index.php" class="header-logo">
-      <img src="images/logo.png" alt="Innov Interiors & Architects Logo" loading="eager">
+      <img src="images/logo.png" alt="Innov Architects & Interiors Logo" loading="eager">
     </a>
     <nav class="header-nav" id="headerNav">
       <a href="index.php">Home</a>
@@ -727,7 +727,7 @@ button{font-family:var(--sans);}
   </div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <div class="hero-eyebrow">Innov Interiors &amp; Architects</div>
+    <div class="hero-eyebrow">Innov Architects &amp; Interiors</div>
     <h1 class="hero-title">Architecture &amp; Interior Design<br>in <em>Delhi NCR</em></h1>
     <p class="hero-sub">Transform your space with Innov Arch — award-winning architects &amp; interior designers delivering homes, villas, offices &amp; commercial projects across Noida, Greater Noida, Ghaziabad &amp; Delhi.</p>
     <div class="hero-btns">
@@ -859,7 +859,7 @@ button{font-family:var(--sans);}
   <div class="award-inner">
     <a href="foaid-2025.html" class="award-img-col" aria-label="View FOAID 2025 Award page">
       <img src="images/foaid-2025/recognition.webp"
-           alt="FOAID 2025 Recognition — Innov Interiors & Architects"
+           alt="FOAID 2025 Recognition — Innov Architects & Interiors"
            loading="lazy">
     </a>
     <div class="award-text-col fade-up">
@@ -1077,7 +1077,7 @@ button{font-family:var(--sans);}
 <section id="about" class="about-section">
   <div class="about-inner">
     <div class="about-imgs fade-left">
-      <div class="about-img-main img-reveal"><img src="images/about.webp" alt="Innov Interiors & Architects studio" loading="lazy"></div>
+      <div class="about-img-main img-reveal"><img src="images/about.webp" alt="Innov Architects & Interiors studio" loading="lazy"></div>
       <div class="about-img-row">
         <div class="about-img-sm img-reveal"><img src="images/about2.webp" alt="Innov Arch design process" loading="lazy"></div>
         <div class="about-img-sm img-reveal"><img src="images/why1.webp" alt="Innov Arch completed project detail" loading="lazy"></div>
@@ -1089,7 +1089,7 @@ button{font-family:var(--sans);}
     </div>
     <div class="fade-up d1">
       <span class="section-label">About Us</span>
-      <h2 class="section-title split-title">Innov Interiors<br>&amp; <em>Architects</em></h2>
+      <h2 class="section-title split-title">Innov Architects<br>&amp; <em>Interiors</em></h2>
       <p class="section-sub">Innov Arch is a leading architecture and interior design studio based in Delhi NCR holding an experience of 15+ years in this industry. We're recognised among the <a href="noida/" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px;">best architects in Noida</a>, with homes, villas and commercial projects delivered across <a href="greater-noida/" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px;">Greater Noida</a>, <a href="ghaziabad/" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px;">Ghaziabad</a> and <a href="delhi/" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px;">Delhi</a>.</p>
       <ul class="about-list">
         <li>Creative Expertise</li>
@@ -1132,7 +1132,7 @@ button{font-family:var(--sans);}
     <div class="brand-film-player fade-up" id="brandFilmThumb">
       <img class="brand-film-thumb"
            src="https://i.ytimg.com/vi_webp/M-ZOizjNZuE/maxresdefault.webp"
-           alt="Innov Interiors & Architects — Brand Film"
+           alt="Innov Architects & Interiors — Brand Film"
            loading="lazy">
       <div class="brand-film-overlay"></div>
       <div class="brand-film-play">
@@ -1140,7 +1140,7 @@ button{font-family:var(--sans);}
         <span class="brand-film-duration">Watch Our Story</span>
       </div>
       <div class="brand-film-caption">
-        <span class="brand-film-caption-label">Innov Interiors &amp; Architects</span>
+        <span class="brand-film-caption-label">Innov Architects &amp; Interiors</span>
         <span class="brand-film-caption-title">Our Brand Story</span>
       </div>
     </div>
@@ -1294,7 +1294,7 @@ button{font-family:var(--sans);}
       <iframe
         data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.595454675908!2d77.37472607616378!3d28.61191068501565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfa878893ecdf%3A0xff5eb460177c7b40!2sInnov%20Interiors%20and%20Architects!5e0!3m2!1sen!2sin!4v1750094316927!5m2!1sen!2sin"
         allowfullscreen referrerpolicy="no-referrer-when-downgrade"
-        title="Innov Interiors and Architects — Office Location"
+        title="Innov Architects and Interiors — Office Location"
         id="mapsIframe">
       </iframe>
     </div>
@@ -1342,7 +1342,7 @@ button{font-family:var(--sans);}
   </nav>
 <div class="footer-inner">
     <a href="index.php">
-      <img src="images/logo.png" alt="Innov Interiors & Architects" style="width:120px;opacity:.65;display:block;">
+      <img src="images/logo.png" alt="Innov Architects & Interiors" style="width:120px;opacity:.65;display:block;">
     </a>
     <div class="footer-social">
       <a href="https://www.facebook.com/people/Innov-Interiors-Architects/100064101032579/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -1351,7 +1351,7 @@ button{font-family:var(--sans);}
       <a href="https://www.linkedin.com/company/innov-arc/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
       <a href="mailto:support@weinnovarch.com" aria-label="Email Innov Arch"><i class="fas fa-envelope"></i></a>
     </div>
-    <div class="footer-copy">&copy; 2026 Innov Interiors &amp; Architects. All rights reserved.</div>
+    <div class="footer-copy">&copy; 2026 Innov Architects &amp; Interiors. All rights reserved.</div>
   </div>
 </footer>
 

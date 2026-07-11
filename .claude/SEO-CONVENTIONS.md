@@ -45,7 +45,7 @@ and optimize against this. Derived from the site's existing well-built pages
 - Cost pages: include concrete India-market numbers, tables, and a clear CTA.
 
 ## Brand / accuracy guardrails
-- Author/brand voice: **Ar. Udit Vishnoi — Innov Interiors & Architects**.
+- Author/brand voice: **Ar. Udit Vishnoi — Innov Architects & Interiors**.
 - Never invent prices, projects, awards, or stats. Keep claims consistent with
   what's already on the site. Edit surgically — don't reflow unrelated markup.
 

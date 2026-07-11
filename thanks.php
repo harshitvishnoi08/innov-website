@@ -13,7 +13,7 @@ window.addEventListener('load',function(){fbq('init','1095418249121855');fbq('tr
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N3DFG47HWK',{'send_page_view':false});window.addEventListener('load',function(){gtag('event','page_view',{'send_to':'G-N3DFG47HWK'});});</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
-<title>Thank You | Innov Interiors & Architects</title>
+<title>Thank You | Innov Architects & Interiors</title>
 <link rel="icon" type="image/svg+xml" href="images/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -159,7 +159,7 @@ main{flex:1;display:flex;align-items:center;justify-content:center;padding:130px
 <header class="site-header">
   <div class="header-inner">
     <a href="resorts-architects.html" class="header-logo">
-      <img src="images/logo.png" alt="Innov Interiors & Architects">
+      <img src="images/logo.png" alt="Innov Architects & Interiors">
     </a>
     <a href="https://wa.me/918178262805" target="_blank" rel="noopener" class="header-wa">
       <i class="fab fa-whatsapp"></i> +91 81782 62805
@@ -219,9 +219,9 @@ main{flex:1;display:flex;align-items:center;justify-content:center;padding:130px
   </nav>
 <div class="footer-inner">
     <div class="footer-logo">
-      <img src="images/logo.png" alt="Innov Interiors & Architects">
+      <img src="images/logo.png" alt="Innov Architects & Interiors">
     </div>
-    <div class="footer-copy">&copy; 2026 Innov Interiors &amp; Architects. All rights reserved.</div>
+    <div class="footer-copy">&copy; 2026 Innov Architects &amp; Interiors. All rights reserved.</div>
   </div>
 </footer>
 
