@@ -788,11 +788,23 @@ button{font-family:var(--sans);}
 
   <div class="projects-grid">
 
-    <a href="sangam-pooja-wellness-resort-prayagraj.html" class="proj-card fade-up">
+    <a href="mukteshwar-hill-resort-township.html" class="proj-card fade-up">
+      <div class="proj-img">
+        <img src="images/mukteshwar-hill-resort/aerial-masterplan.webp" alt="Hill Resort & Villa Township — Mukteshwar, Uttarakhand" loading="lazy" width="2688" height="1792">
+      </div>
+      <span class="proj-num-badge">01</span>
+      <div class="proj-info">
+        <div class="proj-location">At Mukteshwar, Uttarakhand</div>
+        <div class="proj-name">Hill Resort &amp; Villa Township</div>
+        <div class="proj-arrow">View Project <i class="fas fa-arrow-right"></i></div>
+      </div>
+    </a>
+
+    <a href="sangam-pooja-wellness-resort-prayagraj.html" class="proj-card fade-up d1">
       <div class="proj-img">
         <img src="images/sangam pooja wellness resort at prayagraj.webp" alt="Wellness Resort at Prayagraj" loading="lazy" width="1344" height="896">
       </div>
-      <span class="proj-num-badge">01</span>
+      <span class="proj-num-badge">02</span>
       <div class="proj-info">
         <div class="proj-location">At Prayagraj</div>
         <div class="proj-name">Wellness Resort</div>
@@ -800,11 +812,11 @@ button{font-family:var(--sans);}
       </div>
     </a>
 
-    <a href="bliss-glass-house-bijnor.html" class="proj-card fade-up d1">
+    <a href="bliss-glass-house-bijnor.html" class="proj-card fade-up">
       <div class="proj-img">
         <img src="images/tab/the-bliss-bijnor-banquet-architect.webp" alt="The Bliss Glass House Banquets — Bijnor, Uttar Pradesh" loading="lazy" width="1200" height="800">
       </div>
-      <span class="proj-num-badge">02</span>
+      <span class="proj-num-badge">03</span>
       <div class="proj-info">
         <div class="proj-location">At Bijnor, Uttar Pradesh</div>
         <div class="proj-name">The Bliss Glass House Banquets</div>
@@ -812,11 +824,11 @@ button{font-family:var(--sans);}
       </div>
     </a>
 
-    <div class="proj-card fade-up open-modal">
+    <div class="proj-card fade-up d1 open-modal">
       <div class="proj-img">
         <img src="images/tab/chandigarh-neo-classical.webp" alt="Neo Classical Residence — Chandigarh" loading="lazy" width="1200" height="800">
       </div>
-      <span class="proj-num-badge">03</span>
+      <span class="proj-num-badge">04</span>
       <div class="proj-info">
         <div class="proj-location">At Chandigarh</div>
         <div class="proj-name">Neo Classical Residence</div>
@@ -824,23 +836,23 @@ button{font-family:var(--sans);}
       </div>
     </div>
 
-    <div class="proj-card fade-up d1 open-modal">
+    <div class="proj-card fade-up open-modal">
       <div class="proj-img">
         <img src="images/tab/mp.webp" alt="ONOG Logia Chemical Plane — Madhya Pradesh" loading="lazy" width="1200" height="800">
       </div>
-      <span class="proj-num-badge">04</span>
+      <span class="proj-num-badge">05</span>
       <div class="proj-info">
         <div class="proj-location">At Madhya Pradesh</div>
         <div class="proj-name">ONOG Chemical Plant</div>
         <div class="proj-arrow">View Project <i class="fas fa-arrow-right"></i></div>
       </div>
-    </div>  
+    </div>
 
-    <a href="neo-classical-villa-greater-noida.html" class="proj-card fade-up">
+    <a href="neo-classical-villa-greater-noida.html" class="proj-card fade-up d1">
       <div class="proj-img">
         <img src="images/Neo Classic at Greater Noida.webp" alt="Neo Classic at Greater Noida" loading="lazy" style="object-position:top;" width="1344" height="896">
       </div>
-      <span class="proj-num-badge">05</span>
+      <span class="proj-num-badge">06</span>
       <div class="proj-info">
         <div class="proj-location">At Greater Noida</div>
         <div class="proj-name">Neo Classical</div>
