@@ -1,9 +1,12 @@
 # ── SECURITY: never commit OAuth secrets ──
 oauth-credentials.json
+gbp-oauth-credentials.json
 token.json
+gbp-token.json
 service-account.json
 *.json.key
 *-key.json
+client_secret_*.json
 
 # ── Generated reports (regenerate any time) ──
 reports/

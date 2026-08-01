@@ -6,7 +6,8 @@
   "type": "commonjs",
   "scripts": {
     "gsc": "node gsc.js",
-    "gsc:90": "node gsc.js 90"
+    "gsc:90": "node gsc.js 90",
+    "gbp": "node gbp.js"
   },
   "dependencies": {
     "googleapis": "^144.0.0"
