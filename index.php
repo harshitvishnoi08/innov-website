@@ -1344,7 +1344,7 @@ button{font-family:var(--sans);}
   </nav>
 <div class="footer-inner">
     <a href="index.php">
-      <img src="images/logo.png" alt="Innov Architects & Interiors" style="width:120px;opacity:.65;display:block;" width="900" height="360">
+      <img src="images/logo.png" alt="Innov Architects & Interiors" style="width:120px;height:auto;opacity:.65;display:block;" width="900" height="360">
     </a>
     <div class="footer-social">
       <a href="https://www.facebook.com/people/Innov-Interiors-Architects/100064101032579/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
