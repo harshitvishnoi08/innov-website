@@ -939,6 +939,7 @@ button{font-family:var(--sans);}
     <div class="brand-item"><img src="images/brand-logo/21.webp" alt="Partner brand 21" loading="lazy" width="500" height="400"></div>
     <div class="brand-item"><img src="images/brand-logo/22.webp" alt="Partner brand 22" loading="lazy" width="500" height="400"></div>
     <div class="brand-item"><img src="images/brand-logo/23.webp" alt="Partner brand 23" loading="lazy" width="500" height="400"></div>
+    <div class="brand-item"><img src="images/brand-logo/24.webp" alt="ETH Infra" loading="lazy" width="800" height="364"></div>
     <!-- Duplicated for seamless loop -->
     <div class="brand-item"><img src="images/brand-logo/18.webp" alt="Partner brand 18" loading="lazy" width="500" height="400"></div>
     <div class="brand-item"><img src="images/brand-logo/19.webp" alt="Partner brand 19" loading="lazy" width="500" height="400"></div>
@@ -946,6 +947,7 @@ button{font-family:var(--sans);}
     <div class="brand-item"><img src="images/brand-logo/21.webp" alt="Partner brand 21" loading="lazy" width="500" height="400"></div>
     <div class="brand-item"><img src="images/brand-logo/22.webp" alt="Partner brand 22" loading="lazy" width="500" height="400"></div>
     <div class="brand-item"><img src="images/brand-logo/23.webp" alt="Partner brand 23" loading="lazy" width="500" height="400"></div>
+    <div class="brand-item"><img src="images/brand-logo/24.webp" alt="ETH Infra" loading="lazy" width="800" height="364"></div>
   </div>
 </div>
 
