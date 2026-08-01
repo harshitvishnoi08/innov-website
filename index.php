@@ -6,8 +6,8 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3DFG47HWK"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N3DFG47HWK',{'send_page_view':false});window.addEventListener('load',function(){gtag('event','page_view',{'send_to':'G-N3DFG47HWK'});});</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Innov Architects & Interiors is a leading architecture & interior design firm in Delhi NCR — homes, villas, offices & commercial projects across Noida, Greater Noida, Ghaziabad & Delhi. 15+ years, 500+ projects. Book a free consultation.">
-<title>Architecture & Interior Design in Delhi NCR | Innov Architects & Interiors</title>
+<meta name="description" content="Innov Architects & Interiors designs resorts, farmhouses, estates & townships across India — FOAID 2025 award-winning, 500+ projects delivered.">
+<title>Resort & Estate Architects in India | Innov Architects</title>
 <link rel="icon" type="image/png" href="images/circle-logo.png">
 <link rel="apple-touch-icon" href="images/circle-logo.png">
 <link rel="canonical" href="https://weinnovarch.com/">
@@ -15,14 +15,14 @@
 <!-- ═══ OPEN GRAPH / SOCIAL SHARING (WhatsApp, Facebook, LinkedIn) ═══ -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Innov Architects & Interiors">
-<meta property="og:title" content="Architecture & Interior Design in Delhi NCR | Innov Architects & Interiors">
-<meta property="og:description" content="Leading architecture & interior design firm in Delhi NCR — homes, villas, offices & commercial projects across Noida, Greater Noida, Ghaziabad & Delhi. 15+ years, 500+ projects.">
+<meta property="og:title" content="Resort & Estate Architects in India | Innov Architects">
+<meta property="og:description" content="Innov Architects & Interiors designs resorts, farmhouses, estates & townships across India — FOAID 2025 award-winning, 500+ projects delivered.">
 <meta property="og:url" content="https://weinnovarch.com/">
 <meta property="og:image" content="https://weinnovarch.com/images/logo.png">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Architecture & Interior Design in Delhi NCR | Innov Architects & Interiors">
-<meta name="twitter:description" content="Leading architecture & interior design firm in Delhi NCR — homes, villas, offices & commercial projects across Noida, Greater Noida, Ghaziabad & Delhi.">
+<meta name="twitter:title" content="Resort & Estate Architects in India | Innov Architects">
+<meta name="twitter:description" content="Innov Architects & Interiors designs resorts, farmhouses, estates & townships across India — FOAID 2025 award-winning, 500+ projects delivered.">
 <meta name="twitter:image" content="https://weinnovarch.com/images/logo.png">
 <meta name="geo.region" content="IN-UP">
 <meta name="geo.placename" content="Noida">
@@ -43,6 +43,7 @@
       "image": "https://weinnovarch.com/images/logo.png",
       "email": "support@weinnovarch.com",
       "telephone": "+91-81782-62805",
+      "award": "FOAID 2025 Award Winner — Conceptual Architecture category",
       "sameAs": [
         "https://www.facebook.com/people/Innov-Interiors-Architects/100064101032579/",
         "https://www.instagram.com/innov_arc",
@@ -54,7 +55,7 @@
       "@type": ["LocalBusiness", "ProfessionalService"],
       "@id": "https://weinnovarch.com/#localbusiness",
       "name": "Innov Architects & Interiors",
-      "description": "Leading architecture & interior design firm in Delhi NCR, with 15+ years and 500+ projects — homes, villas, offices and commercial spaces across Noida, Greater Noida, Ghaziabad and Delhi.",
+      "description": "Architecture studio specialising in resort & hospitality architecture, farmhouse and estate design, and township master planning across India, with 15+ years and 500+ projects delivered.",
       "url": "https://weinnovarch.com/",
       "image": "https://weinnovarch.com/images/logo.png",
       "logo": "https://weinnovarch.com/images/logo.png",
@@ -427,7 +428,7 @@ button{font-family:var(--sans);}
 .cf-sub{font-size:13px;color:var(--muted);margin-bottom:28px;}
 .cf-group{margin-bottom:16px;}
 .cf-input,.cf-select{width:100%;background:#1a1a1a;border:1px solid var(--border);color:var(--white);font-family:var(--sans);font-size:14px;font-weight:300;padding:12px 14px;outline:none;transition:border-color .25s;-webkit-appearance:none;appearance:none;}
-.cf-input::placeholder{color:var(--dim);}
+.cf-input::placeholder{color:var(--muted);}
 .cf-input:focus,.cf-select:focus{border-color:var(--gold-border);}
 .cf-select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23888' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;}
 .cf-select option{background:#1a1a1a;}
@@ -443,7 +444,7 @@ button{font-family:var(--sans);}
 .footer-social{display:flex;gap:14px;}
 .footer-social a{width:34px;height:34px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px;transition:all .3s;}
 .footer-social a:hover{border-color:var(--gold-border);color:var(--gold);}
-.footer-copy{font-size:12px;color:var(--dim);}
+.footer-copy{font-size:12px;color:var(--muted);}
 
 /* ═══════════════════════════════════════
    WHATSAPP FLOAT
@@ -466,13 +467,13 @@ button{font-family:var(--sans);}
 .mf-group{display:flex;flex-direction:column;gap:6px;margin-bottom:14px;}
 .mf-label{font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--muted);}
 .mf-input,.mf-select{background:#1a1a1a;border:1px solid var(--border);color:var(--white);font-family:var(--sans);font-size:14px;font-weight:300;padding:12px 14px;width:100%;outline:none;transition:border-color .25s;-webkit-appearance:none;appearance:none;}
-.mf-input::placeholder{color:var(--dim);}
+.mf-input::placeholder{color:var(--muted);}
 .mf-input:focus,.mf-select:focus{border-color:var(--gold-border);}
 .mf-select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23888' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;}
 .mf-select option{background:#1a1a1a;}
 .mf-submit{width:100%;background:var(--gold);color:#0a0a0a;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:14px;border:1px solid var(--gold);cursor:pointer;transition:background .3s,color .3s;margin-top:6px;}
 .mf-submit:hover{background:transparent;color:var(--gold);}
-.mf-disclaimer{font-size:12px;color:var(--dim);text-align:center;margin-top:10px;}
+.mf-disclaimer{font-size:12px;color:var(--muted);text-align:center;margin-top:10px;}
 .mf-disclaimer i{color:var(--gold);margin-right:4px;}
 
 /* ═══════════════════════════════════════
@@ -700,7 +701,7 @@ button{font-family:var(--sans);}
 <header class="site-header" id="siteHeader">
   <div class="header-inner">
     <a href="index.php" class="header-logo">
-      <img src="images/logo.png" alt="Innov Architects & Interiors Logo" loading="eager">
+      <img src="images/logo.png" alt="Innov Architects & Interiors Logo" loading="eager" width="900" height="360">
     </a>
     <nav class="header-nav" id="headerNav">
       <a href="index.php">Home</a>
@@ -728,8 +729,8 @@ button{font-family:var(--sans);}
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <div class="hero-eyebrow">Innov Architects &amp; Interiors</div>
-    <h1 class="hero-title">Architecture &amp; Interior Design<br>in <em>Delhi NCR</em></h1>
-    <p class="hero-sub">Transform your space with Innov Arch — award-winning architects &amp; interior designers delivering homes, villas, offices &amp; commercial projects across Noida, Greater Noida, Ghaziabad &amp; Delhi.</p>
+    <h1 class="hero-title">Architects for Resorts,<br><em>Estates &amp; Large-Scale Developments</em></h1>
+    <p class="hero-sub">Innov Architects &amp; Interiors designs resorts, farmhouses, private estates and township-scale developments across India — led personally by principal architects, FOAID 2025 award-winning, 500+ projects delivered.</p>
     <div class="hero-btns">
       <button class="btn-gold open-modal">Get In Touch</button>
       <a href="#projects" class="btn-outline">View Projects</a>
@@ -753,7 +754,7 @@ button{font-family:var(--sans);}
 
 <!-- ══ INTRO BANNER ════════════════════════════════════════ -->
 <div class="intro-banner fade-up">
-  <img src="images/glass.webp" alt="Innov Arch — Have A Project Mind" loading="lazy">
+  <img src="images/glass.webp" alt="Innov Arch — Have A Project Mind" loading="lazy" width="1536" height="592">
   <div class="intro-banner-overlay">
     <h2 class="intro-banner-title">Have A Project Mind</h2>
     <p class="intro-banner-sub">Building your vision, creating reality</p>
@@ -765,7 +766,7 @@ button{font-family:var(--sans);}
 <div class="video-play-section">
   <div class="video-play-wrap">
     <div class="video-play-box fade-up" id="videoThumb" data-video-id="8yy0vS6yzMo">
-      <img src="https://i.ytimg.com/vi_webp/8yy0vS6yzMo/maxresdefault.webp" alt="Innov Arch — Watch Our Work" loading="lazy">
+      <img src="https://i.ytimg.com/vi_webp/8yy0vS6yzMo/maxresdefault.webp" alt="Innov Arch — Watch Our Work" loading="lazy" width="1280" height="720">
       <div class="video-play-btn">
         <div class="play-circle"><i class="fas fa-play"></i></div>
       </div>
@@ -789,7 +790,7 @@ button{font-family:var(--sans);}
 
     <a href="sangam-pooja-wellness-resort-prayagraj.html" class="proj-card fade-up">
       <div class="proj-img">
-        <img src="images/sangam pooja wellness resort at prayagraj.webp" alt="Wellness Resort at Prayagraj" loading="lazy">
+        <img src="images/sangam pooja wellness resort at prayagraj.webp" alt="Wellness Resort at Prayagraj" loading="lazy" width="1344" height="896">
       </div>
       <span class="proj-num-badge">01</span>
       <div class="proj-info">
@@ -801,7 +802,7 @@ button{font-family:var(--sans);}
 
     <a href="bliss-glass-house-bijnor.html" class="proj-card fade-up d1">
       <div class="proj-img">
-        <img src="images/tab/the-bliss-bijnor-banquet-architect.webp" alt="The Bliss Glass House Banquets — Bijnor, Uttar Pradesh" loading="lazy">
+        <img src="images/tab/the-bliss-bijnor-banquet-architect.webp" alt="The Bliss Glass House Banquets — Bijnor, Uttar Pradesh" loading="lazy" width="1200" height="800">
       </div>
       <span class="proj-num-badge">02</span>
       <div class="proj-info">
@@ -813,7 +814,7 @@ button{font-family:var(--sans);}
 
     <div class="proj-card fade-up open-modal">
       <div class="proj-img">
-        <img src="images/tab/chandigarh-neo-classical.webp" alt="Neo Classical Residence — Chandigarh" loading="lazy">
+        <img src="images/tab/chandigarh-neo-classical.webp" alt="Neo Classical Residence — Chandigarh" loading="lazy" width="1200" height="800">
       </div>
       <span class="proj-num-badge">03</span>
       <div class="proj-info">
@@ -825,7 +826,7 @@ button{font-family:var(--sans);}
 
     <div class="proj-card fade-up d1 open-modal">
       <div class="proj-img">
-        <img src="images/tab/mp.webp" alt="ONOG Logia Chemical Plane — Madhya Pradesh" loading="lazy">
+        <img src="images/tab/mp.webp" alt="ONOG Logia Chemical Plane — Madhya Pradesh" loading="lazy" width="1200" height="800">
       </div>
       <span class="proj-num-badge">04</span>
       <div class="proj-info">
@@ -837,7 +838,7 @@ button{font-family:var(--sans);}
 
     <a href="neo-classical-villa-greater-noida.html" class="proj-card fade-up">
       <div class="proj-img">
-        <img src="images/Neo Classic at Greater Noida.webp" alt="Neo Classic at Greater Noida" loading="lazy" style="object-position:top;">
+        <img src="images/Neo Classic at Greater Noida.webp" alt="Neo Classic at Greater Noida" loading="lazy" style="object-position:top;" width="1344" height="896">
       </div>
       <span class="proj-num-badge">05</span>
       <div class="proj-info">
@@ -860,7 +861,7 @@ button{font-family:var(--sans);}
     <a href="foaid-2025.html" class="award-img-col" aria-label="View FOAID 2025 Award page">
       <img src="images/foaid-2025/recognition.webp"
            alt="FOAID 2025 Recognition — Innov Architects & Interiors"
-           loading="lazy">
+           loading="lazy" width="7821" height="12760">
     </a>
     <div class="award-text-col fade-up">
       <div class="award-badge"><i class="fas fa-trophy"></i>&nbsp; FOAID 2025 &mdash; Award Winner</div>
@@ -921,10 +922,10 @@ button{font-family:var(--sans);}
       </div>
     </div>
     <div class="why-images fade-right">
-      <div class="why-img img-reveal"><img src="images/why1.webp" alt="Innov Arch project — living space design" loading="lazy"></div>
-      <div class="why-img img-reveal"><img src="images/why2.webp" alt="Innov Arch project — architectural detail" loading="lazy"></div>
-      <div class="why-img img-reveal"><img src="images/why3.webp" alt="Innov Arch project — interior craftsmanship" loading="lazy"></div>
-      <div class="why-img img-reveal"><img src="images/why4.webp" alt="Innov Arch project — completed space" loading="lazy"></div>
+      <div class="why-img img-reveal"><img src="images/why1.webp" alt="Innov Arch project — living space design" loading="lazy" width="1000" height="600"></div>
+      <div class="why-img img-reveal"><img src="images/why2.webp" alt="Innov Arch project — architectural detail" loading="lazy" width="1000" height="600"></div>
+      <div class="why-img img-reveal"><img src="images/why3.webp" alt="Innov Arch project — interior craftsmanship" loading="lazy" width="1000" height="600"></div>
+      <div class="why-img img-reveal"><img src="images/why4.webp" alt="Innov Arch project — completed space" loading="lazy" width="1000" height="600"></div>
     </div>
   </div>
 </section>
@@ -932,19 +933,19 @@ button{font-family:var(--sans);}
 <!-- Brand logos -->
 <div class="brand-strip fade-up">
   <div class="brand-track" id="brandTrack">
-    <div class="brand-item"><img src="images/brand-logo/18.webp" alt="Partner brand 18" loading="lazy"></div>
-    <div class="brand-item"><img src="images/brand-logo/19.webp" alt="Partner brand 19" loading="lazy"></div>
-    <div class="brand-item"><img src="images/brand-logo/20.webp" alt="Partner brand 20" loading="lazy"></div>
-    <div class="brand-item"><img src="images/brand-logo/21.webp" alt="Partner brand 21" loading="lazy"></div>
-    <div class="brand-item"><img src="images/brand-logo/22.webp" alt="Partner brand 22" loading="lazy"></div>
-    <div class="brand-item"><img src="images/brand-logo/23.webp" alt="Partner brand 23" loading="lazy"></div>
+    <div class="brand-item"><img src="images/brand-logo/18.webp" alt="Partner brand 18" loading="lazy" width="500" height="400"></div>
+    <div class="brand-item"><img src="images/brand-logo/19.webp" alt="Partner brand 19" loading="lazy" width="500" height="400"></div>
+    <div class="brand-item"><img src="images/brand-logo/20.webp" alt="Partner brand 20" loading="lazy" width="500" height="400"></div>
+    <div class="brand-item"><img src="images/brand-logo/21.webp" alt="Partner brand 21" loading="lazy" width="500" height="400"></div>
+    <div class="brand-item"><img src="images/brand-logo/22.webp" alt="Partner brand 22" loading="lazy" width="500" height="400"></div>
+    <div class="brand-item"><img src="images/brand-logo/23.webp" alt="Partner brand 23" loading="lazy" width="500" height="400"></div>
     <!-- Duplicated for seamless loop -->
-    <div class="brand-item"><img src="images/brand-logo/18.webp" alt="Partner brand 18" loading="lazy"></div>
-    <div class="brand-item"><img src="images/brand-logo/19.webp" alt="Partner brand 19" loading="lazy"></div>
-    <div class="brand-item"><img src="images/brand-logo/20.webp" alt="Partner brand 20" loading="lazy"></div>
-    <div class="brand-item"><img src="images/brand-logo/21.webp" alt="Partner brand 21" loading="lazy"></div>
-    <div class="brand-item"><img src="images/brand-logo/22.webp" alt="Partner brand 22" loading="lazy"></div>
-    <div class="brand-item"><img src="images/brand-logo/23.webp" alt="Partner brand 23" loading="lazy"></div>
+    <div class="brand-item"><img src="images/brand-logo/18.webp" alt="Partner brand 18" loading="lazy" width="500" height="400"></div>
+    <div class="brand-item"><img src="images/brand-logo/19.webp" alt="Partner brand 19" loading="lazy" width="500" height="400"></div>
+    <div class="brand-item"><img src="images/brand-logo/20.webp" alt="Partner brand 20" loading="lazy" width="500" height="400"></div>
+    <div class="brand-item"><img src="images/brand-logo/21.webp" alt="Partner brand 21" loading="lazy" width="500" height="400"></div>
+    <div class="brand-item"><img src="images/brand-logo/22.webp" alt="Partner brand 22" loading="lazy" width="500" height="400"></div>
+    <div class="brand-item"><img src="images/brand-logo/23.webp" alt="Partner brand 23" loading="lazy" width="500" height="400"></div>
   </div>
 </div>
 
@@ -960,7 +961,7 @@ button{font-family:var(--sans);}
   </div>
   <div class="services-grid stagger-children">
     <a href="services.html#architecture" class="svc-card">
-      <div class="svc-img"><img src="images/arc.webp" alt="Architecture service — Innov Arch" loading="lazy"></div>
+      <div class="svc-img"><img src="images/arc.webp" alt="Architecture service — Innov Arch" loading="lazy" width="1456" height="816"></div>
       <div class="svc-body">
         <div class="svc-num">01</div>
         <h3 class="svc-title">Architecture</h3>
@@ -969,7 +970,7 @@ button{font-family:var(--sans);}
       </div>
     </a>
     <a href="services.html#interiors" class="svc-card">
-      <div class="svc-img"><img src="images/design.webp" alt="Interior Designing service — Innov Arch" loading="lazy"></div>
+      <div class="svc-img"><img src="images/design.webp" alt="Interior Designing service — Innov Arch" loading="lazy" width="750" height="500"></div>
       <div class="svc-body">
         <div class="svc-num">02</div>
         <h3 class="svc-title">Interior Designing</h3>
@@ -978,7 +979,7 @@ button{font-family:var(--sans);}
       </div>
     </a>
     <a href="contact.html" class="svc-card">
-      <div class="svc-img"><img src="images/consul.webp" alt="Designing Consultancy service — Innov Arch" loading="lazy"></div>
+      <div class="svc-img"><img src="images/consul.webp" alt="Designing Consultancy service — Innov Arch" loading="lazy" width="896" height="1346"></div>
       <div class="svc-body">
         <div class="svc-num">03</div>
         <h3 class="svc-title">Designing Consultancy</h3>
@@ -987,7 +988,7 @@ button{font-family:var(--sans);}
       </div>
     </a>
     <a href="contact.html" class="svc-card">
-      <div class="svc-img"><img src="images/2d.webp" alt="2D and 3D Visuals service — Innov Arch" loading="lazy"></div>
+      <div class="svc-img"><img src="images/2d.webp" alt="2D and 3D Visuals service — Innov Arch" loading="lazy" width="1820" height="1020"></div>
       <div class="svc-body">
         <div class="svc-num">04</div>
         <h3 class="svc-title">2D / 3D Visuals</h3>
@@ -996,7 +997,7 @@ button{font-family:var(--sans);}
       </div>
     </a>
     <a href="contact.html" class="svc-card">
-      <div class="svc-img"><img src="images/kitchen.webp" alt="Modular Kitchen design service — Innov Arch" loading="lazy"></div>
+      <div class="svc-img"><img src="images/kitchen.webp" alt="Modular Kitchen design service — Innov Arch" loading="lazy" width="1329" height="1750"></div>
       <div class="svc-body">
         <div class="svc-num">05</div>
         <h3 class="svc-title">Modular Kitchen</h3>
@@ -1005,7 +1006,7 @@ button{font-family:var(--sans);}
       </div>
     </a>
     <a href="contact.html" class="svc-card">
-      <div class="svc-img"><img src="images/evelotion.webp" alt="Front Elevation design service — Innov Arch" loading="lazy"></div>
+      <div class="svc-img"><img src="images/evelotion.webp" alt="Front Elevation design service — Innov Arch" loading="lazy" width="1500" height="1000"></div>
       <div class="svc-body">
         <div class="svc-num">06</div>
         <h3 class="svc-title">Front Elevation</h3>
@@ -1032,19 +1033,19 @@ button{font-family:var(--sans);}
   </div>
   <div class="testi-videos-grid">
     <div class="yt-thumb fade-up" data-video-id="PQ7QSz3Xkog">
-      <img src="https://img.youtube.com/vi/PQ7QSz3Xkog/maxresdefault.jpg" alt="Innov Arch client testimonial video 1" loading="lazy">
+      <img src="https://img.youtube.com/vi/PQ7QSz3Xkog/maxresdefault.jpg" alt="Innov Arch client testimonial video 1" loading="lazy" width="1280" height="720">
       <div class="yt-play"><div class="yt-play-btn"><i class="fas fa-play"></i></div></div>
     </div>
     <div class="yt-thumb fade-up d1" data-video-id="TGz-gGVk_h4">
-      <img src="https://img.youtube.com/vi/TGz-gGVk_h4/maxresdefault.jpg" alt="Innov Arch client testimonial video 2" loading="lazy">
+      <img src="https://img.youtube.com/vi/TGz-gGVk_h4/maxresdefault.jpg" alt="Innov Arch client testimonial video 2" loading="lazy" width="1280" height="720">
       <div class="yt-play"><div class="yt-play-btn"><i class="fas fa-play"></i></div></div>
     </div>
     <div class="yt-thumb fade-up d2" data-video-id="uXBZJvXI64M">
-      <img src="https://img.youtube.com/vi/uXBZJvXI64M/maxresdefault.jpg" alt="Innov Arch client testimonial video 3" loading="lazy">
+      <img src="https://img.youtube.com/vi/uXBZJvXI64M/maxresdefault.jpg" alt="Innov Arch client testimonial video 3" loading="lazy" width="1280" height="720">
       <div class="yt-play"><div class="yt-play-btn"><i class="fas fa-play"></i></div></div>
     </div>
     <div class="yt-thumb fade-up d3" data-video-id="94D1IYKzQtw">
-      <img src="https://img.youtube.com/vi/94D1IYKzQtw/maxresdefault.jpg" alt="Innov Arch client testimonial video 4" loading="lazy">
+      <img src="https://img.youtube.com/vi/94D1IYKzQtw/maxresdefault.jpg" alt="Innov Arch client testimonial video 4" loading="lazy" width="1280" height="720">
       <div class="yt-play"><div class="yt-play-btn"><i class="fas fa-play"></i></div></div>
     </div>
   </div>
@@ -1054,7 +1055,7 @@ button{font-family:var(--sans);}
 <section class="testi-section">
   <div class="testi-inner">
     <div class="testi-img fade-up">
-      <img src="images/skylit-area.webp" alt="Happy Innov Arch client" loading="lazy">
+      <img src="images/skylit-area.webp" alt="Happy Innov Arch client" loading="lazy" width="1344" height="896">
     </div>
     <div class="testi-content fade-up d1">
       <span class="section-label">Client Testimonials</span>
@@ -1077,9 +1078,9 @@ button{font-family:var(--sans);}
         </div>
       </div>
       <div class="testi-nav">
-        <button class="testi-dot active" data-idx="0"></button>
-        <button class="testi-dot" data-idx="1"></button>
-        <button class="testi-dot" data-idx="2"></button>
+        <button class="testi-dot active" data-idx="0" aria-label="Show testimonial 1"></button>
+        <button class="testi-dot" data-idx="1" aria-label="Show testimonial 2"></button>
+        <button class="testi-dot" data-idx="2" aria-label="Show testimonial 3"></button>
       </div>
       <div class="testi-rating-row">
         <div class="testi-big-num">4.82</div>
@@ -1096,10 +1097,10 @@ button{font-family:var(--sans);}
 <section id="about" class="about-section">
   <div class="about-inner">
     <div class="about-imgs fade-left">
-      <div class="about-img-main img-reveal"><img src="images/about.webp" alt="Innov Architects & Interiors studio" loading="lazy"></div>
+      <div class="about-img-main img-reveal"><img src="images/about.webp" alt="Innov Architects & Interiors studio" loading="lazy" width="1000" height="600"></div>
       <div class="about-img-row">
-        <div class="about-img-sm img-reveal"><img src="images/about2.webp" alt="Innov Arch design process" loading="lazy"></div>
-        <div class="about-img-sm img-reveal"><img src="images/why1.webp" alt="Innov Arch completed project detail" loading="lazy"></div>
+        <div class="about-img-sm img-reveal"><img src="images/about2.webp" alt="Innov Arch design process" loading="lazy" width="1000" height="600"></div>
+        <div class="about-img-sm img-reveal"><img src="images/why1.webp" alt="Innov Arch completed project detail" loading="lazy" width="1000" height="600"></div>
       </div>
       <div class="about-stats-badge">
         <div class="about-stats-num">500+</div>
@@ -1152,7 +1153,7 @@ button{font-family:var(--sans);}
       <img class="brand-film-thumb"
            src="https://i.ytimg.com/vi_webp/M-ZOizjNZuE/maxresdefault.webp"
            alt="Innov Architects & Interiors — Brand Film"
-           loading="lazy">
+           loading="lazy" width="1280" height="720">
       <div class="brand-film-overlay"></div>
       <div class="brand-film-play">
         <div class="brand-film-play-btn"><i class="fas fa-play"></i></div>
@@ -1179,49 +1180,49 @@ button{font-family:var(--sans);}
   </div>
   <div class="team-grid stagger-children">
     <div class="team-card fade-up">
-      <div class="team-card-img"><img src="images/team/1.webp" alt="Ujjwal Kumar — Director, Innov Arch" loading="lazy"></div>
+      <div class="team-card-img"><img src="images/team/1.webp" alt="Ujjwal Kumar — Director, Innov Arch" loading="lazy" width="1080" height="1080"></div>
       <div class="team-card-body">
         <div class="team-card-name">Ujjwal Kumar</div>
         <div class="team-card-role">Director</div>
       </div>
     </div>
     <div class="team-card fade-up d1">
-      <div class="team-card-img"><img src="images/team/2.webp" alt="Umang Arora — Principal Designer, Innov Arch" loading="lazy"></div>
+      <div class="team-card-img"><img src="images/team/2.webp" alt="Umang Arora — Principal Designer, Innov Arch" loading="lazy" width="1080" height="1080"></div>
       <div class="team-card-body">
         <div class="team-card-name">Umang Arora</div>
         <div class="team-card-role">Principal Designer</div>
       </div>
     </div>
     <div class="team-card fade-up d2">
-      <div class="team-card-img"><img src="images/team/3.webp" alt="Ar. Udit Vishnoi — Principal Architect, Innov Arch" loading="lazy"></div>
+      <div class="team-card-img"><img src="images/team/3.webp" alt="Ar. Udit Vishnoi — Principal Architect, Innov Arch" loading="lazy" width="1500" height="1500"></div>
       <div class="team-card-body">
         <div class="team-card-name">Ar. Udit Vishnoi</div>
         <div class="team-card-role">Principal Architect</div>
       </div>
     </div>
     <div class="team-card fade-up d3">
-      <div class="team-card-img"><img src="images/team/4.webp" alt="Anubhav Jha — Marketing Head, Innov Arch" loading="lazy"></div>
+      <div class="team-card-img"><img src="images/team/4.webp" alt="Anubhav Jha — Marketing Head, Innov Arch" loading="lazy" width="1080" height="1080"></div>
       <div class="team-card-body">
         <div class="team-card-name">Anubhav Jha</div>
         <div class="team-card-role">Marketing Head</div>
       </div>
     </div>
     <div class="team-card fade-up">
-      <div class="team-card-img"><img src="images/team/ritu_mam.webp" alt="Ritu — Director, Innov Arch" loading="lazy" style="object-position:top;"></div>
+      <div class="team-card-img"><img src="images/team/ritu_mam.webp" alt="Ritu — Director, Innov Arch" loading="lazy" style="object-position:top;" width="1500" height="1500"></div>
       <div class="team-card-body">
         <div class="team-card-name">Ritu Vishnoi</div>
         <div class="team-card-role">Director</div>
       </div>
     </div>
     <div class="team-card fade-up d1">
-      <div class="team-card-img"><img src="images/team/vandana_mam.webp" alt="Vandana — Principal Architect, Innov Arch" loading="lazy" style="object-position:top;"></div>
+      <div class="team-card-img"><img src="images/team/vandana_mam.webp" alt="Vandana — Principal Architect, Innov Arch" loading="lazy" style="object-position:top;" width="1500" height="1500"></div>
       <div class="team-card-body">
         <div class="team-card-name">Vandana Sikarwar</div>
         <div class="team-card-role">Principal Architect</div>
       </div>
     </div>
     <div class="team-card fade-up d2">
-      <div class="team-card-img"><img src="images/team/web_shivensir.webp" alt="Shiven — Principal Architect, Innov Arch" loading="lazy" style="object-position:top;"></div>
+      <div class="team-card-img"><img src="images/team/web_shivensir.webp" alt="Shiven — Principal Architect, Innov Arch" loading="lazy" style="object-position:top;" width="1500" height="1500"></div>
       <div class="team-card-body">
         <div class="team-card-name">Shiven Malhotra</div>
         <div class="team-card-role">Principal Architect</div>
@@ -1232,7 +1233,7 @@ button{font-family:var(--sans);}
 
 <!-- ══ SECOND INTRO BANNER ══════════════════════════════════ -->
 <div class="intro-banner fade-up">
-  <img src="images/glass.webp" alt="Innov Arch — Request An Appointment" loading="lazy">
+  <img src="images/glass.webp" alt="Innov Arch — Request An Appointment" loading="lazy" width="1536" height="592">
   <div class="intro-banner-overlay">
     <h2 class="intro-banner-title">Have A Project Mind</h2>
     <p class="intro-banner-sub">Building your vision, creating reality</p>
@@ -1316,7 +1317,7 @@ button{font-family:var(--sans);}
           <input class="cf-input" type="text" name="City" placeholder="Your City">
         </div>
         <div class="cf-group">
-          <select class="cf-select" name="Requirement">
+          <select class="cf-select" name="Requirement" aria-label="Select your requirement">
             <option value="">Select an Option</option>
             <option value="Home Interiors">Home Interiors</option>
             <option value="Construction">Construction</option>
@@ -1343,7 +1344,7 @@ button{font-family:var(--sans);}
   </nav>
 <div class="footer-inner">
     <a href="index.php">
-      <img src="images/logo.png" alt="Innov Architects & Interiors" style="width:120px;opacity:.65;display:block;">
+      <img src="images/logo.png" alt="Innov Architects & Interiors" style="width:120px;opacity:.65;display:block;" width="900" height="360">
     </a>
     <div class="footer-social">
       <a href="https://www.facebook.com/people/Innov-Interiors-Architects/100064101032579/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
