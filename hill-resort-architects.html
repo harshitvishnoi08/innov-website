@@ -240,7 +240,7 @@ button{font-family:var(--sans);}
 .lp-footer{padding:28px 24px;border-top:1px solid var(--border);}
 .lp-footer-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;}
 .lp-footer-contacts{display:flex;align-items:center;gap:20px;flex-wrap:wrap;}
-.lp-footer-contacts a{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px;transition:color .2s;}
+.lp-footer-contacts a,.lp-footer-contacts span{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px;transition:color .2s;}
 .lp-footer-contacts a:hover{color:var(--gold);}
 .lp-footer-contacts i{color:var(--gold);}
 .lp-footer-copy{font-size:11px;color:var(--dim);}
@@ -302,8 +302,8 @@ button{font-family:var(--sans);}
   <div class="lp-logo">
     <img src="images/logo.png" alt="Innov Architects & Interiors">
   </div>
-  <a href="tel:+918178262805" class="lp-topbar-call">
-    <i class="fas fa-phone"></i> <span>+91 81782 62805</span>
+  <a href="https://api.whatsapp.com/send?phone=918178262805&text=Hi%2C%20I%27m%20planning%20a%20resort%20project%20and%20want%20to%20discuss%20architecture%20%26%20design." class="lp-topbar-call" target="_blank" rel="noopener">
+    <i class="fab fa-whatsapp"></i> <span>WhatsApp Us</span>
   </a>
 </header>
 
@@ -470,7 +470,7 @@ button{font-family:var(--sans);}
     <div class="lp-proof-cta">
       <div class="lp-proof-cta-row">
         <a href="#leadForm" class="btn-gold"><i class="fas fa-paper-plane"></i> Discuss Your Resort Project</a>
-        <a href="tel:+918178262805" class="btn-wa" style="background:var(--bg-raised);color:var(--white);border:1px solid var(--gold-border);"><i class="fas fa-phone"></i> Call +91 81782 62805</a>
+        <a href="https://api.whatsapp.com/send?phone=918178262805&text=Hi%2C%20I%27m%20planning%20a%20resort%20project%20and%20want%20to%20discuss%20architecture%20%26%20design." class="btn-wa" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
       </div>
     </div>
 
@@ -598,8 +598,7 @@ button{font-family:var(--sans);}
 <footer class="lp-footer">
   <div class="lp-footer-inner">
     <div class="lp-footer-contacts">
-      <a href="tel:+918178262805"><i class="fas fa-phone"></i> +91 81782 62805</a>
-      <a href="mailto:support@weinnovarch.com"><i class="fas fa-envelope"></i> support@weinnovarch.com</a>
+      <span><i class="fas fa-envelope"></i> support@weinnovarch.com</span>
       <a href="https://api.whatsapp.com/send?phone=918178262805" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
     </div>
     <span class="lp-footer-copy">&copy; 2026 Innov Architects &amp; Interiors.</span>
@@ -614,7 +613,7 @@ button{font-family:var(--sans);}
 
 <!-- ═══ STICKY MOBILE CTA BAR ═══ -->
 <div class="lp-sticky-mobile">
-  <a href="tel:+918178262805" class="sticky-call"><i class="fas fa-phone"></i> Call Now</a>
+  <a href="#leadForm" class="sticky-call"><i class="fas fa-paper-plane"></i> Book Consultation</a>
   <a href="https://api.whatsapp.com/send?phone=918178262805&text=Hi%2C%20I%27m%20planning%20a%20resort%20project%20and%20want%20to%20discuss%20architecture%20%26%20design." class="sticky-wa" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
 </div>
 
