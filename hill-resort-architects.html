@@ -267,6 +267,8 @@ button{font-family:var(--sans);}
   .lp-form-wrap-pad{padding:28px 24px 48px;}
   .lp-h1{max-width:100%;}
   .lp-sub{max-width:100%;}
+  .lp-trust{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+  .lp-trust-item{white-space:normal;}
   .lp-values{grid-template-columns:repeat(2,1fr);}
   .lp-award-inner{grid-template-columns:1fr;gap:32px;}
   .lp-award-img{max-width:420px;margin:0 auto;}
@@ -740,6 +742,58 @@ document.addEventListener('keydown', e => {
     });
     try { sessionStorage.setItem(AUTO_POPUP_KEY, '1'); } catch (e) {}
   }, 10000);
+})();
+
+// ── Auto-scrolling gallery carousel (mobile only) ───────────
+// Advances one slide at a time; pauses while the visitor is actively
+// touching/scrolling it, resuming a few seconds after they let go. Only
+// runs when the track is actually overflowing (i.e. the mobile carousel
+// layout is active) -- a no-op on the desktop 3-column grid.
+(function(){
+  const track = document.querySelector('.lp-gallery');
+  if (!track) return;
+
+  let timer = null;
+  let resumeTimeout = null;
+
+  function isCarouselActive(){
+    return track.scrollWidth > track.clientWidth + 4;
+  }
+
+  function scrollToNext(){
+    if (!isCarouselActive()) return;
+    const item = track.querySelector('.lp-gallery-item');
+    if (!item) return;
+    const itemWidth = item.getBoundingClientRect().width;
+    const maxScroll = track.scrollWidth - track.clientWidth;
+    const atEnd = track.scrollLeft >= maxScroll - 5;
+    track.scrollTo({ left: atEnd ? 0 : track.scrollLeft + itemWidth, behavior: 'smooth' });
+  }
+
+  function start(){
+    stop();
+    if (!isCarouselActive()) return;
+    timer = setInterval(scrollToNext, 3500);
+  }
+  function stop(){
+    if (timer) clearInterval(timer);
+    timer = null;
+  }
+  function pauseThenResume(){
+    stop();
+    clearTimeout(resumeTimeout);
+    resumeTimeout = setTimeout(start, 6000);
+  }
+
+  track.addEventListener('touchstart', pauseThenResume, { passive: true });
+  track.addEventListener('pointerdown', pauseThenResume);
+  track.addEventListener('wheel', pauseThenResume, { passive: true });
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) stop(); else start();
+  });
+  window.addEventListener('resize', () => { stop(); start(); });
+
+  setTimeout(start, 1500);
 })();
 </script>
 
