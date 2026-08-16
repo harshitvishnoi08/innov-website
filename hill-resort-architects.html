@@ -17,7 +17,7 @@ window.addEventListener('load',function(){fbq('init','1095418249121855');fbq('tr
 <meta property="og:title" content="Resort & Heritage Architects | Innov Architects">
 <meta property="og:description" content="From hillside retreats to heritage riverfront resorts — we design luxury hospitality destinations across India. Book a private site consultation.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="images/mukteshwar-hill-resort/hero-cliffside-pool.webp">
+<meta property="og:image" content="images/mukteshwar-hill-resort/arrival-entrance.webp">
 <title>Resort & Heritage Architects | Innov Architects</title>
 <link rel="icon" type="image/png" href="images/circle-logo.png">
 <link rel="apple-touch-icon" href="images/circle-logo.png">
@@ -83,7 +83,7 @@ window.addEventListener('load',function(){fbq('init','1095418249121855');fbq('tr
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-<link rel="preload" as="image" href="images/mukteshwar-hill-resort/hero-cliffside-pool.webp" fetchpriority="high" media="(min-width: 992px)">
+<link rel="preload" as="image" href="images/mukteshwar-hill-resort/arrival-entrance.webp" fetchpriority="high" media="(min-width: 992px)">
 <link rel="preload" as="image" href="images/chamba-resort/night-view.webp" fetchpriority="high" media="(max-width: 991px)">
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap"
@@ -120,7 +120,7 @@ button{font-family:var(--sans);}
 
 /* ── Hero ───────────────────────────────────────────────── */
 .lp-hero{position:relative;overflow:hidden;}
-.lp-hero-bg{position:absolute;inset:0;background:url('images/mukteshwar-hill-resort/hero-cliffside-pool.webp') center 60%/cover no-repeat;}
+.lp-hero-bg{position:absolute;inset:0;background:url('images/mukteshwar-hill-resort/arrival-entrance.webp') center 45%/cover no-repeat;}
 .lp-hero-overlay{position:absolute;inset:0;background:linear-gradient(100deg,rgba(8,8,8,.92) 0%,rgba(8,8,8,.75) 42%,rgba(8,8,8,.35) 68%,rgba(8,8,8,.55) 100%);}
 .lp-hero-grid{position:relative;z-index:2;max-width:1400px;margin:0 auto;padding:36px 24px 56px;display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;min-height:calc(100vh - 76px);}
 .lp-eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:18px;}
@@ -658,11 +658,14 @@ button{font-family:var(--sans);}
 const imgModal        = document.getElementById('imgModal');
 const imgModalClose    = document.getElementById('imgModalClose');
 const imgModalProject  = document.getElementById('imgModalProject');
+const imgModalTitle    = document.getElementById('imgModalTitle');
 const imgModalMessage  = document.getElementById('im-message');
 
-function openImgModal(projectName){
-  imgModalProject.textContent = projectName;
-  imgModalMessage.value = 'Enquiry triggered by project photo: ' + projectName;
+function openImgModal(projectName, opts){
+  opts = opts || {};
+  imgModalProject.textContent = opts.eyebrow || projectName;
+  imgModalTitle.textContent = opts.heading || 'Enquire About This Project';
+  imgModalMessage.value = opts.message || ('Enquiry triggered by project photo: ' + projectName);
   imgModal.classList.add('active');
   document.body.style.overflow = 'hidden';
 }
@@ -687,6 +690,36 @@ imgModal.addEventListener('click', e => { if (e.target === imgModal) closeImgMod
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && imgModal.classList.contains('active')) closeImgModal();
 });
+
+// ── Auto-popup enquiry modal after 10s ──────────────────────
+// Skips politely if: shown already this session, any modal is already
+// open, or the visitor is already typing into the hero form.
+(function(){
+  const AUTO_POPUP_KEY = 'lp_auto_popup_shown';
+  let heroFormEngaged = false;
+
+  const heroForm = document.querySelector('#leadForm form');
+  if (heroForm) {
+    heroForm.querySelectorAll('input, select, textarea').forEach(el => {
+      el.addEventListener('focus', () => { heroFormEngaged = true; }, { once: true });
+    });
+  }
+
+  setTimeout(() => {
+    try {
+      if (sessionStorage.getItem(AUTO_POPUP_KEY)) return;
+    } catch (e) { /* sessionStorage unavailable, proceed anyway */ }
+    if (heroFormEngaged) return;
+    if (imgModal.classList.contains('active')) return;
+
+    openImgModal('General Enquiry', {
+      eyebrow: 'Still Exploring?',
+      heading: "Let's Discuss Your Resort Project",
+      message: 'Auto-popup enquiry (shown 10s after page load)'
+    });
+    try { sessionStorage.setItem(AUTO_POPUP_KEY, '1'); } catch (e) {}
+  }, 10000);
+})();
 </script>
 
 </body>
