@@ -278,10 +278,11 @@ button{font-family:var(--sans);}
   .lp-gallery-hint{display:block;}
   .lp-gallery{
     display:flex;grid-template-columns:none;overflow-x:auto;scroll-snap-type:x mandatory;
-    gap:12px;padding:0 20px 6px;margin-bottom:8px;-webkit-overflow-scrolling:touch;scrollbar-width:none;
+    gap:0;padding:0;margin:0 0 10px;-webkit-overflow-scrolling:touch;scrollbar-width:none;
   }
   .lp-gallery::-webkit-scrollbar{display:none;}
-  .lp-gallery-item{flex:0 0 84%;scroll-snap-align:center;aspect-ratio:4/3;height:auto;}
+  .lp-gallery-item{flex:0 0 100%;scroll-snap-align:center;aspect-ratio:4/3;height:auto;}
+  .lp-gallery-item img{object-fit:cover;}
   .lp-topbar{padding:14px 20px;}
   .lp-proof{padding:48px 20px;}
   .lp-award{padding:48px 20px;}
