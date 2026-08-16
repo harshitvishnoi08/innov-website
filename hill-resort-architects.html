@@ -188,6 +188,8 @@ button{font-family:var(--sans);}
 .lp-gallery-overlay span{font-size:12px;font-weight:600;color:var(--white);letter-spacing:.3px;display:flex;align-items:center;gap:6px;}
 .lp-gallery-overlay span i{color:var(--gold);}
 .lp-gallery-badge{position:absolute;top:10px;right:10px;width:30px;height:30px;border-radius:50%;background:rgba(10,10,10,.72);border:1px solid var(--gold-border);display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:12px;}
+.lp-gallery-hint{display:none;font-size:12px;color:var(--muted);margin:0 0 14px;padding:0 20px;}
+.lp-gallery-hint i{color:var(--gold);margin-left:4px;}
 
 .lp-proof-cta{text-align:center;}
 .lp-proof-cta-row{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;}
@@ -203,12 +205,14 @@ button{font-family:var(--sans);}
 .lp-award-chip{display:flex;align-items:center;gap:8px;background:var(--gold-dim);border:1px solid var(--gold-border);padding:9px 16px;font-size:12px;font-weight:600;color:var(--gold);}
 
 /* ── Brands marquee ─────────────────────────────────────── */
-.lp-brands{padding:56px 24px;border-top:1px solid var(--border);background:var(--bg-card);}
+.lp-brands{padding:56px 0;border-top:1px solid var(--border);background:var(--bg-card);}
 .lp-brands-inner{max-width:1200px;margin:0 auto;text-align:center;}
-.lp-brands-label{font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:32px;}
-.lp-brands-grid{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:16px;}
-.lp-brand-item{background:#ffffff;border:1px solid var(--border);padding:14px 22px;width:150px;height:90px;display:flex;align-items:center;justify-content:center;}
+.lp-brands-label{font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:32px;padding:0 24px;}
+.lp-brands-viewport{overflow:hidden;}
+.lp-brands-grid{display:flex;align-items:center;gap:16px;width:max-content;animation:lpBrandTicker 26s linear infinite;}
+.lp-brand-item{flex-shrink:0;background:#ffffff;border:1px solid var(--border);padding:14px 22px;width:150px;height:90px;display:flex;align-items:center;justify-content:center;}
 .lp-brand-item img{max-height:56px;width:auto;max-width:110px;object-fit:contain;display:block;}
+@keyframes lpBrandTicker{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
 
 /* ── Testimonials ───────────────────────────────────────── */
 .lp-testi{padding:70px 24px;border-top:1px solid var(--border);background:var(--bg);}
@@ -271,13 +275,19 @@ button{font-family:var(--sans);}
 @media(max-width:640px){
   .lp-row{grid-template-columns:1fr;}
   .lp-values{grid-template-columns:1fr;}
-  .lp-gallery{grid-template-columns:1fr 1fr;}
+  .lp-gallery-hint{display:block;}
+  .lp-gallery{
+    display:flex;grid-template-columns:none;overflow-x:auto;scroll-snap-type:x mandatory;
+    gap:12px;padding:0 20px 6px;margin-bottom:8px;-webkit-overflow-scrolling:touch;scrollbar-width:none;
+  }
+  .lp-gallery::-webkit-scrollbar{display:none;}
+  .lp-gallery-item{flex:0 0 84%;scroll-snap-align:center;aspect-ratio:4/3;height:auto;}
   .lp-topbar{padding:14px 20px;}
   .lp-proof{padding:48px 20px;}
   .lp-award{padding:48px 20px;}
-  .lp-brands{padding:40px 20px;}
-  .lp-brand-item{width:120px;height:76px;padding:10px 16px;}
-  .lp-brand-item img{max-height:44px;}
+  .lp-brands{padding:40px 0;}
+  .lp-brand-item{width:130px;height:82px;padding:10px 16px;}
+  .lp-brand-item img{max-height:48px;}
   .lp-testi{padding:48px 20px;}
   .lp-faq{padding:48px 20px;}
   .lp-faq-item summary{padding:16px 18px;font-size:14px;}
@@ -419,6 +429,7 @@ button{font-family:var(--sans);}
       </div>
     </div>
 
+    <p class="lp-gallery-hint">Swipe to see more projects <i class="fas fa-arrow-right"></i></p>
     <div class="lp-gallery">
       <div class="lp-gallery-item" data-project="Hill Resort Master Plan — Mukteshwar, Uttarakhand">
         <img src="images/mukteshwar-hill-resort/aerial-masterplan.webp" alt="Hill resort master plan — Mukteshwar" loading="lazy" width="2688" height="1792">
@@ -501,14 +512,24 @@ button{font-family:var(--sans);}
 <section class="lp-brands">
   <div class="lp-brands-inner">
     <span class="lp-brands-label">Brands We've Worked With</span>
-    <div class="lp-brands-grid">
-      <div class="lp-brand-item"><img src="images/brand-logo/18.webp" alt="Partner brand" loading="lazy" width="500" height="400"></div>
-      <div class="lp-brand-item"><img src="images/brand-logo/19.webp" alt="Partner brand" loading="lazy" width="500" height="400"></div>
-      <div class="lp-brand-item"><img src="images/brand-logo/20.webp" alt="Partner brand" loading="lazy" width="500" height="400"></div>
-      <div class="lp-brand-item"><img src="images/brand-logo/21.webp" alt="Partner brand" loading="lazy" width="500" height="400"></div>
-      <div class="lp-brand-item"><img src="images/brand-logo/22.webp" alt="Partner brand" loading="lazy" width="500" height="400"></div>
-      <div class="lp-brand-item"><img src="images/brand-logo/23.webp" alt="Partner brand" loading="lazy" width="500" height="400"></div>
-      <div class="lp-brand-item"><img src="images/brand-logo/24.webp" alt="ETH Infra" loading="lazy" width="800" height="364"></div>
+    <div class="lp-brands-viewport">
+      <div class="lp-brands-grid">
+        <div class="lp-brand-item"><img src="images/brand-logo/18.webp" alt="Partner brand" loading="lazy" width="500" height="400"></div>
+        <div class="lp-brand-item"><img src="images/brand-logo/19.webp" alt="Partner brand" loading="lazy" width="500" height="400"></div>
+        <div class="lp-brand-item"><img src="images/brand-logo/20.webp" alt="Partner brand" loading="lazy" width="500" height="400"></div>
+        <div class="lp-brand-item"><img src="images/brand-logo/21.webp" alt="Partner brand" loading="lazy" width="500" height="400"></div>
+        <div class="lp-brand-item"><img src="images/brand-logo/22.webp" alt="Partner brand" loading="lazy" width="500" height="400"></div>
+        <div class="lp-brand-item"><img src="images/brand-logo/23.webp" alt="Partner brand" loading="lazy" width="500" height="400"></div>
+        <div class="lp-brand-item"><img src="images/brand-logo/24.webp" alt="ETH Infra" loading="lazy" width="800" height="364"></div>
+        <!-- Duplicated for seamless loop -->
+        <div class="lp-brand-item" aria-hidden="true"><img src="images/brand-logo/18.webp" alt="" loading="lazy" width="500" height="400"></div>
+        <div class="lp-brand-item" aria-hidden="true"><img src="images/brand-logo/19.webp" alt="" loading="lazy" width="500" height="400"></div>
+        <div class="lp-brand-item" aria-hidden="true"><img src="images/brand-logo/20.webp" alt="" loading="lazy" width="500" height="400"></div>
+        <div class="lp-brand-item" aria-hidden="true"><img src="images/brand-logo/21.webp" alt="" loading="lazy" width="500" height="400"></div>
+        <div class="lp-brand-item" aria-hidden="true"><img src="images/brand-logo/22.webp" alt="" loading="lazy" width="500" height="400"></div>
+        <div class="lp-brand-item" aria-hidden="true"><img src="images/brand-logo/23.webp" alt="" loading="lazy" width="500" height="400"></div>
+        <div class="lp-brand-item" aria-hidden="true"><img src="images/brand-logo/24.webp" alt="" loading="lazy" width="800" height="364"></div>
+      </div>
     </div>
   </div>
 </section>
