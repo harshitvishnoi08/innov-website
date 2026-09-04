@@ -63,6 +63,11 @@
       "email": "support@weinnovarch.com",
       "priceRange": "₹₹₹",
       "parentOrganization": { "@id": "https://weinnovarch.com/#organization" },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "325"
+      },
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "B-20, B Block, Sector 64",
@@ -748,7 +753,7 @@ button{font-family:var(--sans);}
     <div class="stat-item fade-up"><div class="stat-num" data-target="500" data-suffix="+">500+</div><div class="stat-label">Projects Delivered</div></div>
     <div class="stat-item fade-up d1"><div class="stat-num" data-target="15" data-suffix="+">15+</div><div class="stat-label">Years Experience</div></div>
     <div class="stat-item fade-up d2"><div class="stat-num" data-target="95" data-suffix="%">95%</div><div class="stat-label">Positive Feedback</div></div>
-    <div class="stat-item fade-up d3"><div class="stat-num" data-target="4.82" data-suffix="★">4.82★</div><div class="stat-label">Client Rating</div></div>
+    <div class="stat-item fade-up d3"><div class="stat-num" data-target="4.7" data-suffix="★">4.7★</div><div class="stat-label">Client Rating</div></div>
   </div>
 </div>
 
@@ -1109,10 +1114,10 @@ button{font-family:var(--sans);}
         <button class="testi-dot" data-idx="2" aria-label="Show testimonial 3"></button>
       </div>
       <div class="testi-rating-row">
-        <div class="testi-big-num">4.82</div>
+        <div class="testi-big-num">4.7</div>
         <div>
           <div class="testi-rating-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-          <div class="testi-rating-label">Average client rating</div>
+          <div class="testi-rating-label">325 Google reviews</div>
         </div>
       </div>
     </div>
