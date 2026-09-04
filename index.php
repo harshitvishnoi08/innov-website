@@ -97,6 +97,25 @@
         { "@type": "AdministrativeArea", "name": "Delhi NCR" },
         { "@type": "Country", "name": "India" }
       ],
+      "knowsAbout": ["Resort & Hospitality Architecture", "Township & Urban Master Planning", "Farmhouse & Estate Architecture", "Neo-Classical Villa Architecture", "Hill Station Resort Master Planning"],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Resort Architecture & Master Planning",
+            "description": "Master planning, guest-zone layout, and construction-ready design for resorts, hotels and wellness destinations across India."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Township & Urban Master Planning",
+            "description": "Site and campus-scale planning for townships, multi-acre residential and mixed-use developments, and institutional campuses."
+          }
+        }
+      ],
       "sameAs": [
         "https://www.facebook.com/people/Innov-Interiors-Architects/100064101032579/",
         "https://www.instagram.com/innov_arc",
