@@ -75,7 +75,7 @@ if (isset($_POST['submit'])) {
     }
 
     // --- Google Sheets Integration ---
-    $googleScriptURL = "https://script.google.com/macros/s/AKfycbzVpXnvEiqAclMmGPX0cnz_tScNDzrrTcpoDCfMwDTa_FyXeZJFEqAcMvG_c1wOlY1img/exec";
+    $googleScriptURL = "https://script.google.com/macros/s/AKfycbwq1QKQ42uM6t5A-Hbfq3_U17AgBDWVf8B4FG02XifAECPaKNAbZwyNNzS3TgQASOF22Q/exec";
 
     $googlePostData = [
         'Name'        => $name,
