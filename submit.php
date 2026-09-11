@@ -13,7 +13,6 @@ if (isset($_POST['submit'])) {
     // --- Email Notification ---
     $to = [
         "support@weinnovarch.com",
-        "vishnoih10@gmail.com",
         "uditvishnoi@weinnovarch.com",
         "umang.arora@weinnovarch.com",
         "support@weinnovarch.com"
