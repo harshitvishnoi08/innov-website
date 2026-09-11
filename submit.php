@@ -14,8 +14,7 @@ if (isset($_POST['submit'])) {
     $to = [
         "support@weinnovarch.com",
         "uditvishnoi@weinnovarch.com",
-        "umang.arora@weinnovarch.com",
-        "support@weinnovarch.com"
+        "umang.arora@weinnovarch.com"
     ];
 
     $subject = "New Lead: " . $name . " | " . $requirement;
