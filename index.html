@@ -70,7 +70,7 @@
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "B-20, B Block, Sector 64",
+        "streetAddress": "B-23, B Block, Sector 64",
         "addressLocality": "Noida",
         "addressRegion": "Uttar Pradesh",
         "postalCode": "201309",
