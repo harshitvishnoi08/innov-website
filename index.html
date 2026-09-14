@@ -1015,52 +1015,52 @@ button{font-family:var(--sans);}
       <div class="svc-body">
         <div class="svc-num">01</div>
         <h3 class="svc-title">Architecture</h3>
-        <p class="svc-desc">Our Architecture services combines innovative design with practical functionality to create spaces that inspire. With a focus on sustainability, aesthetics, and personalized solutions, we deliver tailored designs that reflect the unique vision and needs of each client.</p>
+        <p class="svc-desc">Our architecture practice covers everything from concept and master planning to construction documentation — spanning luxury residences, resorts, and institutional buildings, each anchored in its landscape and built to endure.</p>
         <span class="svc-arrow">Learn More <i class="fas fa-arrow-right"></i></span>
       </div>
     </a>
     <a href="services.html#interiors" class="svc-card">
-      <div class="svc-img"><img src="images/design.webp" alt="Interior Designing service — Innov Arch" loading="lazy" width="750" height="500"></div>
+      <div class="svc-img"><img src="images/design.webp" alt="Luxury Interiors service — Innov Arch" loading="lazy" width="750" height="500"></div>
       <div class="svc-body">
         <div class="svc-num">02</div>
-        <h3 class="svc-title">Interior Designing</h3>
-        <p class="svc-desc">At Innov Arch, we specialize in creating stunning, functional interiors that reflect your style and vision. From concept to completion, our team blends creativity with precision, offering tailored designs that elevate both residential and commercial spaces.</p>
+        <h3 class="svc-title">Luxury Interiors</h3>
+        <p class="svc-desc">We create stunning, functional interiors across residences, resorts, and commercial spaces — blending spatial planning, material selection, lighting, and custom joinery into a unified, unmistakably personal whole.</p>
         <span class="svc-arrow">Learn More <i class="fas fa-arrow-right"></i></span>
       </div>
     </a>
-    <a href="contact.html" class="svc-card">
-      <div class="svc-img"><img src="images/consul.webp" alt="Designing Consultancy service — Innov Arch" loading="lazy" width="896" height="1346"></div>
+    <a href="services.html#residential" class="svc-card">
+      <div class="svc-img"><img src="images/Neo Classic at Greater Noida.webp" alt="Luxury Residences & Villas — Innov Arch" loading="lazy" width="1344" height="896"></div>
       <div class="svc-body">
         <div class="svc-num">03</div>
-        <h3 class="svc-title">Designing Consultancy</h3>
-        <p class="svc-desc">Our expert design consultancy services provide personalized solutions that bring your vision to life. From concept to execution, we blend creativity with technical precision, ensuring every space is functional, aesthetically pleasing, and tailored to your unique needs.</p>
+        <h3 class="svc-title">Residences &amp; Villas</h3>
+        <p class="svc-desc">From custom home architecture to full interior execution, we design private residences and villas that reflect exactly how you live — every room, material, and detail choreographed into a coherent whole.</p>
         <span class="svc-arrow">Learn More <i class="fas fa-arrow-right"></i></span>
       </div>
     </a>
-    <a href="contact.html" class="svc-card">
-      <div class="svc-img"><img src="images/2d.webp" alt="2D and 3D Visuals service — Innov Arch" loading="lazy" width="1820" height="1020"></div>
+    <a href="services.html#hospitality" class="svc-card">
+      <div class="svc-img"><img src="images/tab/resort.webp" alt="Resorts & Hotels service — Innov Arch" loading="lazy" width="1200" height="800"></div>
       <div class="svc-body">
         <div class="svc-num">04</div>
-        <h3 class="svc-title">2D / 3D Visuals</h3>
-        <p class="svc-desc">Our 2D/3D visual services bring your design concepts to life with stunning clarity and precision. From realistic architectural renderings to immersive 3D walkthroughs, we help you visualize spaces before they're built, ensuring every detail aligns with your vision.</p>
+        <h3 class="svc-title">Resorts &amp; Hotels</h3>
+        <p class="svc-desc">We design hotels, resorts, and boutique retreats where every spatial decision — from the arrival sequence to the guest room — is calibrated to delight, rooted in the specificity of each location and brief.</p>
         <span class="svc-arrow">Learn More <i class="fas fa-arrow-right"></i></span>
       </div>
     </a>
-    <a href="contact.html" class="svc-card">
-      <div class="svc-img"><img src="images/kitchen.webp" alt="Modular Kitchen design service — Innov Arch" loading="lazy" width="1329" height="1750"></div>
+    <a href="services.html#hospitality" class="svc-card">
+      <div class="svc-img"><img src="images/tab/the-bliss-bijnor-banquet-architect.webp" alt="Banquets & Event Venues service — Innov Arch" loading="lazy" width="1200" height="800"></div>
       <div class="svc-body">
         <div class="svc-num">05</div>
-        <h3 class="svc-title">Modular Kitchen</h3>
-        <p class="svc-desc">Transform your cooking space with our custom-designed modular kitchens that combine style, functionality, and smart storage solutions. Tailored to fit your lifestyle, we offer a seamless blend of modern design and practicality.</p>
+        <h3 class="svc-title">Banquets &amp; Event Venues</h3>
+        <p class="svc-desc">Our banquet and event venue design creates grand, memorable spaces for celebration — from glass-roofed halls to riverfront lawns — combining architectural drama with genuine hospitality functionality.</p>
         <span class="svc-arrow">Learn More <i class="fas fa-arrow-right"></i></span>
       </div>
     </a>
-    <a href="contact.html" class="svc-card">
-      <div class="svc-img"><img src="images/evelotion.webp" alt="Front Elevation design service — Innov Arch" loading="lazy" width="1500" height="1000"></div>
+    <a href="services.html#urbanplanning" class="svc-card">
+      <div class="svc-img"><img src="images/township-chandigarh/community-park.webp" alt="Townships & Master Planning service — Innov Arch" loading="lazy" width="2016" height="1344"></div>
       <div class="svc-body">
         <div class="svc-num">06</div>
-        <h3 class="svc-title">Front Elevation</h3>
-        <p class="svc-desc">Our front elevation service enhances the visual appeal of your property with striking, modern designs that reflect your unique style. We create customized, eye-catching facades that blend aesthetics with functionality, ensuring your building makes a lasting first impression.</p>
+        <h3 class="svc-title">Townships &amp; Master Planning</h3>
+        <p class="svc-desc">We bring strategic clarity to multi-acre sites — translating brief and context into coherent master plans for townships and resort campuses, integrating land use, mobility, and public space from day one.</p>
         <span class="svc-arrow">Learn More <i class="fas fa-arrow-right"></i></span>
       </div>
     </a>
