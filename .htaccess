@@ -50,3 +50,8 @@
     Header set Cache-Control "public, max-age=2592000"
   </FilesMatch>
 </IfModule>
+
+# ── Never serve the server-side secrets file (SMTP + CRM credentials) ──
+<Files "crm-config.php">
+  Require all denied
+</Files>

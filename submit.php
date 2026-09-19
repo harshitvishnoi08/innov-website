@@ -1,4 +1,10 @@
 <?php
+// Secrets live in crm-config.php (gitignored, created once on the server via
+// cPanel File Manager — see the CRM repo's website_setup.md). Missing file =
+// email falls back to mail(), CRM push is skipped, nothing breaks for the visitor.
+$config = file_exists(__DIR__ . '/crm-config.php') ? (include __DIR__ . '/crm-config.php') : [];
+if (!is_array($config)) $config = [];
+
 if (isset($_POST['submit'])) {
     $name        = $_POST['Name'];
     $mobile      = $_POST['Number'] ?? '';
@@ -54,10 +60,10 @@ if (isset($_POST['submit'])) {
 </body></html>";
 
     // --- SMTP Configuration ---
-    $smtpHost = 'mail.weinnovarch.com';
-    $smtpPort = 465;
-    $smtpUser = 'contact@weinnovarch.com';
-    $smtpPass = 'uV-Ya0lC84jng[IU';
+    $smtpHost = $config['smtp_host'] ?? 'mail.weinnovarch.com';
+    $smtpPort = $config['smtp_port'] ?? 465;
+    $smtpUser = $config['smtp_user'] ?? 'contact@weinnovarch.com';
+    $smtpPass = $config['smtp_pass'] ?? '';
 
     // Send email via SMTP to all recipients
     $emailSent = sendEmailViaSMTP($to, $subject, $htmlContent, $email, $name, $smtpHost, $smtpPort, $smtpUser, $smtpPass);
@@ -95,6 +101,60 @@ if (isset($_POST['submit'])) {
     curl_setopt($ch2, CURLOPT_POST, true);
     $googleResponse = curl_exec($ch2);
     curl_close($ch2);
+
+    // --- CRM Integration ---
+    // Attribution (gclid / utm_*) was stored in a cookie by js/attribution.js on
+    // the page the visitor first landed on; it rides along with this POST.
+    $attr = [];
+    if (!empty($_COOKIE['innov_attr'])) {
+        $decoded = json_decode($_COOKIE['innov_attr'], true);
+        if (is_array($decoded)) $attr = $decoded;
+    }
+
+    if (!empty($config['crm_url']) && !empty($config['crm_secret'])) {
+        $crmPayload = [
+            'name'         => $name,
+            'phone'        => $mobile,
+            'email'        => $email,
+            'city'         => $city,
+            'requirement'  => $requirement,
+            'budget'       => $budget,
+            'landArea'     => $landArea,
+            'message'      => $message,
+            'ip'           => $ip,
+            'page'         => $_SERVER['HTTP_REFERER'] ?? '',
+            'gclid'        => $attr['gclid'] ?? ($attr['gbraid'] ?? ($attr['wbraid'] ?? '')),
+            'utm_source'   => $attr['utm_source'] ?? '',
+            'utm_medium'   => $attr['utm_medium'] ?? '',
+            'utm_campaign' => $attr['utm_campaign'] ?? '',
+            'utm_term'     => $attr['utm_term'] ?? '',
+            'utm_content'  => $attr['utm_content'] ?? '',
+            'landingPage'  => $attr['landing_page'] ?? '',
+            'referrer'     => $attr['referrer'] ?? '',
+        ];
+
+        $ch3 = curl_init($config['crm_url']);
+        curl_setopt_array($ch3, [
+            CURLOPT_POST           => true,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_TIMEOUT        => 8,
+            CURLOPT_CONNECTTIMEOUT => 4,
+            CURLOPT_POSTFIELDS     => json_encode($crmPayload),
+            CURLOPT_HTTPHEADER     => [
+                'Content-Type: application/json',
+                'x-website-secret: ' . $config['crm_secret'],
+            ],
+        ]);
+        $crmResponse = curl_exec($ch3);
+        $crmStatus   = curl_getinfo($ch3, CURLINFO_HTTP_CODE);
+        $crmErr      = curl_error($ch3);
+        curl_close($ch3);
+        if ($crmStatus !== 200) {
+            error_log("CRM push failed ({$crmStatus}): " . ($crmErr ?: $crmResponse));
+        }
+    } else {
+        error_log('CRM push skipped: crm_url/crm_secret not set in crm-config.php');
+    }
 
     // Redirect after all done
     header('Location: thanks.php');

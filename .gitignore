@@ -26,3 +26,6 @@ weinnovarch/
 
 # ── Local helper files (not part of the website) ──
 urls.txt
+
+# ── Server-side secrets (SMTP + CRM), created by hand on the server ─
+crm-config.php
