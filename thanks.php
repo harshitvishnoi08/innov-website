@@ -223,7 +223,7 @@ main{flex:1;display:flex;align-items:center;justify-content:center;padding:130px
     <div class="footer-logo">
       <img src="images/logo.png" alt="Innov Architects & Interiors">
     </div>
-    <div class="footer-copy">&copy; 2026 Innov Architects &amp; Interiors. All rights reserved.</div>
+    <div class="footer-copy">&copy; 2026 Innov Architects &amp; Interiors. All rights reserved. &middot; <a href="privacy-policy.html" style="color:inherit;text-decoration:underline;">Privacy Policy</a></div>
   </div>
 </footer>
 
