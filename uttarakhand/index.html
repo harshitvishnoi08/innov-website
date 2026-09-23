@@ -897,7 +897,7 @@ button { font-family:var(--sans); }
       <form action="../submit.php" method="POST">
         <div class="cf-group"><input class="cf-input" type="text" name="Name" placeholder="Your Name *" required></div>
         <div class="cf-group"><input class="cf-input" type="email" name="Email" placeholder="Email Address"></div>
-        <div class="cf-group"><input class="cf-input" type="tel" name="Number" placeholder="Phone Number *" required></div>
+        <div class="cf-group"><input class="cf-input" type="tel" name="Number" placeholder="Phone Number *" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required></div>
         <div class="cf-group"><input class="cf-input" type="text" name="City" placeholder="Your City" value="Uttarakhand"></div>
         <div class="cf-group">
           <select class="cf-select" name="Requirement">
@@ -962,7 +962,7 @@ button { font-family:var(--sans); }
         </div>
         <div class="mf-group">
           <label class="mf-label" for="mf-phone">Phone *</label>
-          <input class="mf-input" type="tel" id="mf-phone" name="Number" placeholder="+91 XXXXX XXXXX" required>
+          <input class="mf-input" type="tel" id="mf-phone" name="Number" placeholder="+91 XXXXX XXXXX" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
         </div>
       </div>
       <div class="mf-row">

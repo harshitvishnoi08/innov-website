@@ -1128,7 +1128,7 @@ a{text-decoration:none;color:inherit;}
           <input type="text" name="Name" placeholder="Your Full Name" required>
         </div>
         <div class="hf-field">
-          <input type="tel" name="Number" placeholder="Phone Number" required>
+          <input type="tel" name="Number" placeholder="Phone Number" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
         </div>
         <div class="hf-field">
           <input type="text" name="City" placeholder="Your City" required>
@@ -1168,7 +1168,7 @@ a{text-decoration:none;color:inherit;}
     <form action="submit.php" method="POST">
       <div class="mhf-row">
         <input class="mhf-input" type="text" name="Name" placeholder="Your Full Name" required>
-        <input class="mhf-input" type="tel" name="Number" placeholder="Phone Number" required>
+        <input class="mhf-input" type="tel" name="Number" placeholder="Phone Number" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
       </div>
       <div class="mhf-row">
         <input class="mhf-input" type="text" name="City" placeholder="Your City" required>
@@ -1655,7 +1655,7 @@ a{text-decoration:none;color:inherit;}
             </div>
             <div class="cf-group">
               <label class="cf-label" for="cf-phone">Phone Number *</label>
-              <input class="cf-input" type="tel" id="cf-phone" name="Number" placeholder="+91 XXXXX XXXXX" required>
+              <input class="cf-input" type="tel" id="cf-phone" name="Number" placeholder="+91 XXXXX XXXXX" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
             </div>
           </div>
           <div class="cf-row">
@@ -1745,7 +1745,7 @@ a{text-decoration:none;color:inherit;}
         </div>
         <div class="mf-group">
           <label class="mf-label" for="mf-phone">Phone *</label>
-          <input class="mf-input" type="tel" id="mf-phone" name="Number" placeholder="+91 XXXXX XXXXX" required>
+          <input class="mf-input" type="tel" id="mf-phone" name="Number" placeholder="+91 XXXXX XXXXX" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
         </div>
       </div>
       <div class="mf-row">

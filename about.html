@@ -564,7 +564,7 @@ button{font-family:var(--sans);}
         </div>
         <div class="mf-group">
           <label class="mf-label" for="mf-phone">Phone *</label>
-          <input class="mf-input" type="tel" id="mf-phone" name="Number" placeholder="+91 XXXXX XXXXX" required>
+          <input class="mf-input" type="tel" id="mf-phone" name="Number" placeholder="+91 XXXXX XXXXX" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
         </div>
       </div>
       <div class="mf-row">

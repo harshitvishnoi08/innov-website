@@ -263,6 +263,10 @@ a{color:inherit;text-decoration:none;}
       <h2 class="section-title">We'd Love to Hear<br><span class="gold-italic">From You</span></h2>
       <p class="form-sub">Fill in the form and we'll get back to you within 4 business hours.</p>
 
+      <div id="formErrorBanner" style="display:none;margin-bottom:20px;padding:14px 18px;background:rgba(201,80,80,.12);border:1px solid rgba(201,80,80,.35);color:#e8a0a0;font-size:13px;line-height:1.6;">
+        Please check your details and try again — we need a valid 10-digit Indian mobile number to reach you.
+      </div>
+
       <form id="contactForm" action="submit.php" method="POST">
         <div class="cf-row">
           <div class="cf-group">
@@ -271,7 +275,7 @@ a{color:inherit;text-decoration:none;}
           </div>
           <div class="cf-group">
             <label class="cf-label" for="cf-phone">Phone *</label>
-            <input class="cf-input" type="tel" id="cf-phone" name="Number" placeholder="+91 XXXXX XXXXX" required>
+            <input class="cf-input" type="tel" id="cf-phone" name="Number" placeholder="+91 XXXXX XXXXX" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
           </div>
         </div>
         <div class="cf-row">
@@ -401,6 +405,14 @@ const obs = new IntersectionObserver(entries => {
   entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
 }, {threshold: 0.08});
 document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
+
+if (new URLSearchParams(window.location.search).get('form_error')) {
+  const banner = document.getElementById('formErrorBanner');
+  if (banner) {
+    banner.style.display = 'block';
+    banner.scrollIntoView({behavior:'smooth', block:'center'});
+  }
+}
 </script>
 </body>
 </html>

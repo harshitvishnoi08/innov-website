@@ -1353,6 +1353,9 @@ button{font-family:var(--sans);}
     <div class="contact-form-wrap fade-up d1">
       <div class="cf-title">Get In Touch</div>
       <div class="cf-sub">Fill in the form and we'll get back to you within 4 business hours.</div>
+      <div id="formErrorBanner" style="display:none;margin-bottom:20px;padding:14px 18px;background:rgba(201,80,80,.12);border:1px solid rgba(201,80,80,.35);color:#e8a0a0;font-size:13px;line-height:1.6;">
+        Please check your details and try again — we need a valid 10-digit Indian mobile number to reach you.
+      </div>
       <form id="contactForm" action="submit.php" method="POST">
         <div class="cf-group">
           <input class="cf-input" type="text" name="Name" placeholder="Name *" required>
@@ -1361,7 +1364,7 @@ button{font-family:var(--sans);}
           <input class="cf-input" type="email" name="Email" placeholder="Email Address">
         </div>
         <div class="cf-group">
-          <input class="cf-input" type="tel" name="Number" placeholder="Your Phone *" required>
+          <input class="cf-input" type="tel" name="Number" placeholder="Your Phone *" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
         </div>
         <div class="cf-group">
           <input class="cf-input" type="text" name="City" placeholder="Your City">
@@ -1427,7 +1430,7 @@ button{font-family:var(--sans);}
         </div>
         <div class="mf-group">
           <label class="mf-label" for="mf-phone">Phone *</label>
-          <input class="mf-input" type="tel" id="mf-phone" name="Number" placeholder="+91 XXXXX XXXXX" required>
+          <input class="mf-input" type="tel" id="mf-phone" name="Number" placeholder="+91 XXXXX XXXXX" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
         </div>
       </div>
       <div class="mf-row">
@@ -1713,6 +1716,14 @@ document.getElementById('brandFilmThumb').addEventListener('click', function(){
   }, {threshold: 0.2});
   steps.forEach(s => psObs.observe(s));
 })();
+
+if (new URLSearchParams(window.location.search).get('form_error')) {
+  const banner = document.getElementById('formErrorBanner');
+  if (banner) {
+    banner.style.display = 'block';
+    banner.scrollIntoView({behavior:'smooth', block:'center'});
+  }
+}
 </script>
 
 </body>

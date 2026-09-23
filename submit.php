@@ -5,16 +5,54 @@
 $config = file_exists(__DIR__ . '/crm-config.php') ? (include __DIR__ . '/crm-config.php') : [];
 if (!is_array($config)) $config = [];
 
+/**
+ * Normalise a user-entered phone number to a bare 10-digit Indian mobile
+ * number, or return null if it can't be resolved to one. Strips spaces,
+ * dashes, parentheses and a leading +91 / 91 / 0, then requires exactly
+ * 10 digits starting 6-9 (the valid Indian mobile number ranges).
+ */
+function normalizeIndianMobile($raw) {
+    $digits = preg_replace('/\D/', '', (string) $raw);
+    if (strlen($digits) === 12 && substr($digits, 0, 2) === '91') {
+        $digits = substr($digits, 2);
+    } elseif (strlen($digits) === 11 && substr($digits, 0, 1) === '0') {
+        $digits = substr($digits, 1);
+    }
+    if (preg_match('/^[6-9]\d{9}$/', $digits)) {
+        return $digits;
+    }
+    return null;
+}
+
 if (isset($_POST['submit'])) {
-    $name        = $_POST['Name'];
-    $mobile      = $_POST['Number'] ?? '';
-    $email       = $_POST['Email'];
-    $city        = $_POST['City'];
+    $name        = trim($_POST['Name'] ?? '');
+    $mobileRaw   = $_POST['Number'] ?? '';
+    $email       = trim($_POST['Email'] ?? '');
+    $city        = $_POST['City'] ?? '';
     $requirement = $_POST['Requirement'] ?? '';
     $budget      = $_POST['Budget'] ?? '';
     $landArea    = $_POST['LandArea'] ?? '';
     $message     = $_POST['message'] ?? '';
     $ip          = $_SERVER['REMOTE_ADDR'];
+
+    // --- Server-Side Validation ---
+    // The client-side pattern on the phone field stops honest visitors from
+    // submitting a bad number; this is the real gate that stops bots and any
+    // direct POST that skips the browser entirely. Invalid submissions are
+    // sent back to the form instead of being treated as a real lead.
+    // Email is intentionally optional here: a couple of quick-lead forms
+    // (e.g. resorts-architects.html, luxury-villa-architects-delhi-ncr)
+    // deliberately don't ask for it to reduce friction, so it's only
+    // validated when the visitor actually provided one.
+    $mobile = normalizeIndianMobile($mobileRaw);
+    $emailValid = $email === '' || filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
+
+    if ($name === '' || $mobile === null || !$emailValid) {
+        $referer = $_SERVER['HTTP_REFERER'] ?? 'contact.html';
+        $sep = (strpos($referer, '?') !== false) ? '&' : '?';
+        header('Location: ' . $referer . $sep . 'form_error=1');
+        exit();
+    }
 
     // --- Email Notification ---
     $to = [
@@ -25,7 +63,7 @@ if (isset($_POST['submit'])) {
 
     $subject = "New Lead: " . $name . " | " . $requirement;
 
-    $mobileDigits = preg_replace('/[^0-9]/', '', $mobile);
+    $mobileDigits = $mobile; // already a clean 10-digit number after normalizeIndianMobile()
     $waText = rawurlencode("Hi " . $name . ", this is Innov Architects & Interiors. We received your enquiry for " . $requirement . ". Are you available for a quick call?");
 
     $htmlContent = "<html><body style='font-family:Arial,sans-serif;font-size:14px;color:#333;background:#f5f5f5;padding:20px;'>
