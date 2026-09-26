@@ -910,6 +910,17 @@ button { font-family:var(--sans); }
             <option value="Other">Other</option>
           </select>
         </div>
+        <div class="cf-group">
+          <select class="cf-select" name="Budget" aria-label="Select your budget range" required>
+            <option value="">Select budget range</option>
+            <option value="Under 10 Lakh">Under ₹10 Lakh</option>
+            <option value="10-25 Lakh">₹10 – 25 Lakh</option>
+            <option value="25-50 Lakh">₹25 – 50 Lakh</option>
+            <option value="50 Lakh - 1 Crore">₹50 Lakh – 1 Crore</option>
+            <option value="1 Crore+">₹1 Crore+</option>
+            <option value="Not sure yet">Not sure yet</option>
+          </select>
+        </div>
         <button type="submit" name="submit" class="cf-submit">Submit &rarr;</button>
       </form>
     </div>
@@ -985,6 +996,18 @@ button { font-family:var(--sans); }
           <option value="Front Elevation">Front Elevation</option>
           <option value="Commercial Interior">Commercial Interior</option>
           <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="mf-group">
+        <label class="mf-label" for="mf-budget">Budget Range *</label>
+        <select class="mf-select" id="mf-budget" name="Budget" required>
+          <option value="">Select budget range</option>
+          <option value="Under 10 Lakh">Under ₹10 Lakh</option>
+          <option value="10-25 Lakh">₹10 – 25 Lakh</option>
+          <option value="25-50 Lakh">₹25 – 50 Lakh</option>
+          <option value="50 Lakh - 1 Crore">₹50 Lakh – 1 Crore</option>
+          <option value="1 Crore+">₹1 Crore+</option>
+          <option value="Not sure yet">Not sure yet</option>
         </select>
       </div>
       <button type="submit" name="submit" class="mf-submit">Submit &rarr;</button>

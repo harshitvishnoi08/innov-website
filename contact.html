@@ -264,7 +264,7 @@ a{color:inherit;text-decoration:none;}
       <p class="form-sub">Fill in the form and we'll get back to you within 4 business hours.</p>
 
       <div id="formErrorBanner" style="display:none;margin-bottom:20px;padding:14px 18px;background:rgba(201,80,80,.12);border:1px solid rgba(201,80,80,.35);color:#e8a0a0;font-size:13px;line-height:1.6;">
-        Please check your details and try again — make sure your name, phone, email, city and requirement are all filled in correctly.
+        Please check your details and try again — make sure your name, phone, email, city, requirement and budget are all filled in correctly.
       </div>
 
       <form id="contactForm" action="submit.php" method="POST">
@@ -299,6 +299,18 @@ a{color:inherit;text-decoration:none;}
             <option value="Resort / Hotel Architecture">Resort / Hotel Architecture</option>
             <option value="Banquet Hall Design">Banquet Hall Design</option>
             <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="cf-group">
+          <label class="cf-label" for="cf-budget">Budget Range *</label>
+          <select class="cf-select" id="cf-budget" name="Budget" required>
+            <option value="">Select budget range</option>
+            <option value="Under 10 Lakh">Under ₹10 Lakh</option>
+            <option value="10-25 Lakh">₹10 – 25 Lakh</option>
+            <option value="25-50 Lakh">₹25 – 50 Lakh</option>
+            <option value="50 Lakh - 1 Crore">₹50 Lakh – 1 Crore</option>
+            <option value="1 Crore+">₹1 Crore+</option>
+            <option value="Not sure yet">Not sure yet</option>
           </select>
         </div>
         <div class="cf-group">

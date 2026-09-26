@@ -40,15 +40,12 @@ if (isset($_POST['submit'])) {
     // submitting incomplete or bad data; this is the real gate that stops bots
     // and any direct POST that skips the browser entirely. Invalid submissions
     // are sent back to the form instead of being treated as a real lead.
-    // Name, phone, email, city and requirement are required on every form site-wide,
-    // so they're all validated here. Budget is only collected on a few forms
-    // (e.g. resorts-architects.html, luxury-villa-architects-delhi-ncr,
-    // luxury-resort-architects.html), so it isn't gated here to avoid breaking
-    // the forms that don't ask for it.
+    // Name, phone, email, city, requirement and budget are required on every
+    // form site-wide, so they're all validated here.
     $mobile = normalizeIndianMobile($mobileRaw);
     $emailValid = $email !== '' && filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
 
-    if ($name === '' || $mobile === null || !$emailValid || trim($city) === '' || trim($requirement) === '') {
+    if ($name === '' || $mobile === null || !$emailValid || trim($city) === '' || trim($requirement) === '' || trim($budget) === '') {
         $referer = $_SERVER['HTTP_REFERER'] ?? 'contact.html';
         $sep = (strpos($referer, '?') !== false) ? '&' : '?';
         header('Location: ' . $referer . $sep . 'form_error=1');
