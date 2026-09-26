@@ -899,7 +899,7 @@ button { font-family:var(--sans); }
         </div>
         <div class="cf-row2">
           <div class="cf-group">
-            <input class="cf-input" type="email" name="Email" placeholder="Email Address">
+            <input class="cf-input" type="email" name="Email" placeholder="Email Address *" required>
           </div>
           <div class="cf-group">
             <input class="cf-input" type="tel" name="Number" placeholder="Phone Number *" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
@@ -1320,16 +1320,16 @@ button { font-family:var(--sans); }
           <input class="cf-input" type="text" name="Name" placeholder="Your Name *" required>
         </div>
         <div class="cf-group">
-          <input class="cf-input" type="email" name="Email" placeholder="Email Address">
+          <input class="cf-input" type="email" name="Email" placeholder="Email Address *" required>
         </div>
         <div class="cf-group">
           <input class="cf-input" type="tel" name="Number" placeholder="Phone Number *" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
         </div>
         <div class="cf-group">
-          <input class="cf-input" type="text" name="City" placeholder="Your City" value="Noida">
+          <input class="cf-input" type="text" name="City" placeholder="Your City" value="Noida" required>
         </div>
         <div class="cf-group">
-          <select class="cf-select" name="Requirement">
+          <select class="cf-select" name="Requirement" required>
             <option value="">Select a Service</option>
             <option value="Home Interiors">Home Interiors</option>
             <option value="Architecture">Architecture</option>
@@ -1396,17 +1396,17 @@ button { font-family:var(--sans); }
       </div>
       <div class="mf-row">
         <div class="mf-group">
-          <label class="mf-label" for="mf-email">Email</label>
-          <input class="mf-input" type="email" id="mf-email" name="Email" placeholder="your@email.com">
+          <label class="mf-label" for="mf-email">Email *</label>
+          <input class="mf-input" type="email" id="mf-email" name="Email" placeholder="your@email.com" required>
         </div>
         <div class="mf-group">
-          <label class="mf-label" for="mf-city">City</label>
-          <input class="mf-input" type="text" id="mf-city" name="City" placeholder="Your city">
+          <label class="mf-label" for="mf-city">City *</label>
+          <input class="mf-input" type="text" id="mf-city" name="City" placeholder="Your city" required>
         </div>
       </div>
       <div class="mf-group">
-        <label class="mf-label" for="mf-req">Requirement</label>
-        <select class="mf-select" id="mf-req" name="Requirement">
+        <label class="mf-label" for="mf-req">Requirement *</label>
+        <select class="mf-select" id="mf-req" name="Requirement" required>
           <option value="">Select a Service</option>
           <option value="Home Interiors">Home Interiors</option>
           <option value="Architecture">Architecture</option>

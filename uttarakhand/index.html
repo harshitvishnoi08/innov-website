@@ -896,11 +896,11 @@ button { font-family:var(--sans); }
       <p class="cf-sub">Fill in the form and we'll get back to you within 4 business hours.</p>
       <form action="../submit.php" method="POST">
         <div class="cf-group"><input class="cf-input" type="text" name="Name" placeholder="Your Name *" required></div>
-        <div class="cf-group"><input class="cf-input" type="email" name="Email" placeholder="Email Address"></div>
+        <div class="cf-group"><input class="cf-input" type="email" name="Email" placeholder="Email Address *" required></div>
         <div class="cf-group"><input class="cf-input" type="tel" name="Number" placeholder="Phone Number *" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required></div>
-        <div class="cf-group"><input class="cf-input" type="text" name="City" placeholder="Your City" value="Uttarakhand"></div>
+        <div class="cf-group"><input class="cf-input" type="text" name="City" placeholder="Your City" value="Uttarakhand" required></div>
         <div class="cf-group">
-          <select class="cf-select" name="Requirement">
+          <select class="cf-select" name="Requirement" required>
             <option value="">Select Requirement</option>
             <option value="Resort / Hotel Architecture" selected>Resort / Hotel Architecture</option>
             <option value="Home Interiors">Home Interiors</option>
@@ -967,17 +967,17 @@ button { font-family:var(--sans); }
       </div>
       <div class="mf-row">
         <div class="mf-group">
-          <label class="mf-label" for="mf-email">Email</label>
-          <input class="mf-input" type="email" id="mf-email" name="Email" placeholder="your@email.com">
+          <label class="mf-label" for="mf-email">Email *</label>
+          <input class="mf-input" type="email" id="mf-email" name="Email" placeholder="your@email.com" required>
         </div>
         <div class="mf-group">
-          <label class="mf-label" for="mf-city">City</label>
-          <input class="mf-input" type="text" id="mf-city" name="City" value="Uttarakhand" placeholder="Your city">
+          <label class="mf-label" for="mf-city">City *</label>
+          <input class="mf-input" type="text" id="mf-city" name="City" value="Uttarakhand" placeholder="Your city" required>
         </div>
       </div>
       <div class="mf-group">
-        <label class="mf-label" for="mf-req">Requirement</label>
-        <select class="mf-select" id="mf-req" name="Requirement">
+        <label class="mf-label" for="mf-req">Requirement *</label>
+        <select class="mf-select" id="mf-req" name="Requirement" required>
           <option value="">Select an Option</option>
           <option value="Resort / Hotel Architecture" selected>Resort / Hotel Architecture</option>
           <option value="Home Interiors">Home Interiors</option>

@@ -1354,23 +1354,23 @@ button{font-family:var(--sans);}
       <div class="cf-title">Get In Touch</div>
       <div class="cf-sub">Fill in the form and we'll get back to you within 4 business hours.</div>
       <div id="formErrorBanner" style="display:none;margin-bottom:20px;padding:14px 18px;background:rgba(201,80,80,.12);border:1px solid rgba(201,80,80,.35);color:#e8a0a0;font-size:13px;line-height:1.6;">
-        Please check your details and try again — we need a valid 10-digit Indian mobile number to reach you.
+        Please check your details and try again — make sure your name, phone, email, city and requirement are all filled in correctly.
       </div>
       <form id="contactForm" action="submit.php" method="POST">
         <div class="cf-group">
           <input class="cf-input" type="text" name="Name" placeholder="Name *" required>
         </div>
         <div class="cf-group">
-          <input class="cf-input" type="email" name="Email" placeholder="Email Address">
+          <input class="cf-input" type="email" name="Email" placeholder="Email Address *" required>
         </div>
         <div class="cf-group">
           <input class="cf-input" type="tel" name="Number" placeholder="Your Phone *" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
         </div>
         <div class="cf-group">
-          <input class="cf-input" type="text" name="City" placeholder="Your City">
+          <input class="cf-input" type="text" name="City" placeholder="Your City *" required>
         </div>
         <div class="cf-group">
-          <select class="cf-select" name="Requirement" aria-label="Select your requirement">
+          <select class="cf-select" name="Requirement" aria-label="Select your requirement" required>
             <option value="">Select an Option</option>
             <option value="Home Interiors">Home Interiors</option>
             <option value="Construction">Construction</option>
@@ -1435,17 +1435,17 @@ button{font-family:var(--sans);}
       </div>
       <div class="mf-row">
         <div class="mf-group">
-          <label class="mf-label" for="mf-email">Email</label>
-          <input class="mf-input" type="email" id="mf-email" name="Email" placeholder="your@email.com">
+          <label class="mf-label" for="mf-email">Email *</label>
+          <input class="mf-input" type="email" id="mf-email" name="Email" placeholder="your@email.com" required>
         </div>
         <div class="mf-group">
-          <label class="mf-label" for="mf-city">City</label>
-          <input class="mf-input" type="text" id="mf-city" name="City" placeholder="Your city">
+          <label class="mf-label" for="mf-city">City *</label>
+          <input class="mf-input" type="text" id="mf-city" name="City" placeholder="Your city" required>
         </div>
       </div>
       <div class="mf-group">
-        <label class="mf-label" for="mf-req">Requirement</label>
-        <select class="mf-select" id="mf-req" name="Requirement">
+        <label class="mf-label" for="mf-req">Requirement *</label>
+        <select class="mf-select" id="mf-req" name="Requirement" required>
           <option value="">Select an Option</option>
           <option value="Home Interiors">Home Interiors</option>
           <option value="Construction">Construction</option>

@@ -264,7 +264,7 @@ a{color:inherit;text-decoration:none;}
       <p class="form-sub">Fill in the form and we'll get back to you within 4 business hours.</p>
 
       <div id="formErrorBanner" style="display:none;margin-bottom:20px;padding:14px 18px;background:rgba(201,80,80,.12);border:1px solid rgba(201,80,80,.35);color:#e8a0a0;font-size:13px;line-height:1.6;">
-        Please check your details and try again — we need a valid 10-digit Indian mobile number to reach you.
+        Please check your details and try again — make sure your name, phone, email, city and requirement are all filled in correctly.
       </div>
 
       <form id="contactForm" action="submit.php" method="POST">
@@ -280,17 +280,17 @@ a{color:inherit;text-decoration:none;}
         </div>
         <div class="cf-row">
           <div class="cf-group">
-            <label class="cf-label" for="cf-email">Email</label>
-            <input class="cf-input" type="email" id="cf-email" name="Email" placeholder="your@email.com">
+            <label class="cf-label" for="cf-email">Email *</label>
+            <input class="cf-input" type="email" id="cf-email" name="Email" placeholder="your@email.com" required>
           </div>
           <div class="cf-group">
-            <label class="cf-label" for="cf-city">City</label>
-            <input class="cf-input" type="text" id="cf-city" name="City" placeholder="Your city">
+            <label class="cf-label" for="cf-city">City *</label>
+            <input class="cf-input" type="text" id="cf-city" name="City" placeholder="Your city" required>
           </div>
         </div>
         <div class="cf-group">
-          <label class="cf-label" for="cf-req">Requirement</label>
-          <select class="cf-select" id="cf-req" name="Requirement">
+          <label class="cf-label" for="cf-req">Requirement *</label>
+          <select class="cf-select" id="cf-req" name="Requirement" required>
             <option value="">Select an Option</option>
             <option value="Home Interiors">Home Interiors</option>
             <option value="Construction">Construction</option>

@@ -1144,7 +1144,9 @@ a{text-decoration:none;color:inherit;}
             <option value="Other Premium Project">Other Premium Project</option>
           </select>
         </div>
-        <input type="hidden" name="Email" value="">
+        <div class="hf-field">
+          <input type="email" name="Email" placeholder="Email Address" required>
+        </div>
         <button type="submit" name="submit" class="btn-hf-submit">Schedule a Private Consultation &rarr;</button>
       </form>
       <div class="hf-note"><i class="fas fa-lock"></i> 100% Confidential. No spam, ever.</div>
@@ -1181,7 +1183,9 @@ a{text-decoration:none;color:inherit;}
           <option value="Other Premium Project">Other</option>
         </select>
       </div>
-      <input type="hidden" name="Email" value="">
+      <div class="mhf-row">
+        <input class="mhf-input" type="email" name="Email" placeholder="Email Address" required>
+      </div>
       <button type="submit" name="submit" class="mhf-btn">Schedule a Private Consultation &rarr;</button>
     </form>
     <div class="mhf-note"><i class="fas fa-lock"></i> 100% Confidential. No spam, ever.</div>
@@ -1660,8 +1664,8 @@ a{text-decoration:none;color:inherit;}
           </div>
           <div class="cf-row">
             <div class="cf-group">
-              <label class="cf-label" for="cf-email">Email Address</label>
-              <input class="cf-input" type="email" id="cf-email" name="Email" placeholder="your@email.com">
+              <label class="cf-label" for="cf-email">Email Address *</label>
+              <input class="cf-input" type="email" id="cf-email" name="Email" placeholder="your@email.com" required>
             </div>
             <div class="cf-group">
               <label class="cf-label" for="cf-city">City *</label>
@@ -1682,8 +1686,8 @@ a{text-decoration:none;color:inherit;}
             </select>
           </div>
           <div class="cf-group">
-            <label class="cf-label" for="cf-budget">Budget Range</label>
-            <select class="cf-select" id="cf-budget" name="Budget">
+            <label class="cf-label" for="cf-budget">Budget Range *</label>
+            <select class="cf-select" id="cf-budget" name="Budget" required>
               <option value="">Select budget range</option>
               <option value="Not yet decided">Not yet decided</option>
               <option value="5-10 Crore">&#8377;5 &ndash; 10 Crore</option>
@@ -1750,8 +1754,8 @@ a{text-decoration:none;color:inherit;}
       </div>
       <div class="mf-row">
         <div class="mf-group">
-          <label class="mf-label" for="mf-email">Email</label>
-          <input class="mf-input" type="email" id="mf-email" name="Email" placeholder="your@email.com">
+          <label class="mf-label" for="mf-email">Email *</label>
+          <input class="mf-input" type="email" id="mf-email" name="Email" placeholder="your@email.com" required>
         </div>
         <div class="mf-group">
           <label class="mf-label" for="mf-city">City *</label>
@@ -1772,8 +1776,8 @@ a{text-decoration:none;color:inherit;}
         </select>
       </div>
       <div class="mf-group">
-        <label class="mf-label" for="mf-budget">Budget Range</label>
-        <select class="mf-select" id="mf-budget" name="Budget">
+        <label class="mf-label" for="mf-budget">Budget Range *</label>
+        <select class="mf-select" id="mf-budget" name="Budget" required>
           <option value="">Select budget range</option>
           <option value="Not yet decided">Not yet decided</option>
           <option value="5-10 Crore">&#8377;5 &ndash; 10 Crore</option>

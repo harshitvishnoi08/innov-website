@@ -36,18 +36,19 @@ if (isset($_POST['submit'])) {
     $ip          = $_SERVER['REMOTE_ADDR'];
 
     // --- Server-Side Validation ---
-    // The client-side pattern on the phone field stops honest visitors from
-    // submitting a bad number; this is the real gate that stops bots and any
-    // direct POST that skips the browser entirely. Invalid submissions are
-    // sent back to the form instead of being treated as a real lead.
-    // Email is intentionally optional here: a couple of quick-lead forms
-    // (e.g. resorts-architects.html, luxury-villa-architects-delhi-ncr)
-    // deliberately don't ask for it to reduce friction, so it's only
-    // validated when the visitor actually provided one.
+    // The client-side "required"/pattern attributes stop honest visitors from
+    // submitting incomplete or bad data; this is the real gate that stops bots
+    // and any direct POST that skips the browser entirely. Invalid submissions
+    // are sent back to the form instead of being treated as a real lead.
+    // Name, phone, email, city and requirement are required on every form site-wide,
+    // so they're all validated here. Budget is only collected on a few forms
+    // (e.g. resorts-architects.html, luxury-villa-architects-delhi-ncr,
+    // luxury-resort-architects.html), so it isn't gated here to avoid breaking
+    // the forms that don't ask for it.
     $mobile = normalizeIndianMobile($mobileRaw);
-    $emailValid = $email === '' || filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
+    $emailValid = $email !== '' && filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
 
-    if ($name === '' || $mobile === null || !$emailValid) {
+    if ($name === '' || $mobile === null || !$emailValid || trim($city) === '' || trim($requirement) === '') {
         $referer = $_SERVER['HTTP_REFERER'] ?? 'contact.html';
         $sep = (strpos($referer, '?') !== false) ? '&' : '?';
         header('Location: ' . $referer . $sep . 'form_error=1');
