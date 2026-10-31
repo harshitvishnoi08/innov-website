@@ -1,18 +1,37 @@
-<!DOCTYPE html>
+<?php
+// Fire conversions only for a genuine form submission (flag set in submit.php),
+// and only once: direct visits and refreshes won't create fake leads.
+session_start();
+$leadEventId = $_SESSION['lead_event_id'] ?? null;
+unset($_SESSION['lead_event_id']);
+$fire = $leadEventId !== null;
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <!-- Meta Pixel — fire Lead conversion -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-window.addEventListener('load',function(){fbq('init','1095418249121855');fbq('track','Lead');});
+window.addEventListener('load',function(){fbq('init','1095418249121855');<?php if ($fire): ?>fbq('track','Lead',{},{eventID:'<?= $leadEventId ?>'});<?php endif; ?>});
 </script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1095418249121855&ev=Lead&noscript=1"/></noscript>
+<?php if ($fire): ?><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1095418249121855&ev=Lead&noscript=1"/></noscript><?php endif; ?>
 <!-- OpenAI Ads Pixel — fire lead_created conversion -->
-<script>!function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");oaiq("init",{pixelId:"A8vMyeTeSX9Hrm5vTFR51V",debug:true});oaiq("measure","lead_created",{type:"customer_action"});</script>
+<script>!function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");oaiq("init",{pixelId:"A8vMyeTeSX9Hrm5vTFR51V"});<?php if ($fire): ?>oaiq("measure","lead_created",{type:"customer_action"});<?php endif; ?></script>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3DFG47HWK"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N3DFG47HWK',{'send_page_view':false});window.addEventListener('load',function(){gtag('event','page_view',{'send_to':'G-N3DFG47HWK'});});</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N3DFG47HWK',{'send_page_view':false});window.addEventListener('load',function(){gtag('event','page_view',{'send_to':'G-N3DFG47HWK'});<?php if ($fire): ?>gtag('event','generate_lead',{'send_to':'G-N3DFG47HWK','transaction_id':'<?= $leadEventId ?>'});<?php endif; ?>});</script>
+<!-- Google tag (gtag.js) - Google Ads -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18475585355"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18475585355');
+</script>
+<?php /* GOOGLE ADS CONVERSION — add the conversion label from Google Ads, then uncomment:
+<?php if ($fire): ?><script>window.addEventListener('load',function(){gtag('event','conversion',{'send_to':'AW-18475585355/YOUR_LABEL','transaction_id':'<?= $leadEventId ?>'});});</script><?php endif; ?>
+*/ ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Thank You | Innov Architects & Interiors</title>

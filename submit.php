@@ -192,6 +192,11 @@ if (isset($_POST['submit'])) {
         error_log('CRM push skipped: crm_url/crm_secret not set in crm-config.php');
     }
 
+    // Mark this session as a genuine submission so thanks.php fires the
+    // conversion pixels once (not on direct visits or refreshes).
+    if (session_status() === PHP_SESSION_NONE) session_start();
+    $_SESSION['lead_event_id'] = bin2hex(random_bytes(8));
+
     // Redirect after all done
     header('Location: thanks.php');
     exit();
