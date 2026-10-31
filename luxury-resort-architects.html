@@ -2,12 +2,6 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<!-- Meta Pixel -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-window.addEventListener('load',function(){fbq('init','1095418249121855');fbq('track','PageView');});
-</script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1095418249121855&ev=PageView&noscript=1"/></noscript>
 <!-- OpenAI Ads Pixel -->
 <script>!function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");oaiq("init",{pixelId:"A8vMyeTeSX9Hrm5vTFR51V"});</script>
 <!-- Google tag (gtag.js) - Google Ads -->
@@ -700,11 +694,10 @@ button{font-family:var(--sans);}
 </div>
 
 <script>
-// ── WhatsApp click tracking (Meta Contact + GA4 event) ──────
+// ── WhatsApp click tracking (GA4 event) ──────
 document.addEventListener('click', function(e){
   var a = e.target.closest && e.target.closest('a[href*="api.whatsapp.com"]');
   if (!a) return;
-  try { if (window.fbq) fbq('track', 'Contact'); } catch(x){}
   try { if (window.gtag) gtag('event', 'whatsapp_click', {'send_to':'G-N3DFG47HWK'}); } catch(x){}
 });
 </script>

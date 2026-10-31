@@ -9,12 +9,6 @@ $fire = $leadEventId !== null;
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<!-- Meta Pixel — fire Lead conversion -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-window.addEventListener('load',function(){fbq('init','1095418249121855');<?php if ($fire): ?>fbq('track','Lead',{},{eventID:'<?= $leadEventId ?>'});<?php endif; ?>});
-</script>
-<?php if ($fire): ?><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1095418249121855&ev=Lead&noscript=1"/></noscript><?php endif; ?>
 <!-- OpenAI Ads Pixel — fire lead_created conversion -->
 <script>!function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");oaiq("init",{pixelId:"A8vMyeTeSX9Hrm5vTFR51V"});<?php if ($fire): ?>oaiq("measure","lead_created",{type:"customer_action"});<?php endif; ?></script>
 <!-- Google Analytics -->
