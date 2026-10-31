@@ -29,9 +29,10 @@ window.addEventListener('load',function(){fbq('init','1095418249121855');<?php i
 
   gtag('config', 'AW-18475585355');
 </script>
-<?php /* GOOGLE ADS CONVERSION — add the conversion label from Google Ads, then uncomment:
-<?php if ($fire): ?><script>window.addEventListener('load',function(){gtag('event','conversion',{'send_to':'AW-18475585355/YOUR_LABEL','transaction_id':'<?= $leadEventId ?>'});});</script><?php endif; ?>
-*/ ?>
+<?php if ($fire): ?>
+<!-- Event snippet for Submit lead form conversion page (fires once per real submission) -->
+<script>window.addEventListener('load',function(){gtag('event','conversion',{'send_to':'AW-18475585355/g29uCMqJsq8dEMue7O1E','transaction_id':'<?= $leadEventId ?>'});});</script>
+<?php endif; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Thank You | Innov Architects & Interiors</title>
