@@ -31,7 +31,7 @@ window.addEventListener('load',function(){fbq('init','1095418249121855');<?php i
 </script>
 <?php if ($fire): ?>
 <!-- Event snippet for Submit lead form conversion page (fires once per real submission) -->
-<script>window.addEventListener('load',function(){gtag('event','conversion',{'send_to':'AW-18475585355/g29uCMqJsq8dEMue7O1E','transaction_id':'<?= $leadEventId ?>'});});</script>
+<script>window.addEventListener('load',function(){gtag('event','conversion',{'send_to':'AW-18475585355/g29uCMqJsq8dEMue7OlE','transaction_id':'<?= $leadEventId ?>'});});</script>
 <?php endif; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
