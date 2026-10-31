@@ -245,6 +245,13 @@ button{font-family:var(--sans);}
 .lp-faq-item[open] summary i{transform:rotate(45deg);}
 .lp-faq-item-body{padding:0 24px 22px;font-size:14px;color:var(--muted);line-height:1.8;}
 
+/* ── Footer enquiry form ───────────────────────────────── */
+.lp-footform{padding:70px 24px;border-top:1px solid var(--border);background:var(--bg);}
+.lp-footform-inner{max-width:680px;margin:0 auto;}
+.lp-footform-head{text-align:center;margin-bottom:28px;}
+.lp-footform .lp-form-card{animation:none;}
+@media(max-width:640px){.lp-footform{padding:48px 20px;}}
+
 /* ── Minimal footer ─────────────────────────────────────── */
 .lp-footer{padding:28px 24px;border-top:1px solid var(--border);}
 .lp-footer-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;}
@@ -387,11 +394,9 @@ button{font-family:var(--sans);}
               <label class="lp-label" for="lp-budget">Budget Range *</label>
               <select class="lp-select" id="lp-budget" name="Budget" required>
                 <option value="">Select a range</option>
-                <option value="Under ₹1 Crore">Under ₹1 Crore</option>
-                <option value="₹1 – 3 Crore">₹1 – 3 Crore</option>
-                <option value="₹3 – 10 Crore">₹3 – 10 Crore</option>
-                <option value="₹10 Crore+">₹10 Crore+</option>
-                <option value="Not sure yet">Not sure yet</option>
+                <option value="₹5 – 10 Crore">₹5 – 10 Crore</option>
+                <option value="₹10 – 15 Crore">₹10 – 15 Crore</option>
+                <option value="₹15 Crore+">₹15 Crore+</option>
               </select>
             </div>
           </div>
@@ -623,6 +628,61 @@ button{font-family:var(--sans);}
   </div>
 </section>
 
+<!-- ═══ FOOTER ENQUIRY FORM ═══ -->
+<section class="lp-footform" id="footerForm">
+  <div class="lp-footform-inner">
+    <div class="lp-footform-head">
+      <span class="lp-proof-label">Get In Touch</span>
+      <h2 class="lp-proof-title">Ready to Plan Your <em>Resort Project?</em></h2>
+    </div>
+    <div class="lp-form-card">
+      <div class="lp-form-title">Discuss Your Resort Site</div>
+      <p class="lp-form-sub">Tell us about your project — our principal architect will call you back within 4 business hours.</p>
+      <form action="submit.php" method="POST">
+        <div class="lp-row">
+          <div class="lp-group">
+            <label class="lp-label" for="ft-name">Full Name *</label>
+            <input class="lp-input" type="text" id="ft-name" name="Name" placeholder="Your name" required>
+          </div>
+          <div class="lp-group">
+            <label class="lp-label" for="ft-phone">Phone *</label>
+            <input class="lp-input" type="tel" id="ft-phone" name="Number" placeholder="+91 XXXXX XXXXX" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
+          </div>
+        </div>
+        <div class="lp-row">
+          <div class="lp-group">
+            <label class="lp-label" for="ft-email">Email *</label>
+            <input class="lp-input" type="email" id="ft-email" name="Email" placeholder="your@email.com" required>
+          </div>
+          <div class="lp-group">
+            <label class="lp-label" for="ft-city">Site Location *</label>
+            <input class="lp-input" type="text" id="ft-city" name="City" placeholder="e.g. Mukteshwar, Nainital" required>
+          </div>
+        </div>
+        <div class="lp-row">
+          <div class="lp-group">
+            <label class="lp-label" for="ft-land">Land Area</label>
+            <input class="lp-input" type="text" id="ft-land" name="LandArea" placeholder="e.g. 5 acres">
+          </div>
+          <div class="lp-group">
+            <label class="lp-label" for="ft-budget">Budget Range *</label>
+            <select class="lp-select" id="ft-budget" name="Budget" required>
+              <option value="">Select a range</option>
+              <option value="₹5 – 10 Crore">₹5 – 10 Crore</option>
+              <option value="₹10 – 15 Crore">₹10 – 15 Crore</option>
+              <option value="₹15 Crore+">₹15 Crore+</option>
+            </select>
+          </div>
+        </div>
+        <input type="hidden" name="Requirement" value="Resort / Hotel Architecture">
+        <input type="hidden" name="message" value="Enquiry from footer form">
+        <button type="submit" name="submit" class="lp-submit">Book My Consultation &rarr;</button>
+        <p class="lp-form-disclaimer"><i class="fas fa-lock"></i> 100% confidential. We respond within 4 business hours.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
 <!-- ═══ MINIMAL FOOTER — contact only, no site nav ═══ -->
 <footer class="lp-footer">
   <div class="lp-footer-inner">
@@ -678,11 +738,9 @@ button{font-family:var(--sans);}
         <label class="lp-label" for="im-budget">Budget Range *</label>
         <select class="lp-select" id="im-budget" name="Budget" required>
           <option value="">Select a range</option>
-          <option value="Under ₹1 Crore">Under ₹1 Crore</option>
-          <option value="₹1 – 3 Crore">₹1 – 3 Crore</option>
-          <option value="₹3 – 10 Crore">₹3 – 10 Crore</option>
-          <option value="₹10 Crore+">₹10 Crore+</option>
-          <option value="Not sure yet">Not sure yet</option>
+          <option value="₹5 – 10 Crore">₹5 – 10 Crore</option>
+          <option value="₹10 – 15 Crore">₹10 – 15 Crore</option>
+          <option value="₹15 Crore+">₹15 Crore+</option>
         </select>
       </div>
       <input type="hidden" name="Requirement" value="Resort / Hotel Architecture">
