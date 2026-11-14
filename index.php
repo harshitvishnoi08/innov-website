@@ -742,6 +742,7 @@ button{font-family:var(--sans);}
       <a href="services.html">Services</a>
       <a href="blog.html">Blog</a>
       <a href="about.html">About Us</a>
+      <a href="life-at-innov-arch.html">Life at Innov</a>
       <a href="contact.html">Contact Us</a>
     </nav>
     <button class="header-cta open-modal">Get In Touch</button>
