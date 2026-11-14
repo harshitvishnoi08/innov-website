@@ -12,7 +12,7 @@
 <meta property="og:title" content="Villa Township, New Chandigarh — Concept Design">
 <meta property="og:description" content="A 15-acre master-planned villa township in New Chandigarh — private villas arranged around a landscaped lake, with a resort-style clubhouse and tree-lined boulevards.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="images/township-chandigarh/aerial-masterplan.webp">
+<meta property="og:image" content="images/township-chandigarh/clubhouse-pool.webp">
 <title>Villa Township, New Chandigarh | Innov Architects</title>
 <link rel="icon" type="image/png" href="images/circle-logo.png">
 <link rel="apple-touch-icon" href="images/circle-logo.png">
@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-<link rel="preload" as="image" href="images/township-chandigarh/aerial-masterplan.webp" fetchpriority="high">
+<link rel="preload" as="image" href="images/township-chandigarh/clubhouse-pool.webp" fetchpriority="high">
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"
       rel="stylesheet" media="print" onload="this.media='all'">
@@ -57,7 +57,7 @@ a{color:inherit;text-decoration:none;}
 
 /* ── Hero ────────────────────────────────────────────────── */
 .hero{position:relative;height:100vh;min-height:600px;display:flex;align-items:flex-end;overflow:hidden;}
-.hero-bg{position:absolute;inset:0;background:url('images/township-chandigarh/aerial-masterplan.webp') center center/cover no-repeat;transform:scale(1.04);transition:transform 8s ease;}
+.hero-bg{position:absolute;inset:0;background:url('images/township-chandigarh/clubhouse-pool.webp') center center/cover no-repeat;transform:scale(1.04);transition:transform 8s ease;}
 .hero-bg.loaded{transform:scale(1);}
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,10,10,.15) 0%,rgba(10,10,10,.08) 35%,rgba(10,10,10,.75) 70%,rgba(10,10,10,.97) 100%);}
 .hero-content{position:relative;z-index:2;width:100%;max-width:1280px;margin:0 auto;padding:0 40px 80px;}
@@ -113,6 +113,7 @@ a{color:inherit;text-decoration:none;}
 .gi-wide-2{grid-column:span 2;height:500px;}
 .gi-third{grid-column:span 1;height:500px;}
 .gi-living{grid-column:span 3;aspect-ratio:16/7;}
+.gi-tall{grid-column:span 1;aspect-ratio:3/4;}
 
 /* ── CTA ────────────────────────────────────────────────── */
 .cta-section{padding:120px 0;background:var(--bg-card);border-top:1px solid var(--border);text-align:center;}
@@ -158,6 +159,8 @@ a{color:inherit;text-decoration:none;}
   .gi-wide-2{grid-column:span 2;height:360px;}
   .gi-third{grid-column:span 2;height:auto;aspect-ratio:4/3;}
   .gi-living{grid-column:span 2;aspect-ratio:4/3;}
+  .gi-tall{grid-column:span 1;aspect-ratio:3/4;}
+  .gi-tall-last{grid-column:span 2;aspect-ratio:4/3;}
   .header-inner{padding:0 20px;}
 }
 @media(max-width:767px){
@@ -173,6 +176,7 @@ a{color:inherit;text-decoration:none;}
   .brief-inner,.zones-inner,.gallery-header,.cta-inner,.footer-inner{padding-left:20px;padding-right:20px;}
   .gallery-grid{grid-template-columns:1fr;padding:0;}
   .gi-full,.gi-wide-2,.gi-third,.gi-living{grid-column:span 1;height:auto;aspect-ratio:4/3;}
+  .gi-tall,.gi-tall-last{grid-column:span 1;height:auto;aspect-ratio:3/4;}
   .site-footer{padding:24px 0;}
   .cta-btns{flex-direction:column;}
   .btn-gold,.btn-outline{width:100%;justify-content:center;}
@@ -315,27 +319,20 @@ a{color:inherit;text-decoration:none;}
   </div>
   <div class="gallery-grid">
 
-    <!-- Row 1: Aerial master plan — full width -->
-    <div class="gallery-item gi-full fade-up" data-src="images/township-chandigarh/aerial-masterplan.webp">
-      <img src="images/township-chandigarh/aerial-masterplan.webp" alt="Aerial master plan — 15-acre villa township concept, New Chandigarh" loading="eager" style="object-position:center center;" width="1672" height="941">
+    <!-- Row 1: Site plan + wellness centre (three portrait views) -->
+    <div class="gallery-item gi-tall fade-up" data-src="images/township-chandigarh/township-site-plan.webp">
+      <img src="images/township-chandigarh/township-site-plan.webp" alt="Aerial site plan — 15-acre villa township with lakefront clubhouse, New Chandigarh" loading="eager" style="object-position:center center;" width="1344" height="1800">
+    </div>
+    <div class="gallery-item gi-tall fade-up d1" data-src="images/township-chandigarh/wellness-center-architectural.webp">
+      <img src="images/township-chandigarh/wellness-center-architectural.webp" alt="Wellness centre architecture on the lake — New Chandigarh villa township" loading="lazy" style="object-position:center center;" width="1344" height="1800">
+    </div>
+    <div class="gallery-item gi-tall gi-tall-last fade-up d2" data-src="images/township-chandigarh/wellness-center-birds-eye.webp">
+      <img src="images/township-chandigarh/wellness-center-birds-eye.webp" alt="Bird's-eye view of the wellness centre and central lake — New Chandigarh villa township" loading="lazy" style="object-position:center center;" width="1344" height="1800">
     </div>
 
-    <!-- Row 2: Clubhouse & lake (wide) + Villa exterior -->
-    <div class="gallery-item gi-wide-2 fade-up" data-src="images/township-chandigarh/clubhouse-lake.webp">
-      <img src="images/township-chandigarh/clubhouse-lake.webp" alt="Resort-style clubhouse and lakefront pool concept — New Chandigarh villa township" loading="lazy" style="object-position:center center;" width="1672" height="941">
-    </div>
-    <div class="gallery-item gi-third fade-up d1" data-src="images/township-chandigarh/villa-exterior.webp">
-      <img src="images/township-chandigarh/villa-exterior.webp" alt="Private villa exterior concept — New Chandigarh township" loading="lazy" style="object-position:center center;" width="1152" height="768">
-    </div>
-
-    <!-- Row 3: Community park — full width -->
-    <div class="gallery-item gi-living fade-up" data-src="images/township-chandigarh/community-park.webp">
-      <img src="images/township-chandigarh/community-park.webp" alt="Landscaped community park concept — New Chandigarh villa township" loading="lazy" style="object-position:center center;" width="2016" height="1344">
-    </div>
-
-    <!-- Row 4: Tree-lined boulevard — full width -->
-    <div class="gallery-item gi-full fade-up" data-src="images/township-chandigarh/boulevard.webp">
-      <img src="images/township-chandigarh/boulevard.webp" alt="Tree-lined internal boulevard concept — New Chandigarh villa township" loading="lazy" style="object-position:center center;" width="1254" height="705">
+    <!-- Row 2: Clubhouse and pool — full width -->
+    <div class="gallery-item gi-full fade-up" data-src="images/township-chandigarh/clubhouse-pool.webp">
+      <img src="images/township-chandigarh/clubhouse-pool.webp" alt="Resort-style clubhouse with lakefront pool at sunset — New Chandigarh villa township" loading="lazy" style="object-position:center center;" width="2064" height="1152">
     </div>
 
   </div>
