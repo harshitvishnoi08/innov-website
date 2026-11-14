@@ -18,16 +18,6 @@
 
 window.LIFE_DATA = {
 
-  /* ── TEAM INTRO REELS (Instagram) ──────────────────────────────
-     To add one: open the reel on Instagram → copy its link → add a line.
-     Shown in this order. */
-  reels: [
-    { url: "https://www.instagram.com/reel/Dd6g3VnMHVh/", name: "Ar. Udit Vishnoi", role: "Founder & Principal Architect" },
-    { url: "https://www.instagram.com/reel/DfFEwpSpp7x/", name: "Shiven Malhotra",  role: "Principal Architect" },
-    { url: "https://www.instagram.com/reel/DerRox0sOmS/", name: "Vandana Sikarwar", role: "Principal Architect" },
-    { url: "https://www.instagram.com/reel/DeRkz1-M5_-/", name: "Umang Arora",      role: "Principal Designer" }
-  ],
-
   /* ── SATURDAY SESSIONS ─────────────────────────────────────── */
   saturdays: [
     {

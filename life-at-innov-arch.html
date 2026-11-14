@@ -170,23 +170,6 @@ button{font-family:var(--sans);}
 .person-role{font-size:10px;letter-spacing:1.8px;text-transform:uppercase;color:var(--gold);margin-top:4px;}
 .people-foot{margin-top:36px;display:flex;justify-content:center;}
 
-/* TEAM REELS */
-.reels{padding:var(--section-pad) 0;background:var(--bg-raised);border-top:1px solid var(--border);}
-.reel-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;align-items:start;}
-.reel-card{background:var(--bg-card);border:1px solid var(--border);transition:border-color .3s;min-width:0;}
-.reel-card:hover{border-color:var(--gold-border);}
-.reel-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:16px 16px 14px;border-bottom:1px solid var(--border);}
-.reel-name{font-family:var(--serif);font-size:17px;line-height:1.25;}
-.reel-role{font-size:10px;letter-spacing:1.8px;text-transform:uppercase;color:var(--gold);margin-top:3px;}
-.reel-ig{flex-shrink:0;width:34px;height:34px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--muted);transition:color .3s,border-color .3s;}
-.reel-ig:hover{color:var(--gold);border-color:var(--gold-border);}
-.reel-embed{padding:10px;min-height:520px;position:relative;}
-.reel-embed .instagram-media,.reel-embed iframe{min-width:0!important;width:100%!important;max-width:100%!important;margin:0!important;border-radius:2px!important;}
-.reel-embed iframe[height="0"]{left:10px;width:calc(100% - 20px)!important;border:0!important;}
-.reel-fallback{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;min-height:500px;background:#0d0d0d;color:var(--muted);font-size:11px;letter-spacing:2px;text-transform:uppercase;text-align:center;}
-.reel-fallback i{font-size:34px;color:var(--gold);}
-.reels-foot{margin-top:36px;display:flex;justify-content:center;}
-
 /* GALLERY */
 .gallery{padding:var(--section-pad) 0;background:var(--bg-raised);border-top:1px solid var(--border);}
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px;}
@@ -277,7 +260,6 @@ button{font-family:var(--sans);}
   .album-main .ph,.album-side .ph{height:auto;aspect-ratio:4/3;flex:none;}
   .album-info{flex:none;}
   .masonry{columns:2;}
-  .reel-grid{grid-template-columns:repeat(2,1fr);}
 }
 @media(max-width:640px){
   :root{--section-pad:56px;}
@@ -297,8 +279,6 @@ button{font-family:var(--sans);}
   .tl-photos,.tl-photos.n2,.tl-photos.n4{--cols:1;}
   .album-info{padding:28px 22px;}
   .album-strip{grid-template-columns:repeat(2,1fr);}
-  .reel-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:0 -16px;padding:0 16px 8px;-webkit-overflow-scrolling:touch;}
-  .reel-card{flex:0 0 86%;scroll-snap-align:center;}
   .masonry{columns:2;}
   .lb-prev,.lb-next{top:auto;bottom:24px;transform:none;}
   .lb-prev{left:calc(50% - 60px);} .lb-next{right:calc(50% - 60px);}
@@ -349,7 +329,6 @@ button{font-family:var(--sans);}
       <a href="#celebrations">Celebrations</a>
       <a href="#visits">Visits</a>
       <a href="#people">Our People</a>
-      <a href="#reels" id="reelsJump" hidden>Team Reels</a>
       <a href="#gallery">Gallery</a>
     </nav>
   </div>
@@ -463,23 +442,6 @@ button{font-family:var(--sans);}
     </div>
     <div class="people-foot fade-up">
       <a href="about.html" class="btn-outline">Read the full team story <i class="fas fa-arrow-right" style="font-size:10px;"></i></a>
-    </div>
-  </div>
-</section>
-
-<!-- ══ TEAM REELS ══════════════════════════════════════════ -->
-<section class="reels" id="reels" hidden>
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <span class="section-label fade-up">In Their Own Words</span>
-        <h2 class="section-title fade-up d1">Meet the team <em>on reels</em></h2>
-      </div>
-      <p class="section-sub fade-up d2">Short introductions from the people who lead our studio — who they are, what they do, and what drives their design.</p>
-    </div>
-    <div class="reel-grid" id="reelGrid"></div>
-    <div class="reels-foot fade-up">
-      <a href="https://www.instagram.com/innov_arc" target="_blank" rel="noopener" class="btn-outline"><i class="fab fa-instagram"></i> Follow @innov_arc</a>
     </div>
   </div>
 </section>
@@ -729,41 +691,6 @@ observeFades(document);
   }
   renderAlbums(D.celebrations, document.getElementById('celebrationAlbums'), 'Celebration');
   renderAlbums(D.visits, document.getElementById('visitAlbums'), 'Visit');
-
-  /* Team intro reels — Instagram embeds, script loaded only when near view */
-  const reels = D.reels || [];
-  if (reels.length) {
-    const sec = document.getElementById('reels');
-    sec.hidden = false; document.getElementById('reelsJump').hidden = false;
-    const code = u => (String(u).match(/instagram\.com\/(?:reel|reels|p)\/([A-Za-z0-9_-]+)/) || [])[1];
-    document.getElementById('reelGrid').innerHTML = reels.map(r => {
-      const c = code(r.url); if (!c) return '';
-      const link = `https://www.instagram.com/reel/${c}/`;
-      return `<article class="reel-card fade-up">
-        <div class="reel-head">
-          <div><div class="reel-name">${esc(r.name)}</div><div class="reel-role">${esc(r.role)}</div></div>
-          <a class="reel-ig" href="${link}" target="_blank" rel="noopener" aria-label="Watch ${esc(r.name)}'s reel on Instagram"><i class="fab fa-instagram"></i></a>
-        </div>
-        <div class="reel-embed">
-          <blockquote class="instagram-media" data-instgrm-permalink="${link}?utm_source=ig_embed" data-instgrm-version="14">
-            <a class="reel-fallback" href="${link}" target="_blank" rel="noopener"><i class="fab fa-instagram"></i>Watch on Instagram</a>
-          </blockquote>
-        </div>
-      </article>`;
-    }).join('');
-    observeFades(sec);
-    let igLoaded = false;
-    const loadIg = () => {
-      if (igLoaded) return; igLoaded = true;
-      if (window.instgrm) { window.instgrm.Embeds.process(); return; }
-      const sc = document.createElement('script'); sc.async = true; sc.src = 'https://www.instagram.com/embed.js';
-      document.body.appendChild(sc);
-    };
-    if ('IntersectionObserver' in window) {
-      const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { loadIg(); io.disconnect(); } }, {rootMargin:'600px 0px'});
-      io.observe(sec);
-    } else loadIg();
-  }
 
   /* Gallery — every photo, filterable */
   const cats = [
