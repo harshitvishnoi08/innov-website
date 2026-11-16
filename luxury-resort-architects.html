@@ -22,7 +22,7 @@
 <meta property="og:title" content="Resort & Heritage Architects | Innov Architects">
 <meta property="og:description" content="From hillside retreats to heritage riverfront resorts — we design luxury hospitality destinations across India. Book a private site consultation.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="images/mukteshwar-hill-resort/arrival-entrance.webp">
+<meta property="og:image" content="https://weinnovarch.com/images/mukteshwar-hill-resort/arrival-entrance.webp">
 <title>Resort & Heritage Architects | Innov Architects</title>
 <link rel="icon" type="image/png" href="images/circle-logo.png">
 <link rel="apple-touch-icon" href="images/circle-logo.png">
@@ -372,7 +372,7 @@ button{font-family:var(--sans);}
             </div>
             <div class="lp-group">
               <label class="lp-label" for="lp-phone">Phone *</label>
-              <input class="lp-input" type="tel" id="lp-phone" name="Number" placeholder="+91 XXXXX XXXXX" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
+              <input class="lp-input" type="tel" id="lp-phone" name="Number" placeholder="10-digit mobile number" pattern="(\+91|91|0)?[\s\-]?[6-9][0-9]{4}[\s\-]?[0-9]{5}" maxlength="16" inputmode="tel" autocomplete="tel" title="Enter a valid 10-digit Indian mobile number" required>
             </div>
           </div>
           <div class="lp-row">
@@ -646,7 +646,7 @@ button{font-family:var(--sans);}
           </div>
           <div class="lp-group">
             <label class="lp-label" for="ft-phone">Phone *</label>
-            <input class="lp-input" type="tel" id="ft-phone" name="Number" placeholder="+91 XXXXX XXXXX" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
+            <input class="lp-input" type="tel" id="ft-phone" name="Number" placeholder="10-digit mobile number" pattern="(\+91|91|0)?[\s\-]?[6-9][0-9]{4}[\s\-]?[0-9]{5}" maxlength="16" inputmode="tel" autocomplete="tel" title="Enter a valid 10-digit Indian mobile number" required>
           </div>
         </div>
         <div class="lp-row">
@@ -721,7 +721,7 @@ button{font-family:var(--sans);}
         </div>
         <div class="lp-group">
           <label class="lp-label" for="im-phone">Phone *</label>
-          <input class="lp-input" type="tel" id="im-phone" name="Number" placeholder="+91 XXXXX XXXXX" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" title="Enter a valid 10-digit Indian mobile number" required>
+          <input class="lp-input" type="tel" id="im-phone" name="Number" placeholder="10-digit mobile number" pattern="(\+91|91|0)?[\s\-]?[6-9][0-9]{4}[\s\-]?[0-9]{5}" maxlength="16" inputmode="tel" autocomplete="tel" title="Enter a valid 10-digit Indian mobile number" required>
         </div>
       </div>
       <div class="lp-row">
@@ -879,5 +879,19 @@ document.addEventListener('keydown', e => {
 })();
 </script>
 
+<script>
+// ── Server-side validation bounce (submit.php adds ?form_error=1) ──
+(function(){
+  if (!/[?&]form_error=1/.test(location.search)) return;
+  var form = document.querySelector('#leadForm form');
+  if (!form) return;
+  var p = document.createElement('p');
+  p.setAttribute('role','alert');
+  p.style.cssText = 'background:rgba(220,80,60,.12);border:1px solid rgba(220,80,60,.5);color:#f3b4a8;font-size:13px;padding:10px 12px;margin-bottom:14px;line-height:1.5;';
+  p.textContent = 'Please check your details. Enter a valid 10-digit mobile number and email, and fill all required fields.';
+  form.insertBefore(p, form.firstChild);
+  document.getElementById('leadForm').scrollIntoView({block:'center'});
+})();
+</script>
 </body>
 </html>
