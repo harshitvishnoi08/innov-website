@@ -960,7 +960,7 @@ button{font-family:var(--sans);}
           <div class="why-icon"><i class="fas fa-pencil-ruler"></i></div>
           <div>
             <div class="why-point-title">Tailored Design Solutions</div>
-            <p class="why-point-desc">We provide personalized interior design services that reflect your unique vision and lifestyle.</p>
+            <p class="why-point-desc">We design architecture and interiors around your site, your brief and the way you want the space to work.</p>
           </div>
         </div>
         <div class="why-point fade-up d3">
@@ -980,10 +980,11 @@ button{font-family:var(--sans);}
       </div>
     </div>
     <div class="why-images fade-right">
-      <div class="why-img img-reveal"><img src="images/why1.webp" alt="Innov Arch project — living space design" loading="lazy" width="1000" height="600"></div>
-      <div class="why-img img-reveal"><img src="images/why2.webp" alt="Innov Arch project — architectural detail" loading="lazy" width="1000" height="600"></div>
-      <div class="why-img img-reveal"><img src="images/why3.webp" alt="Innov Arch project — interior craftsmanship" loading="lazy" width="1000" height="600"></div>
-      <div class="why-img img-reveal"><img src="images/why4.webp" alt="Innov Arch project — completed space" loading="lazy" width="1000" height="600"></div>
+      <div class="why-img img-reveal"><img src="images/prayagraj/sangam_2.webp" alt="Sangam Pooja Wellness Resort, Prayagraj — riverfront ghats and palace architecture by Innov Architects" loading="lazy" width="1920" height="1280"></div>
+      <div class="why-img img-reveal"><img src="images/greater-noida-neoclassical/side-view.webp" alt="Neo-classical villa in Greater Noida — residential architecture by Innov Architects" loading="lazy" width="1344" height="896"></div>
+      <div class="why-img img-reveal"><img src="images/mukteshwar-hill-resort/hero-cliffside-pool.webp" alt="Mukteshwar hill resort concept — cliffside villa and pool on a Himalayan ridge" loading="lazy" width="1672" height="941"></div>
+      <div class="why-img img-reveal"><img src="images/front-elevation-w-parking.webp" alt="The Bliss, Bijnor — glass-roofed banquet hall architecture by Innov Architects" loading="lazy" width="2837" height="1891"></div>
+      <div class="why-img img-reveal"><img src="images/chamba-resort/night-view.webp" alt="The Oakridge, Chamba — Himalayan mountain retreat at night" loading="lazy" width="1152" height="768"></div>
     </div>
   </div>
 </section>
